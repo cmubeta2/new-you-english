@@ -7,6 +7,8 @@ Hệ thống Website Phễu Chuyển Đổi Cao (Ocean Dive Funnel 0m → -105m)
 ## 1. TỔNG QUAN DỰ ÁN
 
 - **Tên dự án:** Website Phễu Tuyển Sinh & Chuyển Giao Nghề New You English.
+- **Link Web Trực Tuyến (Production):** [https://cmubeta2.github.io/new-you-english/](https://cmubeta2.github.io/new-you-english/)
+- **Mã nguồn GitHub:** [https://github.com/cmubeta2/new-you-english](https://github.com/cmubeta2/new-you-english)
 - **Mô hình phễu:** Ocean Dive Funnel (Phễu Lặn Biển 11 tầng độ sâu tâm lý từ 0m đến -105m).
 - **Bộ màu thương hiệu:** `navy-gold` (Nền Navy `#0c1322` quyền uy, điểm nhấn Gold kim loại `#f59e0b` sang trọng).
 - **Phân khúc thị trường:** High-Ticket Career Transformation (Chuyển đổi nghề nghiệp trọn đời, định vị đối tác đồng hành).

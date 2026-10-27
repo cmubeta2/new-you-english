@@ -4,6 +4,19 @@ Toàn bộ các mốc thay đổi và nâng cấp của dự án Website Phễu 
 
 ---
 
+## [1.3.1] - 2026-10-27
+### Triển Khai Lên Web Thực (Live Production Deployment)
+- **Đẩy mã nguồn lên GitHub:** Khởi tạo repository công khai `cmubeta2/new-you-english` tại `https://github.com/cmubeta2/new-you-english`.
+- **Kích hoạt GitHub Pages:** Bật cấu hình CDN toàn cầu với SSL tự động (HTTPS).
+- **Kiểm thử liên kết trực tuyến:** Tất cả 5 đường dẫn đều phản hồi HTTP 200 OK:
+  * Trang chủ: `https://cmubeta2.github.io/new-you-english/`
+  * Trang cọc VietQR: `https://cmubeta2.github.io/new-you-english/vip/`
+  * Trang xác nhận: `https://cmubeta2.github.io/new-you-english/xac-nhan/`
+  * Trang phòng chờ: `https://cmubeta2.github.io/new-you-english/vao/`
+  * Tài nguyên logo: `https://cmubeta2.github.io/new-you-english/assets/logo-new-you.png`
+
+---
+
 ## [1.3.0] - 2026-10-27
 ### Thay Đổi Lớn (Major Updates)
 - **Chuẩn hóa khung học phí mới theo yêu cầu Sếp:**

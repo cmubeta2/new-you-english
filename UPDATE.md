@@ -4,7 +4,8 @@ Kế hoạch phát triển và hoàn thiện kỹ thuật cho hệ thống Websi
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.3.0 (Đã hoàn thành)
+## 1. PHIÊN BẢN HIỆN TẠI: v1.3.1 (Đã triển khai Web thực)
+- Đã đẩy lên mạng thực tế (Production) qua GitHub Pages: `https://cmubeta2.github.io/new-you-english/`
 - Hoàn thành đầy đủ 11 tầng lặn biển với 6 Module chuẩn 1 năm.
 - Cập nhật chính xác bảng học phí: 68tr (Tiêu chuẩn kèm Module 6) - 108tr (Chuyên nghiệp) - 139tr (VIP).
 - Cọc cam kết giữ chỗ: 1 tháng học phí (9.000.000đ cho gói Chuyên nghiệp).
