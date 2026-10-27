@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu Khảo Sát & Xác Nhận Đăng Ký | New You English – Teacher Academy</title>
+    <link rel="icon" type="image/png" href="../assets/logo-new-you.png">
+    <!-- Google Fonts: Plus Jakarta Sans & Lexend -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&family=Lexend:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.469.0"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', '"Lexend"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            font-family: 'Plus Jakarta Sans', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            word-break: normal;
+            overflow-wrap: break-word;
+            line-height: 1.7;
+            letter-spacing: -0.01em;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plus Jakarta Sans', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            word-break: normal;
+            text-wrap: balance;
+            letter-spacing: -0.015em;
+            line-height: 1.38;
+        }
+        p, li, span, blockquote {
+            word-break: normal;
+            text-wrap: pretty;
+        }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(251, 191, 36, 0.2);
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: #070b14;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.3);
+        }
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.45);
+        }
+    </style>
+</head>
+<body class="bg-[#070b14] text-slate-100 min-h-screen py-10 px-4 sm:px-6 relative overflow-x-hidden">
+
+    <!-- Canvas Bubbles -->
+    <canvas id="bubblesCanvasSurvey" class="fixed inset-0 pointer-events-none z-0" aria-hidden="true"></canvas>
+
+    <div class="max-w-2xl mx-auto relative z-10">
+        <!-- Brand Logo -->
+        <div class="text-center mb-6">
+            <a href="../" class="inline-block w-14 h-14 rounded-2xl bg-white p-1 shadow-xl shadow-amber-500/20 border-2 border-amber-400/50 hover:scale-105 transition transform">
+                <img src="../assets/logo-new-you.png" alt="Logo New You English Teacher Academy" class="w-full h-full object-contain">
+            </a>
+        </div>
+
+        <!-- Progress Steps -->
+        <div class="flex items-center justify-center space-x-2 text-xs text-slate-400 mb-8 font-semibold">
+            <span class="text-amber-400">1. Đăng Ký</span>
+            <span>➔</span>
+            <span class="text-amber-400">2. Xác Nhận VIP</span>
+            <span>➔</span>
+            <span class="px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">3. Khảo Sát Thẩm Định</span>
+            <span>➔</span>
+            <span>4. Cổng Trực Tuyến</span>
+        </div>
+
+        <!-- Header -->
+        <div class="text-center mb-6">
+            <h1 class="text-2xl sm:text-3xl font-extrabold text-white">
+                Phiếu Khảo Sát & Xác Nhận Đăng Ký
+            </h1>
+            <p class="text-sm text-slate-300 mt-2 max-w-lg mx-auto">
+                <span class="text-amber-400 font-bold">Chào mừng bạn đến với New You Teacher Academy!</span>
+            </p>
+        </div>
+
+        <!-- THỨ TỰ ƯU TIÊN THẨM ĐỊNH HỒ SƠ (CHUẨN MONA CRO) -->
+        <div class="glass-card rounded-2xl p-4 mb-6 border border-amber-500/30 text-xs">
+            <div class="font-bold text-amber-300 uppercase tracking-wider mb-2.5 flex items-center space-x-1.5">
+                <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+                <span>Khảo sát định hướng năng lực:</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                <div class="p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/80">
+                    <span class="font-black text-amber-400 text-sm block">01</span>
+                    <span class="text-slate-300 font-medium">Thí sinh giữ vé <strong>VIP Assist Pass</strong></span>
+                </div>
+                <div class="p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/80">
+                    <span class="font-black text-emerald-400 text-sm block">02</span>
+                    <span class="text-slate-300 font-medium">Thí sinh nộp hồ sơ &amp; khảo sát sớm</span>
+                </div>
+                <div class="p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/80">
+                    <span class="font-black text-blue-400 text-sm block">03</span>
+                    <span class="text-slate-300 font-medium">Ưu tiên sắp xếp lịch phỏng vấn 1-1 cho học viên gửi phiếu sớm:</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Survey Card -->
+        <div class="glass-card rounded-3xl p-6 sm:p-8 border border-slate-700 shadow-2xl">
+            <form id="surveyForm" onsubmit="handleSurveySubmit(event)" class="space-y-6">
+
+                <!-- Câu 1: Bằng cấp / Học lực hiện tại -->
+                <div>
+                    <label class="block text-sm font-bold text-white mb-2">1. Trình độ học vấn / Văn bằng cao nhất hiện tại của bạn: <span class="text-rose-500">*</span></label>
+                    <div class="space-y-2.5">
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="radio" name="degree" value="DangHocLop12" checked class="w-4 h-4 text-amber-500 focus:ring-0 mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">Đang học lớp 12 (Chuẩn bị thi tốt nghiệp THPT 2026)</span>
+                        </label>
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="radio" name="degree" value="DaTotNghiepTHPT" class="w-4 h-4 text-amber-500 focus:ring-0 mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">Đã tốt nghiệp THPT các năm trước</span>
+                        </label>
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="radio" name="degree" value="TrungCapCaoDang" class="w-4 h-4 text-amber-500 focus:ring-0 mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">Có bằng Trung cấp / Cao đẳng nghề (Muốn học liên thông nâng bằng)</span>
+                        </label>
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="radio" name="degree" value="PhuHuynh" class="w-4 h-4 text-amber-500 focus:ring-0 mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">Tôi là Phụ huynh đăng ký tìm hiểu cho con em</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Câu 2: Chương trình và Ngành quan tâm -->
+                <div>
+                    <label class="block text-sm font-bold text-white mb-2">2. Bạn muốn thẩm định chính xác hồ sơ cho chương trình nào? <span class="text-rose-500">*</span></label>
+                    <select id="programAudit" class="w-full px-4 py-3.5 bg-slate-900/80 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-amber-400 transition text-sm">
+                        <option value="PRO">Gói Chuyên Nghiệp (PRO — 1 Năm) – 108.000.000đ (Cọc 1 tháng: 9Tr)</option>
+<option value="STANDARD">Gói Tiêu Chuẩn (STANDARD — Thêm Module 6) – 68.000.000đ (Cọc: 5.67Tr)</option>
+<option value="VIP">Gói VIP Mentor 1-1 – 139.000.000đ (Cọc: 11.58Tr)</option>
+                    </select>
+                </div>
+
+                <!-- Câu 3: Khúc mắc lớn nhất -->
+                <div>
+                    <label class="block text-sm font-bold text-white mb-2">3. Khúc mắc hoặc rào cản lớn nhất của gia đình hiện nay là gì? <span class="text-rose-500">*</span></label>
+                    <div class="space-y-2.5">
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="checkbox" name="obstacle" value="HocPhi" class="w-4 h-4 text-amber-500 focus:ring-0 rounded mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">Khả năng tài chính và điều kiện để nhận gói doanh nghiệp ứng trước 242 – 312 triệu</span>
+                        </label>
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="checkbox" name="obstacle" value="ViecLam" class="w-4 h-4 text-amber-500 focus:ring-0 rounded mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">1. Bạn quan tâm nhất đến mục tiêu nào trong hành trình 1 năm?</span>
+                        </label>
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="checkbox" name="obstacle" value="HocLuc" class="w-4 h-4 text-amber-500 focus:ring-0 rounded mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">2. Trình độ tiếng Anh hiện tại của bạn:</span>
+                        </label>
+                        <label class="flex items-center p-3.5 rounded-xl bg-slate-900/60 border border-slate-700 cursor-pointer hover:border-amber-400/70 has-[:checked]:border-amber-400 has-[:checked]:bg-amber-500/10 has-[:checked]:shadow-lg has-[:checked]:shadow-amber-500/10 transition text-sm select-none">
+                            <input type="checkbox" name="obstacle" value="QuocTe" class="w-4 h-4 text-amber-500 focus:ring-0 rounded mr-3 accent-amber-400">
+                            <span class="text-slate-200 font-medium">Lộ trình đi làm việc quốc tế tại Đức, Hàn Quốc, Nhật Bản sau tốt nghiệp</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Câu 4: Câu hỏi cụ thể -->
+                <div>
+                    <label class="block text-sm font-bold text-white mb-2">4. Câu hỏi cụ thể bạn muốn Chuyên gia giải đáp trực tiếp trong buổi 1:1:</label>
+                    <textarea id="specificQuestion" rows="3" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-amber-400" placeholder="Ví dụ: Tôi muốn tìm hiểu về Gói Tiêu chuẩn 68tr (thêm Module 6) hoặc phương án cọc 1 tháng học phí..."></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" id="surveySubmitBtn" class="btn-gold w-full py-4 rounded-xl text-base font-bold flex items-center justify-center space-x-2 shadow-2xl">
+                    <span id="surveyBtnText">GỬI PHIẾU KHẢO SÁT ➔ NHẬN LỊCH PHỎNG VẤN 1-1</span>
+                    <i data-lucide="arrow-right" class="w-5 h-5" id="surveyBtnIcon"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // Canvas Bubbles on Survey Page (Mona Engine)
+        (function initBubblesSurvey() {
+            const canvas = document.getElementById('bubblesCanvasSurvey');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            let w = canvas.width = window.innerWidth;
+            let h = canvas.height = window.innerHeight;
+            const particles = [];
+            for (let i = 0; i < 24; i++) {
+                particles.push({
+                    x: Math.random() * w,
+                    y: Math.random() * h,
+                    r: 1 + Math.random() * 2.5,
+                    v: 0.2 + Math.random() * 0.5,
+                    w: Math.random() * 6.28,
+                    a: 0.1 + Math.random() * 0.25
+                });
+            }
+            function tick() {
+                ctx.clearRect(0, 0, w, h);
+                for (let p of particles) {
+                    p.y -= p.v;
+                    p.w += 0.02;
+                    p.x += Math.sin(p.w) * 0.3;
+                    if (p.y < -10) { p.y = h + 10; p.x = Math.random() * w; }
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.strokeStyle = `rgba(251, 191, 36, ${p.a * 0.6})`;
+                    ctx.stroke();
+                }
+                requestAnimationFrame(tick);
+            }
+            tick();
+        })();
+
+        function handleSurveySubmit(e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('surveySubmitBtn');
+            const btnText = document.getElementById('surveyBtnText');
+            const btnIcon = document.getElementById('surveyBtnIcon');
+
+            if (submitBtn) {
+                submitBtn.disabled = true;
+                submitBtn.classList.add('opacity-80', 'cursor-not-allowed');
+                if (btnText) btnText.innerText = 'Đang thẩm định hồ sơ & kết nối cổng Meet...';
+                if (btnIcon) btnIcon.classList.add('animate-spin');
+            }
+
+            let degree = 'DangHocLop12';
+            const degreeRadios = document.getElementsByName('degree');
+            for (let r of degreeRadios) {
+                if (r.checked) degree = r.value;
+            }
+
+            const programAudit = document.getElementById('programAudit').value;
+
+            const obstacles = [];
+            const obstacleBoxes = document.getElementsByName('obstacle');
+            for (let b of obstacleBoxes) {
+                if (b.checked) obstacles.push(b.value);
+            }
+
+            const question = document.getElementById('specificQuestion').value.trim();
+
+            // Save survey responses to localStorage
+            localStorage.setItem('t2n_degree', degree);
+            localStorage.setItem('t2n_program_audit', programAudit);
+            localStorage.setItem('t2n_obstacles', JSON.stringify(obstacles));
+            localStorage.setItem('t2n_question', question);
+
+            // Send full record to Google Sheets backend
+            const payload = {
+                fullName: localStorage.getItem('t2n_attendee_name') || '',
+                phone: localStorage.getItem('t2n_attendee_phone') || '',
+                email: localStorage.getItem('t2n_attendee_email') || '',
+                ticketType: localStorage.getItem('t2n_ticket_type') || 'VIP_99K',
+                degree: degree,
+                programAudit: programAudit,
+                obstacles: obstacles.join(', '),
+                question: question,
+                paymentStatus: 'PAID_99K',
+                timestamp: new Date().toISOString()
+            };
+
+            const scriptUrl = localStorage.getItem('t2n_apps_script_url') || '';
+            if (scriptUrl) {
+                fetch(scriptUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                }).catch(err => console.log('Log err:', err));
+            }
+
+            // Forward to Step 4: Live Portal with smooth transition
+            setTimeout(() => {
+                window.location.href = '../vao/';
+            }, 500);
+        }
+    </script>
+</body>
+</html>

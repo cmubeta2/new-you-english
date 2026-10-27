@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New You Teacher Academy – Khóa Truyền Nghề Giáo Viên Tiếng Anh Online 1 Năm (Cam Kết Lương 15Tr)</title>
+    <meta name="description" content="Khóa truyền nghề giáo viên dạy tiếng Anh online toàn diện 1 năm cùng Cô Sophie Diễm My. 6 Module chuyên sâu từ Truyền thông & Sale, AI, Sư phạm đến Luyện thi chứng chỉ quốc tế. Cam kết đầu ra nhận lớp lương 15 triệu/tháng.">
+    <link rel="icon" type="image/png" href="assets/logo-new-you.png">
+    
+    <!-- Google Fonts: Plus Jakarta Sans, Lexend & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&family=Lexend:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.469.0"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', '"Lexend"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                        hand: ['"Patrick Hand"', '"Plus Jakarta Sans"', 'cursive'],
+                    },
+                    colors: {
+                        navy: {
+                            950: '#070b14',
+                            900: '#0c1322',
+                            800: '#141e34',
+                            700: '#1e2c4a',
+                        },
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        :root {
+            --font-main: 'Plus Jakarta Sans', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --font-hand: 'Patrick Hand', 'Plus Jakarta Sans', cursive;
+            --gold-grad: linear-gradient(90deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%);
+            --cta-grad: linear-gradient(90deg, #ff5f3d 0%, #ff2d7a 100%);
+            --navy-deep: #070b14;
+            --navy-card: rgba(12, 19, 34, 0.88);
+        }
+
+        html {
+            font-family: var(--font-main);
+            -webkit-text-size-adjust: 100%;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--navy-deep);
+            color: #f1f5f9;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            word-break: normal;
+            overflow-wrap: break-word;
+            line-height: 1.7;
+            letter-spacing: -0.01em;
+        }
+
+        /* Headings: Tròn câu, cân xứng tự nhiên, không ngắt quãng vụn vặt */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-main);
+            word-break: normal;
+            text-wrap: balance;
+            letter-spacing: -0.015em;
+            line-height: 1.38;
+        }
+
+        p, li, span, blockquote {
+            word-break: normal;
+            text-wrap: pretty;
+        }
+
+        /* Highlight Marker effect (High-contrast Gold Badge - Mona Style) */
+        .mark {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: #070b14;
+            padding: 0.08em 0.38em;
+            border-radius: 6px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            font-weight: 900;
+            display: inline-block;
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.35);
+            line-height: 1.15;
+            margin: 0 0.08em;
+            text-shadow: none;
+        }
+
+        .mark-coral {
+            background: linear-gradient(135deg, #ff5f3d 0%, #ff2d7a 100%);
+            color: #ffffff;
+            padding: 0.08em 0.38em;
+            border-radius: 6px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            font-weight: 900;
+            display: inline-block;
+            box-shadow: 0 4px 14px rgba(255, 45, 122, 0.35);
+            line-height: 1.15;
+            margin: 0 0.08em;
+        }
+
+        .mark-yellow {
+            background: linear-gradient(135deg, #fef08a 0%, #fde047 100%);
+            color: #0f172a;
+            padding: 0.08em 0.38em;
+            border-radius: 6px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            font-weight: 900;
+            display: inline-block;
+            line-height: 1.15;
+            margin: 0 0.08em;
+        }
+
+        /* ================================================================= */
+        /* DEPTH RAIL (SIDEBAR THEO DÕI ĐỘ SÂU 0M CHUẨN MONA MEDIA)          */
+        /* ================================================================= */
+        .rail {
+            position: fixed;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 45;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            pointer-events: auto;
+            user-select: none;
+        }
+
+        .rail__waypoint {
+            position: absolute;
+            left: 14px;
+            width: 11px;
+            height: 11px;
+            border-radius: 9999px;
+            background: #0f172a;
+            border: 2px solid #38bdf8;
+            cursor: pointer;
+            transform: translateY(-50%);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 10;
+        }
+        .rail__waypoint:hover {
+            transform: translateY(-50%) scale(1.6);
+            border-color: #fbbf24;
+            background: #f59e0b;
+            box-shadow: 0 0 12px rgba(245, 158, 11, 0.8);
+        }
+        .rail__waypoint-tooltip {
+            position: absolute;
+            left: 28px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(15, 23, 42, 0.95);
+            color: #f8fafc;
+            font-size: 10px;
+            font-weight: 800;
+            white-space: nowrap;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid rgba(251, 191, 36, 0.4);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        .rail__waypoint:hover .rail__waypoint-tooltip {
+            opacity: 1;
+            transform: translateY(-50%) translateX(4px);
+        }
+
+        .rail__container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 48px;
+            height: min(46vh, 420px);
+        }
+
+        /* Continuous dashed depth guideline on the right */
+        .rail__dashed {
+            position: absolute;
+            left: 32px;
+            top: -60px;
+            bottom: -80px;
+            width: 3px;
+            background-image: repeating-linear-gradient(
+                to bottom,
+                rgba(148, 163, 184, 0.45) 0px,
+                rgba(148, 163, 184, 0.45) 14px,
+                transparent 14px,
+                transparent 24px
+            );
+        }
+
+        /* Solid indicator track on the left */
+        .rail__track {
+            position: absolute;
+            left: 18px;
+            top: 0;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(to bottom, #38bdf8 0%, #818cf8 40%, #fb7185 80%, #f43f5e 100%);
+            border-radius: 3px;
+            opacity: 0.85;
+        }
+
+        /* Tick marks on track (8 divisions) */
+        .rail__track::before {
+            content: "";
+            position: absolute;
+            left: -5px;
+            right: -5px;
+            top: 0;
+            bottom: 0;
+            background-image: repeating-linear-gradient(
+                to bottom,
+                transparent 0 calc(100%/8 - 1px),
+                rgba(255, 255, 255, 0.6) calc(100%/8 - 1px) calc(100%/8)
+            );
+        }
+
+        /* Glowing bead marker moving down the track */
+        .rail__marker {
+            position: absolute;
+            left: 50%;
+            top: 0%;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            background: #ffffff;
+            box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.28), 0 0 18px rgba(56, 189, 248, 0.9);
+            transform: translate(-50%, -50%);
+            transition: top 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+
+        /* Depth readout pill badge */
+        .rail__read {
+            position: relative;
+            margin-top: 14px;
+            padding: 8px 14px;
+            border-radius: 12px;
+            background: rgba(30, 41, 59, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 84px;
+        }
+
+        .rail__read b {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+            display: block;
+        }
+
+        .rail__read span {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.62rem;
+            font-weight: 700;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: #cbd5e1;
+            display: block;
+            margin-top: 2px;
+            white-space: nowrap;
+        }
+
+        /* v1.7.2 (L11): rail fixed left 20px đè chữ đầu dòng ở 1201–1599px → chỉ hiện khi lề trái ≥ ~160px */
+        /* v1.7.3 (L11 trả lại): Tailwind CDN chèn CSS SAU khối style nên lg:flex đè – thẻ đổi min-[1600px]:flex + !important */
+        @media (max-width: 1599px) {
+            .rail {
+                display: none !important;
+            }
+        }
+
+        @media (min-width: 1700px) {
+            .rail {
+                left: max(24px, calc((100vw - 1280px) / 2 - 5rem));
+            }
+        }
+
+        /* ================================================================= */
+        /* THE MONA MEDIA DIVE SYSTEM (WAVE MASKS & LIGHT/DARK RHYTHM)       */
+        /* ================================================================= */
+        .wave {
+            position: relative;
+        }
+
+        .wave::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -1px;
+            height: 52px;
+            background: var(--wave, #e6ecfd);
+            z-index: 15;
+            pointer-events: none;
+            -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 70' preserveAspectRatio='none'><path d='M0,0 H1200 V22 C1050,60 900,60 750,30 C600,0 450,0 300,30 C180,55 80,55 0,22 Z'/></svg>") center/100% 100% no-repeat;
+            mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 70' preserveAspectRatio='none'><path d='M0,0 H1200 V22 C1050,60 900,60 750,30 C600,0 450,0 300,30 C180,55 80,55 0,22 Z'/></svg>") center/100% 100% no-repeat;
+        }
+
+        /* Light Section Styling (Nền sáng xanh nhạt on-light) */
+        .on-light {
+            color: #1d2a5c;
+        }
+        .on-light h1, .on-light h2, .on-light h3, .on-light h4 {
+            color: #0f1a3c;
+        }
+        .on-light p, .on-light span, .on-light li {
+            color: #2c3a6e;
+        }
+        .on-light .text-muted {
+            color: #5b6a9c;
+        }
+
+        /* 0m Mặt nước (Hero Sunlit Gradient) */
+        .sec-surface {
+            background: linear-gradient(to bottom, #f6f8ff 0%, #eef2ff 55%, #e6ecfd 100%);
+            color: #0f1a3c;
+        }
+
+        /* −2m Thực trạng (Đại dương xanh đậm) */
+        .sec-deep-1 {
+            background: radial-gradient(900px 520px at 18% 0%, rgba(255,122,89,0.14), transparent 62%), #0c1c4e;
+        }
+
+        /* −10m Nước nông có nắng (Nền sáng xanh nhạt) */
+        .sec-light-blue {
+            background: linear-gradient(to bottom, #d9e7ff 0%, #e3eefb 60%, #cfe0fb 100%);
+        }
+
+        /* −20m Ranh giới (Chuyển sắc xuống vực thẳm) */
+        .sec-boundary {
+            background: linear-gradient(to bottom, #cfe0fb 0%, #1436a8 18%, #0d2475 100%);
+        }
+
+        /* −35m Khoang máy / Ảnh thật (Xanh cobalt sâu) */
+        .sec-abyss {
+            background: #0a1e63;
+        }
+
+        /* −50m 5 Chương (Đáy biển sâu) */
+        .sec-chapters {
+            background: linear-gradient(135deg, #091742 0%, #0d2475 50%, #081232 100%);
+        }
+
+        /* −65m Trước / Sau (Nền sáng đối chiếu) */
+        .sec-light-compare {
+            background: linear-gradient(to bottom, #e3eefb 0%, #f0f5ff 60%, #dbe6ff 100%);
+        }
+
+        /* −75m Hoá đơn 0đ (Nền sáng giấy) */
+        .sec-light-invoice {
+            background: linear-gradient(to bottom, #d3e2fb 0%, #e3eefb 34%, #e3eefb 100%);
+        }
+
+        /* −85m Cái gì, khi nào, vì sao (Đêm sâu có ánh đèn) */
+        .sec-letter-deep {
+            background: radial-gradient(760px 460px at 16% 6%, rgba(255,122,89,0.14), transparent 60%), linear-gradient(to bottom, #0d2475 0%, #102c8e 46%, #1436a8 100%);
+        }
+
+        /* −100m Ghi tên (Nền xanh giấy chuyển ánh sáng Mona) */
+        .sec-tickets-sunlit {
+            background: linear-gradient(to bottom, #eaeff9 0%, #f4f7fd 26%, #f4f7fd 62%, #dee7f8 84%, #7fa8ff 100%);
+        }
+
+        /* −105m FAQ (Nền sáng thoáng đãng) */
+        .sec-faq-light {
+            background: linear-gradient(to bottom, #f0f5ff 0%, #e3eefb 100%);
+        }
+
+        /* Gold Gradient Text */
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fde68a 0%, #fbbf24 45%, #d97706 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Glass Cards */
+        .glass-card {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(251, 191, 36, 0.2);
+        }
+
+        /* Buttons */
+        .btn-gold {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: #070b14;
+            font-weight: 800;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.3);
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.45);
+        }
+
+        .btn-cta-pulse {
+            background: linear-gradient(90deg, #ff5f3d 0%, #ff2d7a 100%);
+            color: #ffffff;
+            font-weight: 800;
+            box-shadow: 0 16px 36px -10px rgba(255, 45, 122, 0.65);
+            animation: pulsecta 2.4s ease-in-out infinite;
+            transition: transform 0.2s ease;
+        }
+
+        .btn-cta-pulse:hover {
+            transform: scale(1.02);
+        }
+
+        @keyframes pulsecta {
+            0%, 100% { box-shadow: 0 16px 36px -10px rgba(255, 45, 122, 0.65); }
+            50% { box-shadow: 0 20px 48px -6px rgba(255, 45, 122, 0.9), 0 0 0 6px rgba(255, 45, 122, 0.15); }
+        }
+
+        /* Shimmer Animation */
+        .shimmer {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .shimmer::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(60deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transform: rotate(30deg);
+            animation: shimmerEffect 4s infinite;
+        }
+
+        @keyframes shimmerEffect {
+            0% { transform: translate(-100%, -100%) rotate(30deg); }
+            100% { transform: translate(100%, 100%) rotate(30deg); }
+        }
+
+        /* Ticket Form Component (Mona CRO) */
+        .ticket-box {
+            position: relative;
+            background: linear-gradient(160deg, rgba(20, 30, 52, 0.95), rgba(7, 11, 20, 0.98));
+            border: 1px solid rgba(251, 191, 36, 0.35);
+            border-radius: 24px;
+            box-shadow: 0 25px 60px -20px rgba(0, 0, 0, 0.8), 0 0 40px rgba(245, 158, 11, 0.15);
+            padding: 24px;
+        }
+
+        .ticket-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 14px;
+            margin-bottom: 16px;
+            border-bottom: 1px dashed rgba(251, 191, 36, 0.3);
+        }
+
+        /* Invoice / Hoá đơn học bổng style */
+        .invoice-card {
+            background: #ffffff;
+            color: #0f172a;
+            border-radius: 24px;
+            box-shadow: 0 30px 70px -30px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Calendar widget with red hand circle */
+        .calendar-box {
+            background: #ffffff;
+            color: #0f172a;
+            border-radius: 18px;
+            box-shadow: 0 20px 45px -20px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 0, 0, 0.08);
+            padding: 18px;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, minmax(0, 1fr));
+            gap: 4px;
+            text-align: center;
+        }
+
+        /* Marquee Siren text */
+        .marquee-track {
+            display: flex;
+            width: max-content;
+            animation: marqueeScroll 28s linear infinite;
+        }
+
+        @keyframes marqueeScroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+            /* WEB L3: ô bẫy chống bot – ẩn khỏi người xem, bot điền vào thì cổng TS bỏ qua */
+        .o-bay { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+    </style>
+</head>
+<body class="bg-navy-950 text-slate-100 font-sans antialiased relative selection:bg-gold-500 selection:text-navy-950">
+
+    <!-- READING PROGRESS BAR (MONA STYLE) -->
+    <div id="progressBar" class="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-amber-400 via-amber-500 to-amber-300 z-50 pointer-events-none transition-transform duration-75 origin-left" style="width: 100%; transform: scaleX(0);"></div>
+
+    <!-- CANVAS BUBBLES BACKGROUND -->
+    <canvas id="bubblesCanvas" class="fixed inset-0 pointer-events-none z-0" aria-hidden="true"></canvas>
+
+    <!-- ================================================================= -->
+    <!-- DEPTH RAIL (SIDEBAR THEO DÕI ĐỘ SÂU CHUẨN THE MONA MEDIA)          -->
+    <!-- ================================================================= -->
+    <aside class="rail hidden min-[1600px]:flex" data-rail aria-label="Điều hướng độ sâu hành trình">
+        <div class="rail__container">
+            <div class="rail__dashed"></div>
+            <div class="rail__track">
+                <i class="rail__marker" id="railMarker"></i>
+            </div>
+            <!-- Clickable Interactive Waypoints -->
+            <div id="railWaypoints"></div>
+        </div>
+        <div class="rail__read cursor-pointer hover:scale-105 transition transform" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Bấm để cuộn nhanh về Mặt Nước (Đầu trang)">
+            <b id="railDepthText" data-rail-depth>0 m</b>
+            <span id="railLabelText" data-rail-label>MẶT NƯỚC</span>
+        </div>
+    </aside>
+
+    <!-- TOP STICKY BAR (CHUẨN THE MONA MEDIA) -->
+    <header class="sticky top-0 z-40 bg-navy-950/90 backdrop-blur-md border-b border-slate-800/80 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-4">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center space-x-3 shrink-0">
+                <div class="h-10 sm:h-12 rounded-2xl bg-slate-900 px-3 py-1 shadow-lg border-2 border-amber-400/50 flex items-center shrink-0 overflow-hidden"><span class="text-base sm:text-lg font-black tracking-tight text-amber-400">NEW YOU</span></div><div class="hidden sm:block"><span class="text-sm sm:text-base font-extrabold text-white tracking-tight block">NEW YOU <span class="gold-gradient-text">TEACHER ACADEMY</span></span><span class="text-xs text-slate-400 font-mono tracking-wider uppercase block">Khóa Truyền Nghề 1 Năm · Lương 15Tr</span></div>
+            </a>
+
+            <!-- Live Pulse & Announcement Text -->
+            <div class="hidden lg:flex items-center space-x-2 text-xs font-medium text-slate-300 border-x border-slate-800 px-4">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+                <span>New You English · Đào Tạo 1 Năm Toàn Diện · Cam Kết Đầu Ra Lương 15 Triệu/Tháng</span>
+            </div>
+
+            <!-- Inline Countdown -->
+            <div id="khoiDemDau" class="hidden md:flex items-center space-x-1.5 text-xs font-mono text-amber-300 bg-slate-900/90 px-3 py-1.5 rounded-full border border-amber-500/30 shrink-0">
+                <span class="text-slate-400 font-sans">Còn:</span>
+                <span id="topbarDays" class="font-bold text-white">00</span><span>n</span>
+                <span id="topbarHours" class="font-bold text-white">00</span><span>g</span>
+                <span id="topbarMins" class="font-bold text-white">00</span><span>p</span>
+            </div>
+
+            <!-- Top CTA Button -->
+            <div class="shrink-0">
+                <a href="#dang-ky" class="btn-gold shimmer px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold flex items-center space-x-1.5">
+                    <span>Đăng ký xét tuyển</span>
+                    <span class="text-base leading-none">→</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative z-10">
+
+        <!-- ================================================================= -->
+        <!-- ================================================================= -->
+        <!-- 0 m · MẶT NƯỚC — HERO THUMBNAIL (CHUẨN THE MONA MEDIA)            -->
+        <!-- ================================================================= -->
+        <section id="mat-nuoc" data-depth="0" data-label="MẶT NƯỚC" class="sec-surface relative pt-8 sm:pt-14 pb-16 sm:pb-24 overflow-hidden border-b border-blue-200/50">
+            <!-- Background Sunlit Glow Elements -->
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[360px] bg-sky-200/50 blur-[130px] rounded-full pointer-events-none"></div>
+            <div class="absolute top-1/4 right-10 w-[350px] h-[350px] bg-amber-200/30 blur-[100px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                
+                <!-- Hero Header Hook -->
+                <div class="text-center max-w-4xl mx-auto mb-10">
+                    <p class="font-mono text-xs sm:text-sm uppercase tracking-[0.2em] text-[#2c3a6e] font-extrabold mb-3 flex items-center justify-center gap-2">
+                        <span>NEW YOU TEACHER ACADEMY</span>
+                        <span class="px-2.5 py-0.5 rounded-full text-xs font-bold text-white bg-gradient-to-r from-[#ff7a59] to-[#ff4fa3] shadow-md tracking-wider">K01 FOUNDING BATCH · 1 NĂM</span>
+                    </p>
+                    
+                    <h1 class="text-2xl sm:text-4xl lg:text-[2.65rem] font-black text-[#0f1a3c] leading-snug sm:leading-normal mb-5 tracking-tight max-w-4xl mx-auto" style="text-wrap: balance;">
+                        Khóa Truyền Nghề <span class="mark">Giáo Viên Tiếng Anh Online</span> 1 Năm Toàn Diện Cùng Cô Sophie Diễm My
+                    </h1>
+
+                    <div class="space-y-1.5 text-sm sm:text-base text-[#2c3a6e] max-w-3xl mx-auto mb-6">
+                        <p class="font-medium">Trung tâm Ngoại ngữ New You English · <strong class="text-[#0f1a3c] font-black">Hành trình 1 Năm Toàn Diện (6 Module)</strong></p>
+<p class="text-sm text-[#4b5c96]">Mentor Sophie Diễm My: Cử nhân Giỏi ĐH Sài Gòn · TKT Cambridge · Cam kết đầu ra nhận dạy thực tế với mức lương dự kiến 15.000.000đ/tháng.</p>
+                    </div>
+
+                    <!-- LIVE BADGE & TIME -->
+                    <div class="inline-flex items-center space-x-2.5 px-4 py-2 rounded-full bg-white/95 border border-slate-300 text-xs sm:text-sm font-bold text-[#0f1a3c] shadow-lg shadow-blue-900/5 mb-8">
+                        <span id="khoiLive" class="inline-flex items-center space-x-1.5 text-rose-600 font-mono">
+                            <span class="w-2.5 h-2.5 rounded-full bg-rose-600 animate-pulse"></span>
+                            <span>LIVE</span>
+                        </span>
+                        <span>Khai giảng Khóa K01 (1 Năm): [cần anh bổ sung] ngày chính thức · Giới hạn 8–10 học viên</span>
+                    </div>
+
+                    <!-- 3 NÚT KÊNH VÀO BUỔI (CHUẨN MONA CRO - LINK BẢO MẬT) -->
+                    <div class="bg-white/80 rounded-2xl p-4 border border-blue-200/80 max-w-2xl mx-auto mb-8 shadow-md">
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<div class="p-3 rounded-xl bg-white border border-slate-200 text-left"><span class="block text-base font-black text-[#0f1a3c]">📚 6 Module 1 Năm</span><span class="block text-sm text-slate-600">Đào tạo kép toàn diện</span></div>
+<div class="p-3 rounded-xl bg-white border border-slate-200 text-left"><span class="block text-base font-black text-[#0f1a3c]">💳 Trả Góp 0%</span><span class="block text-sm text-slate-600">Chỉ từ 9tr/tháng</span></div>
+<div class="p-3 rounded-xl bg-white border border-slate-200 text-left"><span class="block text-base font-black text-[#0f1a3c]">💼 Lương 15Tr/Tháng</span><span class="block text-sm text-slate-600">Nhận lớp tại New You</span></div>
+</div>
+</div>
+
+                    <!-- 3 HUY HIỆU ĐỐI TÁC CHIẾN LƯỢC -->
+                    <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-sm text-[#4b5c96] mb-10">
+<span class="font-bold text-[#0f1a3c]">Đơn vị chủ quản:</span>
+<div class="px-3.5 py-1.5 rounded-xl bg-white border border-slate-200 text-slate-800 font-bold">Trung tâm Ngoại ngữ New You English</div>
+<div class="px-3.5 py-1.5 rounded-xl bg-white border border-slate-200 text-slate-800 font-bold">CLB Ngoại Ngữ Quận 7 TP.HCM</div>
+</div>
+                </div>
+
+                <!-- HERO SPLIT GRID: CỘT TRÁI (JOIN CARD) + CỘT PHẢI (TICKET LEAD FORM) -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch max-w-6xl mx-auto">
+                    
+                    <!-- CỘT TRÁI: GIỚI THIỆU TỌA ĐÀM & COUNTDOWN (5/12) -->
+                    <div class="lg:col-span-6 bg-white/95 rounded-3xl p-6 sm:p-8 border border-blue-200/80 flex flex-col justify-between shadow-2xl relative overflow-hidden text-[#1d2a5c]">
+                        <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-blue-100/60 blur-[60px] rounded-full pointer-events-none"></div>
+
+                        <div>
+                            <span class="font-mono text-sm font-bold text-amber-600 tracking-[0.2em] uppercase block mb-2">HÀNH TRÌNH 1 NĂM (12 THÁNG)</span>
+                            <h2 class="text-2xl sm:text-3xl font-black text-[#0f1a3c] leading-tight mb-4">
+                                New You Teacher Academy
+                            </h2>
+                            <p class="text-sm text-[#475569] leading-relaxed mb-6">
+                                Khóa truyền nghề giáo viên dạy tiếng Anh online toàn diện 1 năm cùng Cô Sophie Diễm My. 6 Module chuyên sâu từ Truyền thông & Sale, AI trong dạy học, Sư phạm Zoom, IPA, Sáng tạo video đến Luyện thi chứng chỉ quốc tế. Cam kết đầu ra nhận dạy thực tế với mức lương 15 triệu/tháng.
+                            </p>
+
+                            <!-- Live Countdown Boxes -->
+                            <p id="nhanHetHan" class="hidden bg-slate-50 rounded-2xl p-4 border border-slate-200 mb-6 text-center text-base font-bold text-[#0f1a3c]">ĐÃ HẾT HẠN ĐĂNG KÝ ƯU ĐÃI ĐỢT NÀY</p>
+                            <div id="khoiDemHero" class="bg-slate-50 rounded-2xl p-4 border border-slate-200 mb-6 text-center shadow-inner">
+                                <span class="text-sm font-bold text-[#475569] uppercase tracking-widest block mb-3">Ưu đãi Khóa K01 (Cọc cam kết = 1 tháng học phí) kết thúc sau:</span>
+                                <div class="grid grid-cols-4 gap-2 sm:gap-3 max-w-xs mx-auto">
+                                    <div class="bg-white p-2.5 rounded-xl border border-slate-200 shadow-sm">
+                                        <span id="heroDays" class="text-xl sm:text-2xl font-black text-amber-600 block font-mono">00</span>
+                                        <span class="text-[13px] text-slate-500 font-bold uppercase block mt-0.5">Ngày</span>
+                                    </div>
+                                    <div class="bg-white p-2.5 rounded-xl border border-slate-200 shadow-sm">
+                                        <span id="heroHours" class="text-xl sm:text-2xl font-black text-amber-600 block font-mono">00</span>
+                                        <span class="text-[13px] text-slate-500 font-bold uppercase block mt-0.5">Giờ</span>
+                                    </div>
+                                    <div class="bg-white p-2.5 rounded-xl border border-slate-200 shadow-sm">
+                                        <span id="heroMins" class="text-xl sm:text-2xl font-black text-amber-600 block font-mono">00</span>
+                                        <span class="text-[13px] text-slate-500 font-bold uppercase block mt-0.5">Phút</span>
+                                    </div>
+                                    <div class="bg-white p-2.5 rounded-xl border border-slate-200 shadow-sm">
+                                        <span id="heroSecs" class="text-xl sm:text-2xl font-black text-rose-600 block font-mono">00</span>
+                                        <span class="text-[13px] text-slate-500 font-bold uppercase block mt-0.5">Giây</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 border-t border-slate-200 text-sm text-[#475569] space-y-2">
+<div class="flex items-start space-x-2"><span class="text-emerald-600 font-bold">✓</span><span>Đào tạo toàn diện 1 năm qua 6 Module: Truyền thông &amp; Sale, AI, Sư phạm, Tiếng Anh, Video, Luyện thi TKT.</span></div>
+<div class="flex items-start space-x-2"><span class="text-emerald-600 font-bold">✓</span><span>Bao đầu ra nhận dạy thực tế tại New You English với mức lương dự kiến 15.000.000đ/tháng.</span></div>
+<div class="flex items-start space-x-2"><span class="text-emerald-600 font-bold">✓</span><span>Cọc cam kết đúng bằng 1 tháng học phí (9.000.000đ cho Gói Pro) · Hoàn vốn sau 7.2 tháng đi dạy.</span></div>
+</div>
+                    </div>
+
+                    <!-- CỘT PHẢI: TICKET LEAD FORM (7/12) — ĐẶT NGAY TRONG HERO CHUẨN MONA -->
+                    <div class="lg:col-span-6">
+                        <div class="ticket-box">
+                            <!-- Ticket Header -->
+                            <div class="ticket-header">
+                                <div class="flex items-center space-x-2">
+<span class="font-bold text-white text-sm">ĐĂNG KÝ PHỎNG VẤN 1-1</span>
+</div>
+<span class="font-mono text-sm text-amber-400 font-bold tracking-wider">NEW YOU · K01 (1 NĂM)</span>
+                            </div>
+
+                            <div class="mb-4">
+                                <h3 class="text-xl font-black text-white">Đăng ký phỏng vấn, <span class="text-emerald-400 font-extrabold">nhận tư vấn lộ trình 1 năm</span></h3>
+<p class="text-sm text-slate-300 mt-1">Cô Sophie Diễm My trực tiếp test năng lực 1-1 và định hướng lộ trình phù hợp.</p>
+                            </div>
+
+                            <!-- Lead Form -->
+                            <form id="heroLeadForm" onsubmit="handleHeroSubmit(event)" class="space-y-3.5">
+                                <input type="text" name="website" class="o-bay" tabindex="-1" autocomplete="off" aria-hidden="true">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-200 mb-1">1. Họ và tên thí sinh / phụ huynh <span class="text-rose-400">*</span></label>
+                                    <input type="text" id="heroName" required placeholder="Ví dụ: Nguyễn Văn An" class="w-full px-3.5 py-2.5 bg-slate-950/90 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-amber-400 transition placeholder:text-slate-500">
+                                </div>
+
+                                <div>
+                                    <label class="block text-sm font-bold text-slate-200 mb-1">2. Số điện thoại Zalo <span class="text-rose-400">*</span></label>
+                                    <input type="tel" id="heroPhone" required placeholder="Ví dụ: 0912 345 678" class="w-full px-3.5 py-2.5 bg-slate-950/90 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-amber-400 transition placeholder:text-slate-500">
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-200 mb-1">3. Trình độ học vấn hiện tại <span class="text-rose-400">*</span></label>
+                                    <select id="heroDegree" required class="w-full px-3.5 py-2.5 bg-slate-950/90 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-amber-400 transition">
+                                        <option value="NhomA">Nhóm A: Người trái ngành / Mẹ bỉm / Dân văn phòng (Khóa 1 năm)</option>
+<option value="NhomB">Nhóm B: Sinh viên Ngôn ngữ Anh / Gia sư / GV tự do (Khóa 1 năm nâng tầm)</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-200 mb-1">4. Chương trình quan tâm nhất <span class="text-rose-400">*</span></label>
+                                    <select id="heroProgram" required class="w-full px-3.5 py-2.5 bg-slate-950/90 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-amber-400 transition">
+                                        <option value="PRO">Gói Chuyên Nghiệp (PRO — 1 Năm) – 108.000.000đ (Lương 15Tr - Cọc 9Tr)</option>
+<option value="STANDARD">Gói Tiêu Chuẩn (STANDARD — Bổ sung Module 6) – 68.000.000đ (Cọc 5.67Tr)</option>
+<option value="VIP">Gói VIP Mentor 1-1 – 139.000.000đ (Cọc 11.58Tr)</option>
+<option value="TU_VAN">Chưa chọn gói – Cần tư vấn lộ trình & bài toán hoàn vốn</option>
+                                    </select>
+                                </div>
+
+                                <p id="heroLoi" class="text-red-400 text-sm" role="alert" hidden></p>
+                                <button type="submit" id="heroSubmitBtn" class="btn-cta-pulse w-full py-3.5 rounded-xl text-sm sm:text-base font-extrabold flex flex-col items-center justify-center cursor-pointer transition">
+                                    <span class="flex items-center space-x-1.5">
+<span>ĐĂNG KÝ PHỎNG VẤN 1-1</span>
+<span class="text-lg">→</span>
+</span>
+<span class="text-sm font-normal opacity-90">Miễn phí · Cô Sophie Diễm My gọi lại</span>
+                                </button>
+                            </form>
+
+                            <p class="text-sm text-slate-400 text-center mt-3">Bảo mật thông tin · Phỏng vấn sàng lọc đầu vào 1-1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MANIFESTO SECTION (CHUẨN MONA) -->
+                <div class="mt-14 max-w-4xl mx-auto p-6 sm:p-8 rounded-3xl bg-white/95 border border-blue-200/80 shadow-xl text-center">
+<p class="text-base sm:text-xl font-bold text-[#0f1a3c] leading-relaxed mb-3">1 Năm tôi luyện để bạn làm chủ <span class="mark">một Sự Nghiệp Giảng Dạy Bền Vững</span>.</p>
+<p class="text-sm text-[#475569] leading-relaxed max-w-2xl mx-auto">Gói Tiêu Chuẩn 68tr (thêm Module 6) · Gói Chuyên Nghiệp 108tr (lương 15tr/tháng) · Gói VIP 139tr · Cọc cam kết = 1 tháng học phí.</p>
+</div>
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- −2 m · VÌ SAO TRANG NÀY XUẤT HIỆN — NỖI ĐAU ĐẠI HỌC TỰ TÚC         -->
+        <!-- ================================================================= -->
+        <section data-depth="2" data-label="THỰC TRẠNG" class="sec wave sec-deep-1 py-16 sm:py-24 text-white border-b border-slate-800/80" style="--wave: #e6ecfd;">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="font-mono text-sm uppercase tracking-widest text-amber-400 font-bold block mb-2">Sự thật tàn khốc về nghề dạy tiếng Anh</span>
+<h2 class="text-2xl sm:text-4xl font-black text-white leading-tight mb-8">Tại sao các khóa học ngắn hạn 1–2 tháng <span class="mark">không giúp bạn sống được với nghề</span>?</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+    <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 transition">
+        <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center font-bold text-xl mb-4">01</div>
+        <h3 class="text-lg font-bold text-white mb-2">Học Cưỡi Ngựa Xem Hoa</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">Các khóa TESOL ngắn hạn chỉ cưỡi ngựa xem hoa vài buổi lý thuyết, học xong vẫn phát âm sai, không biết dùng AI và hoàn toàn không có kỹ năng tìm kiếm học viên.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 transition">
+        <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center font-bold text-xl mb-4">02</div>
+        <h3 class="text-lg font-bold text-white mb-2">Dạy Kèm Giá Rẻ Bấp Bênh</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">Thiếu môi trường thực tập thực tế, dạy Zoom theo bản năng khiến học sinh chán nản. Thu nhập 100k–150k/buổi bấp bênh, bị trung tâm môi giới cắt phế tới 50–70%.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-amber-500/50 transition">
+        <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-xl mb-4">03</div>
+        <h3 class="text-lg font-bold text-white mb-2">Không Có Bảo Chứng Đầu Ra</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">Học xong bị 'bỏ rơi', không có nơi nhận dạy và không có bằng cấp chứng chỉ quốc tế được công nhận. Cần một hành trình 1 năm đào tạo bài bản và cam kết việc làm bằng hợp đồng!</p>
+    </div>
+</div>
+</div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- NGHE EM NÓI CÁI NÀY — CHIA SẺ THẬT & ĐỐI TƯỢNG PHÙ HỢP             -->
+        <!-- ================================================================= -->
+        <section data-depth="10" data-label="ĐỐI TƯỢNG" class="sec wave sec-light-blue on-light py-16 sm:py-24 border-b border-blue-200/60" style="--wave: #0c1c4e;">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="font-mono text-sm uppercase tracking-widest text-amber-700 font-bold block mb-2">Tiêu chí tuyển sinh có chọn lọc</span>
+<h2 class="text-2xl sm:text-4xl font-black text-[#0f1a3c] leading-tight mb-8">Hành trình 1 năm này dành cho ai &amp; <span class="mark">tuyệt đối không dành cho ai</span>?</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+    <div class="p-6 rounded-2xl bg-emerald-50 border border-emerald-200">
+        <div class="flex items-center space-x-2 text-emerald-800 font-bold text-lg mb-4">
+            <span>✓ PHÙ HỢP HOÀN HẢO VỚI:</span>
+        </div>
+        <ul class="space-y-3 text-sm text-slate-700">
+            <li class="flex items-start space-x-2">
+                <span class="text-emerald-600 font-bold">✔</span>
+                <span><strong>Nhóm A (Người trái ngành, mẹ bỉm sữa, dân văn phòng):</strong> Khao khát chuyển dịch nghề nghiệp sang giảng dạy online tại nhà, tự chủ thời gian và cam kết học tập nghiêm túc 1 năm để đạt mức lương 15 triệu/tháng.</span>
+            </li>
+            <li class="flex items-start space-x-2">
+                <span class="text-emerald-600 font-bold">✔</span>
+                <span><strong>Nhóm B (Sinh viên Ngôn ngữ Anh, Gia sư, Giáo viên tự do):</strong> Đang dạy kèm giá rẻ, muốn sở hữu chứng chỉ quốc tế TKT Cambridge/TESOL, làm chủ AI trong dạy học và có lớp dạy ổn định thu nhập 15–30 triệu/tháng.</span>
+            </li>
+            <li class="flex items-start space-x-2">
+                <span class="text-emerald-600 font-bold">✔</span>
+                <span>Người xác định đây là một khoản đầu tư nghề nghiệp trọn đời, sẵn sàng tiếp nhận văn hóa kỷ luật và thực hành 70% thời lượng trong 12 tháng.</span>
+            </li>
+        </ul>
+    </div>
+    <div class="p-6 rounded-2xl bg-rose-50 border border-rose-200">
+        <div class="flex items-center space-x-2 text-rose-800 font-bold text-lg mb-4">
+            <span>✕ TUYỆT ĐỐI KHÔNG PHÙ HỢP:</span>
+        </div>
+        <ul class="space-y-3 text-sm text-slate-700">
+            <li class="flex items-start space-x-2">
+                <span class="text-rose-600 font-bold">✕</span>
+                <span>Người tìm kiếm khóa học ngắn hạn vài tuần, muốn 'học mẹo làm giàu nhanh' mà không chịu tôi luyện chuyên môn và đạo đức sư phạm.</span>
+            </li>
+            <li class="flex items-start space-x-2">
+                <span class="text-rose-600 font-bold">✕</span>
+                <span>Người ngại công nghệ, không chịu học cách ứng dụng AI và quay dựng video bằng điện thoại để xây thương hiệu cá nhân.</span>
+            </li>
+            <li class="flex items-start space-x-2">
+                <span class="text-rose-600 font-bold">✕</span>
+                <span>Người thiếu kiên trì, không chấp nhận kỷ luật kiểm soát chất lượng của New You English (chấm bài ghi âm, nộp vở ghi chép sau giờ học).</span>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- KHÂU ĐẦU TIÊN — TIÊU ĐIỂM LỚP THÁNG 11/2026 TẠI CĐ CÔNG NGHỆ SG     -->
+        <!-- ================================================================= -->
+        <section id="chuong-trinh" data-depth="20" data-label="CƠ CHẾ ĐỘT PHÁ" class="sec wave sec-boundary py-16 sm:py-24 border-b border-slate-800 text-white" style="--wave: #cfe0fb;">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="font-mono text-sm uppercase tracking-widest text-amber-400 font-bold block mb-2">Mô hình độc quyền Cô Sophie Diễm My</span>
+<h2 class="text-2xl sm:text-4xl font-black text-white leading-tight mb-8">Mô hình "ALL-IN-ONE APPRENTICESHIP" — <span class="mark">Đào Tạo 1 Năm &amp; Cam Kết Lương 15 Triệu/Tháng</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-10">
+    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+        <span class="text-amber-400 font-mono font-bold text-sm block mb-2">TRỤ CỘT 1</span>
+        <h3 class="text-lg font-bold text-white mb-2">Năng Lực Kép 4.0</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">Vừa chuẩn hóa ngữ âm IPA 44 âm &amp; ngữ pháp mindmap, vừa làm chủ công nghệ GenAI soạn bài tự động và sở hữu chứng chỉ sư phạm quốc tế TKT Cambridge/TESOL.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+        <span class="text-amber-400 font-mono font-bold text-sm block mb-2">TRỤ CỘT 2</span>
+        <h3 class="text-lg font-bold text-white mb-2">Kỹ Năng Sinh Tồn &amp; Sale</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">Được học kỹ năng truyền thông và kịch bản chat tư vấn chốt học viên ngay từ Module 1, kết hợp sản xuất video CapCut 15 phút để tự tạo phễu học viên không phụ thuộc ai.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+        <span class="text-amber-400 font-mono font-bold text-sm block mb-2">TRỤ CỘT 3</span>
+        <h3 class="text-lg font-bold text-white mb-2">Cam Kết Đầu Ra 15Tr/Tháng</h3>
+        <p class="text-sm text-slate-300 leading-relaxed">Học viên tốt nghiệp đạt chuẩn được ký hợp đồng giảng dạy chính thức tại hệ thống 60+ lớp Online của New You English với mức lương khởi điểm dự kiến 15.000.000đ/tháng.</p>
+    </div>
+</div>
+<div class="p-6 rounded-2xl bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-transparent border border-amber-500/30 text-left">
+    <h4 class="text-base font-bold text-amber-300 mb-2">⭐ 3 Cam Kết Đảo Ngược Rủi Ro Bằng Hợp Đồng Pháp Lý:</h4>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-slate-200">
+        <div><strong>1. Cam kết việc làm &amp; Lương 15Tr:</strong> Tốt nghiệp đạt chuẩn nhận lớp dạy thực tế ngay với mức lương 15 triệu/tháng tại New You English.</div>
+        <div><strong>2. Cọc cam kết = 1 tháng học phí:</strong> Đặt cọc đúng 1 tháng học phí (9.000.000đ cho gói Pro) để giữ chỗ, <strong>hoàn cọc 100%</strong> nếu sau phỏng vấn không phù hợp.</div>
+        <div><strong>3. Hoàn vốn sau 7.2 tháng:</strong> Với mức lương 15tr/tháng, chỉ mất 7.2 tháng đi dạy là thu hồi 100% học phí đầu tư của cả năm học!</div>
+    </div>
+</div>
+</div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- BẰNG CHỨNG THỰC TẾ — ẢNH CHỤP THỰC TẾ (thân tầng 4)         -->
+        <!-- ================================================================= -->
+        <section data-depth="35" data-label="MINH CHỨNG" class="sec wave sec-abyss py-16 sm:py-24 text-white border-b border-slate-800" style="--wave: #0d2475;">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="font-mono text-sm uppercase tracking-widest text-amber-400 font-bold block mb-2">Uy tín bảo chứng bởi thực lực</span>
+<h2 class="text-2xl sm:text-4xl font-black text-white leading-tight mb-8">Người thầy dẫn đường: <span class="mark">Cô Sophie Diễm My</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-left">
+    <div class="space-y-4">
+        <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
+            <span class="text-amber-400 font-bold text-base block mb-1">🎓 Nền tảng Học thuật &amp; Sư phạm Chuẩn Quốc tế</span>
+            <p class="text-sm text-slate-300">Tốt nghiệp Cử nhân Giỏi Ngôn ngữ Anh Trường Đại học Sài Gòn. Sở hữu Chứng chỉ Nghiệp vụ Sư phạm Quốc tế TKT Cambridge (Teaching Knowledge Test).</p>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
+            <span class="text-amber-400 font-bold text-base block mb-1">🌟 8+ Năm Kinh Nghiệm &amp; Điều Hành 60+ Lớp Học</span>
+            <p class="text-sm text-slate-300">Nguyên Trưởng phòng Đào tạo, Phiên dịch viên Quốc tế. Nhà sáng lập Trung tâm New You English đang vận hành thực tế hơn 60 lớp học trực tuyến với hàng trăm học viên.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
+            <span class="text-amber-400 font-bold text-base block mb-1">🤝 Ban Chủ Nhiệm CLB Ngoại Ngữ Quận 7</span>
+            <p class="text-sm text-slate-300">Tổ chức sinh hoạt chuyên môn, kết nối cộng đồng giáo viên và người học tiếng Anh thực chiến tại TP. Hồ Chí Minh.</p>
+        </div>
+    </div>
+    <div class="p-6 rounded-2xl bg-slate-900 border border-amber-500/30 text-center">
+        <div class="text-5xl font-black text-amber-400 mb-2">60+</div>
+        <div class="text-base font-bold text-white mb-4">Lớp Học Online Đang Vận Hành Thực Tế</div>
+        <p class="text-sm text-slate-300 mb-6">Môi trường thực tập thực tế trong 1 năm giúp bạn cọ xát hàng ngày, tự tin đứng lớp và nhận ngay mức lương 15 triệu/tháng!</p>
+        <div class="grid grid-cols-2 gap-3 text-xs font-mono text-amber-300/90">
+            <div class="p-2 rounded-lg bg-slate-800 border border-slate-700">100% Zoom Thực Chiến</div>
+            <div class="p-2 rounded-lg bg-slate-800 border border-slate-700">SOP Kiểm Soát 4 Bước</div>
+            <div class="p-2 rounded-lg bg-slate-800 border border-slate-700">Ôn Thi Cambridge TKT</div>
+            <div class="p-2 rounded-lg bg-slate-800 border border-slate-700">AI Trong Giảng Dạy</div>
+        </div>
+    </div>
+</div>
+</div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- ĐÂY LÀ THỨ BẠN SẼ NHẬN — 5 CHƯƠNG TỌA ĐÀM (CHUẨN THE MONA)        -->
+        <!-- ================================================================= -->
+        <section data-depth="50" data-label="6 MODULE" class="sec wave sec-chapters py-16 sm:py-24 text-white border-b border-slate-800" style="--wave: #0a1e63;">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="font-mono text-sm uppercase tracking-widest text-amber-400 font-bold block mb-2">Khung chương trình đào tạo 1 năm (12 tháng)</span>
+<h2 class="text-2xl sm:text-4xl font-black text-white leading-tight mb-8">6 Module Thực Chiến — <span class="mark">Từ Con Số 0 Đến Giáo Viên Thu Nhập 15 Triệu/Tháng</span></h2>
+<div class="space-y-4 text-left">
+    <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 font-mono">MODULE 1 · THÁNG 1–2</span>
+            <span class="text-xs text-slate-400 font-mono">Kỹ Năng Sống Còn</span>
+        </div>
+        <h3 class="text-lg font-bold text-white mb-1">Dạy Truyền Thông và Sale Khóa Học</h3>
+        <p class="text-sm text-slate-300">Xóa bỏ rào cản ngại bán hàng, nắm bắt tâm lý phụ huynh/học viên, làm chủ kịch bản chat tư vấn 5 bước qua Zalo và kỹ thuật dạy demo test đầu vào 30–45 phút chốt học viên tỷ lệ 40–70%.</p>
+    </div>
+    <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 font-mono">MODULE 2 · THÁNG 3–4</span>
+            <span class="text-xs text-slate-400 font-mono">Đột Phá Năng Suất 10x</span>
+        </div>
+        <h3 class="text-lg font-bold text-white mb-1">Tư Duy Sử Dụng AI Trong Dạy Học</h3>
+        <p class="text-sm text-slate-300">Ứng dụng Claude, ChatGPT, Gamma, Canva AI và ElevenLabs soạn giáo án Lesson Plan trong 15 phút. Thiết kế trò chơi tương tác, bài tập cá nhân hóa và dùng AI chấm chữa bài viết tự động.</p>
+    </div>
+    <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 font-mono">MODULE 3 · THÁNG 5–6</span>
+            <span class="text-xs text-slate-400 font-mono">Phương Pháp Giảng Dạy Chuẩn</span>
+        </div>
+        <h3 class="text-lg font-bold text-white mb-1">Nghiệp Vụ Sư Phạm Giảng Dạy Online Thực Chiến</h3>
+        <p class="text-sm text-slate-300">Phương pháp PPP/TTT dạy 4 kỹ năng cho trẻ em và người lớn mất gốc. Vận hành công nghệ Zoom Breakout Rooms, bảng tương tác, game Kahoot/Quizizz và chuyển giao độc quyền SOP kiểm soát kỷ luật 4 bước.</p>
+    </div>
+    <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 font-mono">MODULE 4 · THÁNG 7–8</span>
+            <span class="text-xs text-slate-400 font-mono">Chuẩn Hóa Nền Tảng Lõi</span>
+        </div>
+        <h3 class="text-lg font-bold text-white mb-1">Kiến Thức Tiếng Anh Từ Gốc Đến Nâng Cao</h3>
+        <p class="text-sm text-slate-300">Cô Sophie Diễm My trực tiếp chuốt lại 44 âm IPA khẩu hình Anh-Mỹ và kỹ thuật chỉnh âm trong 30 giây. Hệ thống hóa 12 thì bằng Mindmap tư duy và làm chủ 100+ mẫu câu Classroom Language trên lớp.</p>
+    </div>
+    <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 font-mono">MODULE 5 · THÁNG 9–10</span>
+            <span class="text-xs text-slate-400 font-mono">Thương Hiệu Cá Nhân</span>
+        </div>
+        <h3 class="text-lg font-bold text-white mb-1">Sáng Tạo Nội Dung Truyền Thông &amp; Xây Kênh Giáo Viên</h3>
+        <p class="text-sm text-slate-300">Setup góc quay tại nhà bằng điện thoại, dựng video ngắn CapCut trong 15 phút có phụ đề song ngữ IPA. Tự sản xuất 20 video triệu view trên TikTok/Reels và xây dựng phễu hút học viên tự nhiên.</p>
+    </div>
+    <div class="p-5 rounded-2xl bg-slate-900/90 border border-slate-800">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 font-mono">MODULE 6 · THÁNG 11–12</span>
+            <span class="text-xs text-slate-400 font-mono">Bảo Chứng Bằng Cấp &amp; Lương 15Tr</span>
+        </div>
+        <h3 class="text-lg font-bold text-white mb-1">Luyện Thi Bằng Cấp / Chứng Chỉ Quốc Tế &amp; Bàn Giao Lớp Nhận Lương 15Tr</h3>
+        <p class="text-sm text-slate-300">Ôn luyện thi lấy chứng chỉ quốc tế Cambridge TKT / TESOL. Thực tập 40h trợ giảng và đứng lớp thật tại New You English, thi sát hạch tốt nghiệp và ký hợp đồng nhận lớp chính thức mức lương 15.000.000đ/tháng!</p>
+    </div>
+</div>
+</div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- SO SÁNH TRƯỚC / SAU (TRUOC - SAU CHUẨN MONA CRO)                  -->
+        <!-- ================================================================= -->
+        <section data-depth="65" data-label="TRƯỚC · SAU" class="sec wave sec-light-compare on-light py-16 sm:py-24 border-b border-blue-200/60" style="--wave: #081232;">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<span class="font-mono text-sm uppercase tracking-widest text-amber-700 font-bold block mb-2">Bài toán tài chính &amp; sự nghiệp</span>
+<h2 class="text-2xl sm:text-4xl font-black text-[#0f1a3c] leading-tight mb-8">So sánh hiệu quả đầu tư: <span class="mark">Lối mòn cũ vs Khóa Truyền Nghề 1 Năm New You</span></h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+    <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <h3 class="text-base font-bold text-rose-600 mb-3 uppercase tracking-wider">✕ Học Đại Học (4 Năm) / Học Khóa Ngắn Hạn</h3>
+        <ul class="space-y-2.5 text-sm text-slate-600">
+            <li>• <strong>Chi phí:</strong> Tốn 250 – 400 triệu học phí + sinh hoạt phí trong 4 năm đại học.</li>
+            <li>• <strong>Thời gian:</strong> Mất 48 tháng học lý thuyết, hoặc học khóa 1-2 tháng xong vẫn không dám dạy.</li>
+            <li>• <strong>Kỹ năng:</strong> Không biết dùng AI, không biết bán hàng, không biết làm video xây kênh.</li>
+            <li>• <strong>Đầu ra:</strong> Tự xin việc lương khởi điểm 8 – 10 triệu/tháng, bị trung tâm cắt phế 50%.</li>
+            <li>• <strong>Thời gian hoàn vốn:</strong> Mất từ 3 đến 5 năm đi làm mới thu hồi lại chi phí ban đầu.</li>
+        </ul>
+    </div>
+    <div class="p-6 rounded-2xl bg-amber-50 border border-amber-300 shadow-sm">
+        <h3 class="text-base font-bold text-amber-800 mb-3 uppercase tracking-wider">✔ New You Teacher Academy (Gói Pro 108 Triệu)</h3>
+        <ul class="space-y-2.5 text-sm text-slate-800">
+            <li>• <strong>Đầu tư:</strong> 108.000.000đ (trả góp đúng <strong>9.000.000đ/tháng</strong> ~300k/ngày).</li>
+            <li>• <strong>Thời gian:</strong> 1 năm tôi luyện thực chiến trọn vẹn 6 Module (70% thời lượng thực hành).</li>
+            <li>• <strong>Kỹ năng:</strong> Làm chủ AI soạn bài, vững sư phạm Zoom, tự xây kênh và chốt học viên qua chat.</li>
+            <li>• <strong>Đầu ra:</strong> Ký hợp đồng nhận lớp chính thức tại New You English với <strong>mức lương 15 triệu/tháng</strong>.</li>
+            <li>• <strong>Thời gian hoàn vốn:</strong> <strong>Chỉ 7.2 tháng đi dạy</strong> là thu hồi 100% học phí cả năm học!</li>
+        </ul>
+    </div>
+</div>
+</div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- TỜ HOÁ ĐƠN HỌC BỔNG — ĐĂNG KÝ HÔM NAY NHẬN GÌ (INVOICE STYLE)       -->
+        <!-- ================================================================= -->
+        <section data-depth="75" data-label="HỌC PHÍ" class="sec wave sec-light-invoice on-light py-16 sm:py-24 border-b border-blue-200/60" style="--wave: #dbe6ff;">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="invoice-card p-6 sm:p-10">
+                    <!-- Đầu phiếu -->
+                    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-end pb-6 border-b-2 border-slate-200 mb-6">
+                        <div class="md:col-span-8">
+                            <span class="font-mono text-sm font-bold text-amber-600 uppercase tracking-widest block mb-1">CAM KẾT ĐẦU RA 15TR/THÁNG</span>
+                            <h2 class="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
+                                Hóa Đơn Giá Trị Đảo Ngược &amp; Thang Học Phí Khóa 1 Năm
+                            </h2>
+                        </div>
+                        <div class="md:col-span-4 space-y-1.5 font-mono text-sm text-right">
+<div class="flex justify-between"><span class="text-slate-500">Gói Pro (1 Năm):</span><span class="font-bold text-slate-800">108.000.000đ</span></div>
+<div class="flex justify-between"><span class="text-slate-500">Cọc 1 tháng:</span><span class="font-bold text-emerald-600">9.000.000đ</span></div>
+</div>
+                    </div>
+
+                    <!-- 6 Dòng quyền lợi -->
+                    <div class="divide-y divide-slate-100 text-xs sm:text-sm">
+                        <div class="py-3.5 flex items-start justify-between gap-4">
+                            <div class="flex items-start space-x-3">
+                                <span class="font-mono font-bold text-slate-400">01</span>
+                                <div>
+                                    <h4 class="font-bold text-slate-900">GÓI TIÊU CHUẨN (STANDARD — BỔ SUNG MODULE 6)</h4>
+                                    <p class="text-slate-500 text-xs">Module 1, 3, 4 + THÊM MODULE 6 (Ôn thi TKT/TESOL + Thực tập). Trả góp 12 tháng: 5.670.000đ/tháng (~189k/ngày). Cọc 1 tháng: 5.670.000đ.</p>
+                                </div>
+                            </div>
+                            <div class="text-right shrink-0">
+                                <span class="font-bold text-emerald-600 block">68.000.000đ</span>
+                                <s class="text-slate-400 text-xs"></s>
+                            </div>
+                        </div>
+
+                        <div class="py-3.5 flex items-start justify-between gap-4">
+                            <div class="flex items-start space-x-3">
+                                <span class="font-mono font-bold text-slate-400">02</span>
+                                <div>
+                                    <h4 class="font-bold text-slate-900">GÓI CHUYÊN NGHIỆP (PRO — 1 NĂM TOÀN DIỆN) ⭐</h4>
+                                    <p class="text-slate-500 text-xs">Trọn vẹn 6 Module 1 năm + CAM KẾT ĐẦU RA LƯƠNG 15TR/THÁNG. Trả góp đúng 9.000.000đ/tháng (~300k/ngày). Cọc 1 tháng: 9.000.000đ.</p>
+                                </div>
+                            </div>
+                            <div class="text-right shrink-0">
+                                <span class="font-bold text-emerald-600 block">108.000.000đ</span>
+                                <s class="text-slate-400 text-xs"></s>
+                            </div>
+                        </div>
+
+                        <div class="py-3.5 flex items-start justify-between gap-4">
+                            <div class="flex items-start space-x-3">
+                                <span class="font-mono font-bold text-slate-400">03</span>
+                                <div>
+                                    <h4 class="font-bold text-slate-900">GÓI VIP MENTOR 1-1 (1 NĂM + MỞ LỚP RIÊNG)</h4>
+                                    <p class="text-slate-500 text-xs">Đủ 6 Module + Cô My kèm 1-1 mở hệ thống lớp riêng, chuyển giao SOP trung tâm, giới hạn 3 suất. Trả góp: 11.580.000đ/tháng. Cọc 1 tháng: 11.580.000đ.</p>
+                                </div>
+                            </div>
+                            <div class="text-right shrink-0">
+                                <span class="font-bold text-emerald-600 block">139.000.000đ</span>
+                                <s class="text-slate-400 text-xs"></s>
+                            </div>
+                        </div>
+
+                        <div class="py-3.5 flex items-start justify-between gap-4">
+                            <div class="flex items-start space-x-3">
+                                <span class="font-mono font-bold text-slate-400">04</span>
+                                <div>
+                                    <h4 class="font-bold text-slate-900">TỔNG TÀI SẢN & BỘ QUÀ TẶNG CHUYỂN GIAO</h4>
+                                    <p class="text-slate-500 text-xs">Bản quyền SOP 80tr + Giáo trình 30tr + Kịch bản video 20tr + Ôn thi TKT 20tr + Hợp đồng nhận lớp lương 15tr (100tr). Tặng 0đ trong Khóa K01.</p>
+                                </div>
+                            </div>
+                            <div class="text-right shrink-0">
+                                <span class="font-bold text-emerald-600 block">Trị giá 435.000.000đ</span>
+                                <s class="text-slate-400 text-xs">Tặng 0đ</s>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dòng tổng kết hóa đơn -->
+                    <div class="pt-6 mt-4 border-t-2 border-slate-200 text-sm text-slate-600">Cam kết học lại 0đ nếu chưa tự tin đứng lớp · Ký hợp đồng nhận lớp mức lương 15 triệu/tháng tại New You English.</div>
+
+                    <div class="mt-6">
+                        <a href="#dang-ky" class="btn-cta-pulse w-full py-4 rounded-xl text-center font-extrabold text-base flex items-center justify-center">ĐĂNG KÝ XÉT TUYỂN K01 ➔</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- BỨC THƯ: CÁI GÌ, KHI NÀO, VÌ SAO + LỊCH KHOANH ĐỎ 24/10           -->
+        <!-- ================================================================= -->
+        <section data-depth="85" data-label="TÂM THƯ" class="sec wave sec-letter-deep py-16 sm:py-24 text-white border-b border-blue-900/60" style="--wave: #e3eefb;">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
+<span class="font-mono text-sm uppercase tracking-widest text-amber-400 font-bold block mb-2">Tâm thư từ Founder Sophie Diễm My</span>
+<h2 class="text-2xl sm:text-4xl font-black text-white leading-tight mb-6">"1 Năm tôi luyện để bạn làm chủ <span class="mark">một Sự Nghiệp Giảng Dạy Bền Vững</span>"</h2>
+<div class="p-6 sm:p-8 rounded-3xl bg-slate-900/90 border border-amber-500/30 text-slate-300 leading-relaxed space-y-4 text-sm sm:text-base">
+    <p>Chào bạn, đồng nghiệp tương lai của tôi!</p>
+    <p>Tôi không tin vào những khóa đào tạo giáo viên cấp tốc 1–2 tuần. Nghề giáo là nghề truyền trao tri thức và thay đổi tương lai người học, đòi hỏi người đứng lớp phải có nền tảng ngữ âm vững chắc, phương pháp sư phạm khoa học, tư duy làm chủ công nghệ AI và khả năng tự thu hút học trò.</p>
+    <p>Đó là lý do tôi thiết kế <strong>Hành Trình Truyền Nghề 1 Năm Toàn Diện</strong> — 12 tháng đồng hành cầm tay chỉ việc qua 6 Module thực chiến. Tôi không chỉ dạy bạn lý thuyết, tôi cho bạn môi trường thực tập tại hơn 60 lớp học đang vận hành của New You English, giúp bạn luyện thi chứng chỉ quốc tế và <strong>cam kết nhận bạn vào giảng dạy chính thức với mức lương 15 triệu/tháng</strong> sau khi tốt nghiệp.</p>
+    <p>Để đảm bảo sự cam kết nghiêm túc từ cả hai phía, trung tâm áp dụng mức <strong>cọc cam kết đúng bằng 1 tháng học phí</strong> (9 triệu đồng cho gói Pro). Nếu sau buổi phỏng vấn đánh giá 1-1 bạn không phù hợp, tôi cam kết hoàn lại 100% tiền cọc ngay lập tức!</p>
+    <div class="pt-4 border-t border-slate-800 flex items-center justify-between">
+        <div>
+            <div class="font-bold text-white text-base">Cô Sophie Diễm My</div>
+            <div class="text-xs text-amber-400 font-mono">Founder New You English · TKT Cambridge</div>
+        </div>
+        <div class="text-xs text-slate-500 font-mono">K01 FOUNDING BATCH (1 NĂM)</div>
+    </div>
+</div>
+</div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- SIREN MARQUEE & SECTION FORM ĐĂNG KÝ (CHỌN VÉ 0Đ HOẶC VIP 99K)     -->
+        <!-- ================================================================= -->
+        <section id="dang-ky" data-depth="100" data-label="ĐĂNG KÝ" class="sec wave sec-tickets-sunlit on-light py-16 sm:py-24 relative overflow-hidden" style="--wave: #1436a8;">
+            
+            <!-- Siren Marquee Track (Mona Style) -->
+            <div class="bg-amber-500/15 border-y border-amber-500/40 py-2.5 overflow-hidden mb-12 backdrop-blur-sm">
+                <div class="marquee-track font-mono text-sm font-black text-amber-900 uppercase tracking-widest">
+<span>ĐÀO TẠO 1 NĂM TOÀN DIỆN ◆ CAM KẾT ĐẦU RA LƯƠNG 15TR/THÁNG ◆ 6 MODULE TỪ A-Z ◆ TRẢ GÓP CHỈ 9TR/THÁNG ◆ CỌC = 1 THÁNG HỌC PHÍ ◆ </span>
+<span>ĐÀO TẠO 1 NĂM TOÀN DIỆN ◆ CAM KẾT ĐẦU RA LƯƠNG 15TR/THÁNG ◆ 6 MODULE TỪ A-Z ◆ TRẢ GÓP CHỈ 9TR/THÁNG ◆ CỌC = 1 THÁNG HỌC PHÍ ◆ </span>
+</div>
+            </div>
+
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="font-mono text-sm uppercase tracking-widest text-emerald-700 font-bold block mb-2">ĐĂNG KÝ XÉT TUYỂN K01</span>
+                    <h2 class="text-2xl sm:text-4xl font-black text-[#0f1a3c] leading-tight mb-3">
+                        Đăng ký phỏng vấn, <span class="mark">nhận tư vấn lộ trình 1 năm</span>
+                    </h2>
+                    <p class="text-xs sm:text-sm text-[#2c3a6e]">
+                        Điền thông tin bên dưới – Cô Sophie Diễm My trực tiếp liên hệ sắp lịch phỏng vấn và đánh giá năng lực đầu vào.
+                    </p>
+                </div>
+
+                <!-- FORM ĐĂNG KÝ TOÀN DIỆN KẾT HỢP CHỌN VÉ CHUẨN CRO -->
+                <div class="bg-white rounded-3xl p-6 sm:p-10 border-2 border-blue-200/80 shadow-2xl relative overflow-hidden">
+                    <form id="unifiedCheckoutForm" onsubmit="handleUnifiedCheckout(event)" class="space-y-8">
+                        <input type="text" name="website" class="o-bay" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        
+                        <!-- BƯỚC 1: CHỌN HÌNH THỨC VÉ (TAP-CARD SELECTOR) -->
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <label class="block text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#0f1a3c] flex items-center space-x-2">
+                                    <span class="w-5 h-5 rounded-full bg-amber-500 text-white flex items-center justify-center text-xs">1</span>
+                                    <span>Chọn nhu cầu: <span class="text-rose-500">*</span></span>
+                                </label>
+                                <span class="text-sm font-semibold text-emerald-700">✓ Tư vấn 1-1 hoặc Đặt cọc 1 tháng</span>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <!-- Thẻ Vé Tiêu Chuẩn 0đ -->
+                                <label id="tierCardFree" class="ticket-select-card cursor-pointer rounded-2xl p-4 sm:p-5 border-2 transition-all flex flex-col justify-between relative bg-emerald-50/50 border-emerald-500 shadow-md">
+                                    <input type="radio" name="checkoutTicketType" value="0D_FREE" checked onchange="updateTicketSelectionUI()" class="sr-only">
+                                    <div class="flex items-start justify-between mb-3">
+                                        <div>
+                                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold text-slate-700 bg-slate-200 uppercase tracking-wider">MIỄN PHÍ</span>
+                                            <h4 class="text-base font-black text-[#0f1a3c]">Nhận tư vấn lộ trình 1 năm</h4>
+                                        </div>
+                                        <div class="text-right">
+                                            <span class="text-xl font-black text-emerald-600 font-mono">0 VNĐ</span>
+                                            <span id="tierBadgeFree" class="block text-[10px] text-emerald-700 font-bold">● Đang chọn</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-sm text-[#4b5c96] mb-3">Cô Sophie Diễm My trực tiếp phỏng vấn và đánh giá phát âm 1-1 qua Zoom.</p>
+<ul class="text-sm text-[#2c3a6e] space-y-1 border-t border-slate-200 pt-2"><li>✓ Chỉ ra lỗ hổng phát âm IPA</li><li>✓ Tư vấn phương án trả góp 12 tháng hoặc đóng theo kỳ</li></ul>
+                                </label>
+
+                                <!-- Thẻ Vé VIP 99k -->
+                                <label id="tierCardVip" class="ticket-select-card cursor-pointer rounded-2xl p-4 sm:p-5 border-2 transition-all flex flex-col justify-between relative bg-slate-900 text-white border-slate-700 hover:border-amber-400 shadow-md">
+                                    <input type="radio" name="checkoutTicketType" value="99K_VIP" onchange="updateTicketSelectionUI()" class="sr-only">
+                                    <div class="flex items-start justify-between mb-3">
+                                        <div>
+                                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold text-amber-900 bg-amber-400 uppercase tracking-wider">CỌC 1 THÁNG</span>
+                                            <h4 class="text-base font-black text-white">Đặt cọc giữ chỗ Gói Pro (1 Tháng)</h4>
+                                        </div>
+                                        <div class="text-right">
+                                            <span class="text-xl font-black text-amber-400 font-mono">9.000.000 VNĐ</span>
+                                            <span id="tierBadgeVip" class="block text-[10px] text-slate-400 font-medium">Bấm chọn</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-sm text-slate-300 mb-3">Cọc cam kết 9.000.000đ (đúng 1 tháng học phí Gói Pro 108tr). Hoàn cọc 100% nếu sau phỏng vấn không phù hợp!</p>
+<ul class="text-sm text-amber-200/90 space-y-1 border-t border-slate-800 pt-2"><li>✦ Cam kết đầu ra nhận lớp lương 15tr/tháng</li><li>✦ Tặng trọn bộ tài sản định giá 435.000.000đ</li></ul>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- BƯỚC 2: ĐIỀN THÔNG TIN LIÊN HỆ -->
+                        <div class="space-y-4 pt-2">
+                            <label class="block text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#0f1a3c] flex items-center space-x-2">
+                                <span class="w-5 h-5 rounded-full bg-amber-500 text-white flex items-center justify-center text-xs">2</span>
+                                <span>Thông tin liên hệ: <span class="text-rose-500">*</span></span>
+                            </label>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-[#0f1a3c] mb-1">Họ và tên thí sinh / phụ huynh <span class="text-rose-500">*</span></label>
+                                    <input type="text" id="regName" required placeholder="Ví dụ: Nguyễn Văn An" autocomplete="name" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 focus:border-amber-500 rounded-xl text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500/20 transition placeholder:text-slate-400 font-medium">
+                                </div>
+
+                                <div>
+                                    <label class="block text-sm font-bold text-[#0f1a3c] mb-1">Số điện thoại Zalo <span class="text-rose-500">*</span></label>
+                                    <input type="tel" id="regPhone" required placeholder="Ví dụ: 0912 345 678" inputmode="tel" autocomplete="tel" oninput="validatePhoneLive(this)" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 focus:border-amber-500 rounded-xl text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500/20 transition placeholder:text-slate-400 font-medium">
+                                    <p id="phoneError" class="text-[11px] text-rose-600 mt-1 hidden flex items-center space-x-1"><i data-lucide="alert-circle" class="w-3 h-3"></i><span>Vui lòng nhập đúng 10 số điện thoại di động hợp lệ (đầu số 03, 05, 07, 08, 09).</span></p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-[#0f1a3c] mb-1">Trình độ học vấn hiện tại</label>
+                                    <select id="regDegree" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 focus:border-amber-500 rounded-xl text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500/20 transition font-medium">
+                                        <option value="NhomA">Nhóm A: Người trái ngành / Mẹ bỉm / Dân văn phòng</option>
+<option value="NhomB">Nhóm B: Sinh viên Ngôn ngữ Anh / Gia sư / GV tự do</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold text-[#0f1a3c] mb-1">Chương trình quan tâm nhất</label>
+                                    <select id="regProgram" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 focus:border-amber-500 rounded-xl text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500/20 transition font-medium">
+                                        <option value="PRO">Gói Chuyên Nghiệp (PRO — 1 Năm) – 108.000.000đ (Cọc 1 tháng: 9Tr)</option>
+<option value="STANDARD">Gói Tiêu Chuẩn (STANDARD — Thêm Module 6) – 68.000.000đ (Cọc: 5.67Tr)</option>
+<option value="VIP">Gói VIP Mentor 1-1 – 139.000.000đ (Cọc: 11.58Tr)</option>
+<option value="TU_VAN">Chưa chọn gói – Cần tư vấn thêm</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BƯỚC 3: NÚT SUBMIT CHỐT ĐƠN -->
+                        <div class="pt-2">
+                            <p id="regLoi" class="text-red-400 text-sm" role="alert" hidden></p>
+                            <button type="submit" id="checkoutSubmitBtn" class="btn-gold shimmer w-full py-4 rounded-2xl text-base sm:text-lg font-black flex items-center justify-center space-x-2 shadow-2xl transition-all cursor-pointer">
+                                <span id="checkoutBtnText">GỬI ĐĂNG KÝ TƯ VẤN LỘ TRÌNH ➔</span>
+                                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                            </button>
+
+                            <p class="text-xs text-[#4b5c96] text-center mt-3 flex items-center justify-center space-x-1.5">
+                                <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
+                                <span>Cam kết bảo mật thông tin · Cô Sophie Diễm My trực tiếp liên hệ hướng dẫn</span>
+                            </p>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================================================================= -->
+        <!-- HỎI NHANH ĐÁP GỌN (FAQ)                                           -->
+        <!-- ================================================================= -->
+        <section data-depth="105" data-label="HỎI ĐÁP" class="sec wave sec-faq-light on-light py-16 sm:py-24 border-b border-slate-200/80" style="--wave: #7fa8ff;">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center mb-12">
+                    <span class="font-mono text-xs uppercase tracking-widest text-amber-700 font-bold block mb-2">HỎI NHANH ĐÁP GỌN</span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-[#0f1a3c]">Câu hỏi thường gặp (FAQ)</h2>
+                </div>
+
+                <div class="space-y-4 text-xs sm:text-sm">
+                    <div class="p-5 rounded-2xl bg-white border border-blue-200/80 shadow-md hover:shadow-lg transition">
+                        <h3 class="font-bold text-[#0f1a3c] mb-2">1. Mức cọc cam kết bằng 1 tháng học phí là bao nhiêu và được hoàn trả ra sao?</h3>
+                        <p class="text-[#2c3a6e] leading-relaxed">
+                            Cọc cam kết được tính <strong>đúng bằng 1 tháng học phí</strong> của từng gói: <strong>5.670.000đ</strong> (Gói Tiêu chuẩn 68tr), <strong>9.000.000đ</strong> (Gói Chuyên nghiệp 108tr), và <strong>11.580.000đ</strong> (Gói VIP 139tr). Sau buổi phỏng vấn đánh giá 1-1 cùng Cô Sophie Diễm My, nếu cô My nhận thấy bạn chưa phù hợp hoặc bạn thấy lộ trình không đáp ứng mong đợi, <strong>khoản cọc 1 tháng sẽ được hoàn trả lại 100% trong 24 giờ</strong>, hoàn toàn không có rủi ro!
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white border border-blue-200/80 shadow-md hover:shadow-lg transition">
+                        <h3 class="font-bold text-[#0f1a3c] mb-2">2. Gói Tiêu chuẩn 68 triệu có được học Module 6 luyện thi chứng chỉ quốc tế không?</h3>
+                        <p class="text-[#2c3a6e] leading-relaxed">
+                            Có! Theo cấu trúc chương trình mới, <strong>Gói Tiêu chuẩn 68 triệu đã được bổ sung đầy đủ Module 6</strong>: Ôn luyện thi chứng chỉ quốc tế Cambridge TKT / TESOL và thực tập đứng lớp, giúp học viên vững vàng cả về nghiệp vụ, tiếng Anh lẫn bằng cấp chuẩn hóa quốc tế.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white border border-blue-200/80 shadow-md hover:shadow-lg transition">
+                        <h3 class="font-bold text-[#0f1a3c] mb-2">3. Cam kết lương đầu ra 15 triệu/tháng tại Gói Chuyên nghiệp (108 triệu) như thế nào?</h3>
+                        <p class="text-[#2c3a6e] leading-relaxed">
+                            Sau khi hoàn thành 6 Module đào tạo 1 năm và vượt qua kỳ thi sát hạch thực tế, bạn sẽ được <strong>ký hợp đồng giảng dạy chính thức tại New You English</strong>. Trung tâm trực tiếp bàn giao các lớp học trực tuyến ổn định với <strong>mức lương khởi điểm dự kiến 15.000.000đ/tháng</strong>, không cần tự bơi đi tìm kiếm học viên.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white border border-blue-200/80 shadow-md hover:shadow-lg transition">
+                        <h3 class="font-bold text-[#0f1a3c] mb-2">4. Học phí 108 triệu chia nhỏ thanh toán qua phương án trả góp ra sao?</h3>
+                        <p class="text-[#2c3a6e] leading-relaxed">
+                            Với hình thức trả góp 0% qua thẻ tín dụng trong 12 tháng, bạn chỉ cần đóng đúng <strong>9.000.000đ/tháng (~300.000đ/ngày)</strong>. Mỗi ngày 300.000đ chỉ tương đương 1 giờ dạy kèm thông thường, nhưng đổi lại là một sự nghiệp vững chắc với chứng chỉ quốc tế và thu nhập 15 triệu/tháng trọn đời.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white border border-blue-200/80 shadow-md hover:shadow-lg transition">
+                        <h3 class="font-bold text-[#0f1a3c] mb-2">5. Mất bao lâu để tôi thu hồi lại 100% học phí đầu tư 108 triệu này?</h3>
+                        <p class="text-[#2c3a6e] leading-relaxed">
+                            Với mức lương cam kết 15.000.000đ/tháng (180.000.000đ/năm), bạn <strong>chỉ mất đúng 7.2 tháng đi dạy</strong> là thu hồi sạch sẽ 100% học phí đầu tư của cả năm học. Từ tháng thứ 8 trở đi, mỗi năm bạn mang về 180 triệu dòng tiền thu nhập thực tế.
+                        </p>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-white border border-blue-200/80 shadow-md hover:shadow-lg transition">
+                        <h3 class="font-bold text-[#0f1a3c] mb-2">6. Khóa học kéo dài 1 năm thì người đang đi làm có theo học được không?</h3>
+                        <p class="text-[#2c3a6e] leading-relaxed">
+                            Hoàn toàn theo học được. Lịch học Zoom Live được sắp xếp vào <strong>các buổi tối (20:00 – 21:30) hoặc cuối tuần</strong>. Toàn bộ tài liệu, bài giảng lý thuyết, 52 video IPA và kho câu lệnh AI được lưu trữ trên nền tảng trực tuyến để bạn học linh hoạt theo thời gian rảnh.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-12 bg-[#070e28] text-slate-400 text-xs border-t border-slate-800 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-slate-400"><p class="font-bold text-white mb-1">TRUNG TÂM NGOẠI NGỮ NEW YOU ENGLISH / NEW YOU LANGUAGE</p><p class="mb-1">Mentor: Cô Sophie Diễm My · Đơn vị đồng hành: CLB Ngoại Ngữ Quận 7 TP.HCM</p><p class="text-xs text-slate-500">© 2026 New You English Teacher Academy. Mọi quyền được bảo lưu.</p></div>
+    </footer>
+
+    <!-- ================================================================= -->
+    <!-- INTERACTIVE FLOATING DOCK BAR (CHUẨN THE MONA)                     -->
+    <!-- ================================================================= -->
+    <div id="floatingDock" class="fixed bottom-0 left-0 right-0 z-40 bg-navy-950/95 backdrop-blur-md border-t border-amber-500/30 py-2.5 px-3 sm:px-4 transform translate-y-full transition-transform duration-300">
+        <!-- Desktop Dock -->
+        <div class="max-w-5xl mx-auto hidden sm:flex items-center justify-between gap-4">
+            <div class="flex items-center space-x-3">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+                <div>
+                    <span class="text-sm font-bold text-white">New You Teacher Academy (1 Năm)</span>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-3 shrink-0">
+                <a href="https://zalo.me/DEMO" target="_blank" class="px-3.5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-xs font-bold text-white transition inline-flex items-center space-x-1.5 shadow-md">
+                    <span>💬 Zalo Tư Vấn</span>
+                </a>
+                <a href="#dang-ky" class="btn-gold shimmer px-5 py-2 rounded-xl text-xs sm:text-sm font-extrabold flex items-center space-x-1.5 shadow-lg shadow-amber-500/20">
+                    <span>Đăng ký tư vấn</span>
+                    <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Mobile Thumb-Zone Sticky Bar (Chốt Đơn 1-Chạm Vùng Ngón Cái) -->
+        <div class="sm:hidden flex items-center gap-2">
+            <a href="https://zalo.me/DEMO" target="_blank" class="flex-1 py-2.5 px-3 rounded-xl bg-blue-600 active:bg-blue-700 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md">
+                <span>💬 Zalo</span>
+            </a>
+            <a href="#dang-ky" class="flex-1 btn-gold shimmer py-2.5 px-3 rounded-xl font-extrabold text-xs flex items-center justify-center space-x-1 shadow-md">
+                <span>Đăng ký</span>
+                <span>→</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- LIVE REGISTRATION SOCIAL PROOF TOAST (CHUẨN THE MONA)             -->
+    <!-- ================================================================= -->
+    <div id="liveToast" class="fixed bottom-16 sm:bottom-6 left-4 sm:left-6 z-40 max-w-sm bg-slate-900/95 backdrop-blur-md border border-amber-500/40 rounded-2xl p-3.5 shadow-2xl transition-all duration-500 transform translate-y-28 opacity-0 pointer-events-none">
+        <div class="flex items-start space-x-3">
+            <div class="w-9 h-9 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="zap" class="w-4 h-4"></i>
+            </div>
+            <div class="min-w-0 flex-1">
+                <div class="flex items-center justify-between">
+                    <span id="toastName" class="text-xs font-bold text-white truncate"></span>
+                    <span id="toastTime" class="text-[10px] text-slate-400 font-mono"></span>
+                </div>
+                <p id="toastDetail" class="text-[11px] text-slate-300 truncate mt-0.5"></p>
+                <span id="toastLoc" class="text-[10px] text-emerald-400 font-medium"></span>
+            </div>
+            <button onclick="dismissLiveToast()" class="text-slate-500 hover:text-slate-300 transition text-xs p-1">✕</button>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- EXIT INTENT MODAL (CHUẨN THE MONA)                                -->
+    <!-- ================================================================= -->
+    <div id="exitIntentModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="bg-slate-950 border-2 border-amber-500/50 rounded-3xl max-w-md w-full p-6 sm:p-8 text-center relative shadow-2xl">
+            <button onclick="closeExitIntentModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg font-bold">✕</button>
+            
+            <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-400 border border-amber-500/30 flex items-center justify-center mx-auto mb-4">
+                <i data-lucide="gift" class="w-7 h-7"></i>
+            </div>
+
+            <span class="font-mono text-sm font-bold text-amber-300">K01 chỉ nhận 8–10 học viên · Cọc cam kết = 1 tháng học phí (hoàn 100%)!</span>
+
+            <div class="space-y-3">
+                <a href="https://zalo.me/DEMO" target="_blank" onclick="closeExitIntentModal()" class="btn-gold shimmer w-full py-3.5 rounded-xl font-bold text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-xl">
+                    <span>VÀO NHÓM ZALO NHẬN TÀI LIỆU (0Đ)</span>
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+                <button onclick="closeExitIntentAndScroll()" class="w-full py-2.5 rounded-xl text-xs font-semibold text-slate-400 hover:text-white bg-slate-900 border border-slate-800 transition">
+                    Tôi muốn đăng ký tư vấn lộ trình 1 năm ngay ➔
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================================================================= -->
+    <!-- MODAL POPUP VÉ 0Đ — VÀO NHÓM ZALO TUYỂN SINH                     -->
+    <!-- ================================================================= -->
+    <div id="freeTicketModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="bg-slate-950 border-2 border-emerald-500/50 rounded-3xl max-w-md w-full p-6 sm:p-8 text-center relative shadow-2xl">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg font-bold">✕</button>
+
+            <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 flex items-center justify-center mx-auto mb-4">
+                <i data-lucide="check-circle" class="w-7 h-7"></i>
+            </div>
+
+            <span class="font-mono text-xs font-bold text-emerald-400 uppercase tracking-widest block mb-1">XÁC NHẬN GIỮ CHỖ THÀNH CÔNG!</span>
+            <h3 class="text-xl font-black text-white mb-2">Chào mừng bạn <span id="modalStudentName" class="text-amber-400">Học Viên</span></h3>
+            <p class="text-sm text-slate-300 mb-6">Đăng ký của bạn đã được ghi nhận. Cô Sophie Diễm My sẽ trực tiếp liên hệ qua Zalo trong 24 giờ tới.</p>
+
+            <a href="https://zalo.me/DEMO" target="_blank" onclick="closeModal()" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold w-full py-3.5 rounded-xl text-xs sm:text-sm flex items-center justify-center space-x-2 shadow-xl shadow-blue-500/20 transition">
+                <span>VÀO NHÓM ZALO TUYỂN SINH NGAY</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT ENGINES (MONA CRO CONTROLLER) -->
+    <script>
+        lucide.createIcons();
+
+        // 0. Depth Rail Controller (Interactive Waypoints & Tooltips)
+        function initDepthRail() {
+            const rail = document.querySelector('[data-rail]');
+            if (!rail) return;
+            const marker = rail.querySelector('#railMarker') || rail.querySelector('.rail__marker');
+            const depthEl = rail.querySelector('#railDepthText') || rail.querySelector('[data-rail-depth]');
+            const labelEl = rail.querySelector('#railLabelText') || rail.querySelector('[data-rail-label]');
+            const waypointsContainer = document.getElementById('railWaypoints');
+            const secs = Array.from(document.querySelectorAll('[data-depth]'));
+            if (!secs.length) return;
+
+            // Generate clickable interactive waypoints
+            if (waypointsContainer && !waypointsContainer.children.length) {
+                const totalH = document.documentElement.scrollHeight - window.innerHeight;
+                secs.forEach((s) => {
+                    const d = parseInt(s.dataset.depth, 10) || 0;
+                    const label = s.dataset.label || 'MẶT NƯỚC';
+                    const offsetPct = totalH > 0 ? Math.min(100, Math.max(0, (s.offsetTop / document.documentElement.scrollHeight) * 100)) : 0;
+                    
+                    const dot = document.createElement('div');
+                    dot.className = 'rail__waypoint group';
+                    dot.style.top = `${offsetPct}%`;
+                    dot.setAttribute('title', `${d ? '−' + d + 'm' : '0m'} · ${label}`);
+                    dot.innerHTML = `<span class="rail__waypoint-tooltip">${d ? '−' + d + 'm' : '0m'} · ${label}</span>`;
+                    dot.onclick = (e) => {
+                        e.stopPropagation();
+                        s.scrollIntoView({ behavior: 'smooth' });
+                    };
+                    waypointsContainer.appendChild(dot);
+                });
+            }
+
+            const updateRail = () => {
+                const max = document.documentElement.scrollHeight - window.innerHeight;
+                const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+                if (marker) marker.style.top = `${p * 100}%`;
+
+                let cur = secs[0];
+                for (const s of secs) {
+                    if (s.getBoundingClientRect().top < window.innerHeight * 0.5) {
+                        cur = s;
+                    }
+                }
+                if (cur && depthEl && labelEl) {
+                    const d = parseInt(cur.dataset.depth, 10) || 0;
+                    depthEl.textContent = d ? `−${d} m` : '0 m';
+                    labelEl.textContent = (cur.dataset.label || '').toUpperCase();
+                }
+            };
+
+            window.addEventListener('scroll', updateRail, { passive: true });
+            updateRail();
+        }
+
+        initDepthRail();
+
+        // 1. Reading Progress Bar
+        window.addEventListener('scroll', () => {
+            const h = document.documentElement;
+            const scrolled = (h.scrollTop || document.body.scrollTop) / ((h.scrollHeight || document.body.scrollHeight) - h.clientHeight);
+            const bar = document.getElementById('progressBar');
+            if (bar) bar.style.transform = `scaleX(${scrolled})`;
+            
+            // Floating Dock trigger
+            const dock = document.getElementById('floatingDock');
+            const formSec = document.getElementById('dang-ky');
+            if (dock) {
+                const scrollY = window.scrollY || window.pageYOffset;
+                const formTop = formSec ? formSec.offsetTop - 400 : 999999;
+                if (scrollY > 500 && scrollY < formTop) {
+                    dock.classList.remove('translate-y-full');
+                } else {
+                    dock.classList.add('translate-y-full');
+                }
+            }
+        });
+
+        // 2. Countdown Engine Target: 20:00 15/11/2026
+        const EVENT_TARGET = new Date('2026-11-15T20:00:00+07:00').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const diff = EVENT_TARGET - now;
+            if (!(diff > 0)) {   // WEB L9: hết hạn / chưa có giờ (NaN) → ẩn LIVE + đếm ngược, hiện nhãn đợt mới
+                ['khoiLive', 'khoiDemDau', 'khoiDemHero'].forEach((id) => { const e = document.getElementById(id); if (e) { e.classList.remove('md:flex', 'inline-flex'); e.classList.add('hidden'); } });
+                const nhan = document.getElementById('nhanHetHan'); if (nhan) nhan.classList.remove('hidden');
+                return;
+            }
+
+            const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+            const pad = (n) => String(n).padStart(2, '0');
+
+            // Topbar
+            const tbD = document.getElementById('topbarDays');
+            const tbH = document.getElementById('topbarHours');
+            const tbM = document.getElementById('topbarMins');
+            if (tbD) tbD.innerText = pad(d);
+            if (tbH) tbH.innerText = pad(h);
+            if (tbM) tbM.innerText = pad(m);
+
+            // Hero
+            const hD = document.getElementById('heroDays');
+            const hH = document.getElementById('heroHours');
+            const hM = document.getElementById('heroMins');
+            const hS = document.getElementById('heroSecs');
+            if (hD) hD.innerText = pad(d);
+            if (hH) hH.innerText = pad(h);
+            if (hM) hM.innerText = pad(m);
+            if (hS) hS.innerText = pad(s);
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // 3. Canvas Bubbles
+        (function initBubbles() {
+            const canvas = document.getElementById('bubblesCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            let w = canvas.width = window.innerWidth;
+            let h = canvas.height = window.innerHeight;
+
+            const particles = [];
+            for (let i = 0; i < 28; i++) {
+                particles.push({
+                    x: Math.random() * w,
+                    y: Math.random() * h,
+                    r: 1 + Math.random() * 2.5,
+                    v: 0.2 + Math.random() * 0.45,
+                    w: Math.random() * 6.28,
+                    a: 0.08 + Math.random() * 0.2
+                });
+            }
+
+            window.addEventListener('resize', () => {
+                w = canvas.width = window.innerWidth;
+                h = canvas.height = window.innerHeight;
+            });
+
+            function tick() {
+                ctx.clearRect(0, 0, w, h);
+                for (let p of particles) {
+                    p.y -= p.v;
+                    p.w += 0.015;
+                    p.x += Math.sin(p.w) * 0.25;
+                    if (p.y < -10) {
+                        p.y = h + 10;
+                        p.x = Math.random() * w;
+                    }
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(251, 191, 36, ${p.a})`;
+                    ctx.fill();
+                }
+                requestAnimationFrame(tick);
+            }
+            tick();
+        })();
+
+        // 4. Live Social Proof Toasts (Mona Engine)
+        const LIVE_REGISTRATIONS = [
+            /* tắt – chưa có dữ liệu đăng ký thật */
+        ];
+
+        let toastIndex = 0;
+        let isToastDismissed = false;
+
+        function showNextToast() {
+            if (isToastDismissed) return;
+            const toast = document.getElementById('liveToast');
+            if (!toast) return;
+
+            const item = LIVE_REGISTRATIONS[toastIndex];
+            document.getElementById('toastName').innerText = item.name;
+            document.getElementById('toastDetail').innerText = item.detail;
+            document.getElementById('toastLoc').innerText = `📍 ${item.loc} · Đã giữ chỗ`;
+            document.getElementById('toastTime').innerText = item.time;
+
+            toast.classList.remove('translate-y-28', 'opacity-0', 'pointer-events-none');
+            toast.classList.add('translate-y-0', 'opacity-100', 'pointer-events-auto');
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100', 'pointer-events-auto');
+                toast.classList.add('translate-y-28', 'opacity-0', 'pointer-events-none');
+            }, 5500);
+
+            toastIndex = (toastIndex + 1) % LIVE_REGISTRATIONS.length;
+        }
+
+        if (LIVE_REGISTRATIONS.length) setInterval(showNextToast, 11000);
+        if (LIVE_REGISTRATIONS.length) setTimeout(showNextToast, 3500);
+
+        function dismissLiveToast() {
+            isToastDismissed = true;
+            const toast = document.getElementById('liveToast');
+            if (toast) {
+                toast.classList.add('translate-y-28', 'opacity-0', 'pointer-events-none');
+            }
+        }
+
+        // 5. Exit Intent Modal Trigger
+        let hasShownExitIntent = false;
+        document.addEventListener('mouseleave', (e) => {
+            if (e.clientY <= 0 && !hasShownExitIntent) {
+                hasShownExitIntent = true;
+                const modal = document.getElementById('exitIntentModal');
+                if (modal) {
+                    modal.classList.remove('hidden');
+                    modal.classList.add('flex');
+                }
+            }
+        });
+
+        function closeExitIntentModal() {
+            const modal = document.getElementById('exitIntentModal');
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        }
+
+        function closeExitIntentAndScroll() {
+            closeExitIntentModal();
+            document.getElementById('dang-ky').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('freeTicketModal');
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        }
+
+        // 6. Fast Program Select from Offer Cards
+        function selectProgramFast(prog) {
+            const selHero = document.getElementById('heroProgram');
+            const selReg = document.getElementById('regProgram');
+            if (selHero) selHero.value = prog;
+            if (selReg) selReg.value = prog;
+            document.getElementById('dang-ky').scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('regName')?.focus();
+        }
+
+        // 7. Interactive Ticket Selection UI in #dang-ky
+        function updateTicketSelectionUI() {
+            const selected = document.querySelector('input[name="checkoutTicketType"]:checked')?.value || '0D_FREE';
+            const cardFree = document.getElementById('tierCardFree');
+            const cardVip = document.getElementById('tierCardVip');
+            const badgeFree = document.getElementById('tierBadgeFree');
+            const badgeVip = document.getElementById('tierBadgeVip');
+            const btnText = document.getElementById('checkoutBtnText');
+
+            if (selected === '0D_FREE') {
+                if (cardFree) {
+                    cardFree.className = 'ticket-select-card cursor-pointer rounded-2xl p-4 sm:p-5 border-2 transition-all flex flex-col justify-between relative bg-emerald-50/50 border-emerald-500 shadow-md';
+                }
+                if (cardVip) {
+                    cardVip.className = 'ticket-select-card cursor-pointer rounded-2xl p-4 sm:p-5 border-2 transition-all flex flex-col justify-between relative bg-slate-900 text-white border-slate-700 hover:border-amber-400 shadow-md';
+                }
+                if (badgeFree) { badgeFree.innerText = '● Đang chọn'; badgeFree.className = 'block text-[10px] text-emerald-700 font-bold'; }
+                if (badgeVip) { badgeVip.innerText = 'Bấm chọn'; badgeVip.className = 'block text-[10px] text-slate-400 font-medium'; }
+                if (btnText) btnText.innerText = 'GỬI ĐĂNG KÝ TƯ VẤN LỘ TRÌNH ➔';
+            } else {
+                if (cardVip) {
+                    cardVip.className = 'ticket-select-card cursor-pointer rounded-2xl p-4 sm:p-5 border-2 transition-all flex flex-col justify-between relative bg-slate-900 text-white border-amber-400 ring-2 ring-amber-400/40 shadow-xl';
+                }
+                if (cardFree) {
+                    cardFree.className = 'ticket-select-card cursor-pointer rounded-2xl p-4 sm:p-5 border-2 transition-all flex flex-col justify-between relative bg-slate-50 border-slate-300 hover:border-emerald-400 shadow-sm';
+                }
+                if (badgeVip) { badgeVip.innerText = '● Đang chọn VIP'; badgeVip.className = 'block text-[10px] text-amber-300 font-bold'; }
+                if (badgeFree) { badgeFree.innerText = 'Bấm chọn'; badgeFree.className = 'block text-[10px] text-slate-500 font-medium'; }
+                if (btnText) btnText.innerText = 'TIẾP TỤC ĐẶT CỌC GIỮ CHỖ (9.000.000Đ - HOÀN CỌC 100%) ➔';
+            }
+        }
+
+        // 8. Vietnamese Phone Live Validation
+        function validatePhone(phone) {
+            const clean = phone.replace(/[\s\.\-\(\)]/g, '');
+            const re = /^(0|\+84)(3|5|7|8|9)[0-9]{8}$/;
+            return re.test(clean);
+        }
+
+        function validatePhoneLive(inputEl) {
+            const isValid = validatePhone(inputEl.value);
+            const errEl = document.getElementById('phoneError');
+            if (errEl) {
+                if (!inputEl.value || isValid) {
+                    errEl.classList.add('hidden');
+                    inputEl.classList.remove('border-rose-500');
+                    if (isValid) inputEl.classList.add('border-emerald-500');
+                } else {
+                    errEl.classList.remove('hidden');
+                    inputEl.classList.add('border-rose-500');
+                    inputEl.classList.remove('border-emerald-500');
+                }
+            }
+            return isValid;
+        }
+
+        // 9. Unified Checkout Handler (#dang-ky)
+        const GOI_PHI = 'sau_dang_ky';   // WEB L8 (Sếp 25/10): trang_dau = chọn gói ngay form | sau_dang_ky = đăng ký miễn phí rồi mới mời gói phí (bỏ qua được) | khong
+        (function apDungGoiPhi() {
+            if (GOI_PHI !== 'trang_dau') {
+                const the = document.getElementById('tierCardFree');
+                const khoi = the && the.closest('.grid') ? the.closest('.grid').parentElement : null;
+                if (khoi) {
+                    khoi.hidden = true;
+                    const so = khoi.nextElementSibling ? khoi.nextElementSibling.querySelector('label span') : null;
+                    if (so) so.textContent = '1';
+                }
+                const mp = document.querySelector('input[name="checkoutTicketType"][value="0D_FREE"]');
+                if (mp) mp.checked = true;
+            }
+            if (new URLSearchParams(location.search).get('da_dang_ky') === '1') {   // quay lại từ trang gói phí (bỏ qua)
+                let ten = '';
+                try { ten = localStorage.getItem('t2n_attendee_name') || ''; } catch (e) {}
+                const m = document.getElementById('freeTicketModal');
+                if (m) { document.getElementById('modalStudentName').innerText = ten; m.classList.remove('hidden'); m.classList.add('flex'); }
+            }
+        })();
+        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz_NEW_YOU_DEMO_DEPLOYMENT/exec";
+
+        function handleUnifiedCheckout(e) {
+            e.preventDefault();
+            const name = document.getElementById('regName').value.trim();
+            const phone = document.getElementById('regPhone').value.trim();
+            const degree = document.getElementById('regDegree').value;
+            const program = document.getElementById('regProgram').value;
+            const ticketType = document.querySelector('input[name="checkoutTicketType"]:checked')?.value || '0D_FREE';
+            const btn = document.getElementById('checkoutSubmitBtn');
+
+            if (!validatePhone(phone)) {
+                alert('Vui lòng nhập đúng 10 số điện thoại di động để nhận kết quả test và lịch hẹn Zoom.');
+                document.getElementById('regPhone').focus();
+                return;
+            }
+
+            // Set loading state
+            const originalBtnHtml = btn.innerHTML;
+            btn.disabled = true;
+            btn.innerHTML = '<i data-lucide="loader-2" class="w-5 h-5 animate-spin"></i><span>Đang xử lý thông tin giữ chỗ...</span>';
+            lucide.createIcons();
+
+            // Store in LocalStorage
+            localStorage.setItem('t2n_attendee_name', name);
+            localStorage.setItem('t2n_attendee_phone', phone);
+            localStorage.setItem('t2n_attendee_program', program);
+            localStorage.setItem('t2n_degree', degree);
+            localStorage.setItem('t2n_ticket_type', ticketType);
+            localStorage.setItem('t2n_apps_script_url', SCRIPT_URL);
+
+            // WEB L3: gửi lead về cổng app Tuyển sinh, chờ kết quả rồi mới chuyển bước
+            guiLeadTS(goiLeadTS(e.target, name, phone, [degree, program, ticketType].join(' · '))).then((kq) => {
+                btn.disabled = false;
+                btn.innerHTML = originalBtnHtml;
+                lucide.createIcons();
+                if (baoLoiForm('regLoi', kq)) return;
+
+                if (ticketType === '99K_VIP') {
+                    window.location.href = 'vip/';
+                } else {
+                    if (GOI_PHI === 'sau_dang_ky') { window.location.href = 'vip/?sau_dang_ky=1'; return; }
+                document.getElementById('modalStudentName').innerText = name;
+                    const modal = document.getElementById('freeTicketModal');
+                    if (modal) {
+                        modal.classList.remove('hidden');
+                        modal.classList.add('flex');
+                    }
+                }
+            });
+        }
+
+        // Hero Quick Form Submit
+        function handleHeroSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('heroName').value.trim();
+            const phone = document.getElementById('heroPhone').value.trim();
+            const degree = document.getElementById('heroDegree').value;
+            const program = document.getElementById('heroProgram').value;
+
+            if (!validatePhone(phone)) {
+                alert('Vui lòng nhập đúng 10 số điện thoại di động hợp lệ (đầu số 03, 05, 07, 08, 09)!');
+                document.getElementById('heroPhone').focus();
+                return;
+            }
+
+            localStorage.setItem('t2n_attendee_name', name);
+            localStorage.setItem('t2n_attendee_phone', phone);
+            localStorage.setItem('t2n_attendee_program', program);
+            localStorage.setItem('t2n_degree', degree);
+            localStorage.setItem('t2n_ticket_type', '0D_FREE');
+            localStorage.setItem('t2n_apps_script_url', SCRIPT_URL);
+
+            const btn = document.getElementById('heroSubmitBtn');
+            btn.disabled = true;   // WEB L3: chặn bấm 2 lần, mờ nút trong lúc gửi
+            btn.classList.add('opacity-60');
+            guiLeadTS(goiLeadTS(e.target, name, phone, [degree, program, '0D_FREE'].join(' · '))).then((kq) => {
+                btn.disabled = false;
+                btn.classList.remove('opacity-60');
+                if (baoLoiForm('heroLoi', kq)) return;
+                if (GOI_PHI === 'sau_dang_ky') { window.location.href = 'vip/?sau_dang_ky=1'; return; }
+                document.getElementById('modalStudentName').innerText = name;
+                const modal = document.getElementById('freeTicketModal');
+                if (modal) {
+                    modal.classList.remove('hidden');
+                    modal.classList.add('flex');
+                }
+            });
+        }
+
+        // Legacy choice helper fallback
+        function handleTicketChoice(type) {
+            const rad = document.querySelector(`input[name="checkoutTicketType"][value="${type}"]`);
+            if (rad) {
+                rad.checked = true;
+                updateTicketSelectionUI();
+            }
+            document.getElementById('dang-ky').scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('regName')?.focus();
+        }
+
+        // 10. WEB L3: gửi lead về cổng app Tuyển sinh {loai:'lead_web', maCD, hoTen, sdt, ghiChu, nguon, bay} → {ok, ma} | {ok:false, loi}
+        // text/plain để không preflight CORS. Lỗi mạng / máy chủ → vẫn cảm ơn, lưu gói 'ts_cho_gui', gửi lại 1 lần ở lần mở trang sau.
+        const MA_CD = "DEMO";
+        function goiLeadTS(form, hoTen, sdt, ghiChu) {
+            return { loai: 'lead_web', maCD: MA_CD, hoTen: hoTen, sdt: sdt, ghiChu: ghiChu,
+                nguon: new URLSearchParams(location.search).get('utm_source') || 'web', bay: (form.website && form.website.value) || '' };
+        }
+        function postLeadTS(goi) {
+            return fetch(SCRIPT_URL, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(goi) }).then((r) => r.json());
+        }
+        function guiLeadTS(goi) {
+            const choGui = () => { try { localStorage.setItem('ts_cho_gui', JSON.stringify(goi)); } catch (err) {} };
+            return postLeadTS(goi).then((kq) => { if (!kq.ok && kq.loi === 'loi') choGui(); return kq; })
+                .catch(() => { choGui(); return { ok: false, loi: 'mang' }; });
+        }
+        (function guiLaiLeadCho() {
+            let goi = null;
+            try { goi = JSON.parse(localStorage.getItem('ts_cho_gui') || 'null'); } catch (err) {}
+            // chỉ xóa gói chờ khi máy chủ đã trả lời (trừ lỗi máy chủ) – rớt mạng thì giữ cho lần mở sau (soát agy)
+            if (goi) postLeadTS(goi).then((kq) => { if (kq.ok || kq.loi !== 'loi') try { localStorage.removeItem('ts_cho_gui'); } catch (err) {} }).catch(() => {});
+        })();
+        // Báo ngay dưới form (không alert); true = dừng (sai SĐT / tên, đã đăng ký) – giữ nguyên chữ đã nhập
+        function baoLoiForm(id, kq) {
+            const chu = { sdt: 'Số điện thoại chưa đúng – kiểm tra lại 10 số.', ten: 'Vui lòng nhập họ tên.',
+                nhieu: 'Anh/chị đã đăng ký rồi – tư vấn viên sẽ gọi lại sớm.',
+                cd: 'Trang đăng ký đang được cập nhật – anh/chị vui lòng nhắn Zalo hoặc thử lại sau.', goi: 'Hệ thống đang bận – anh/chị vui lòng thử lại sau ít phút.' }[kq.loi] || '';
+            const p = document.getElementById(id);
+            if (p) { p.textContent = chu; p.hidden = !chu; }
+            return !!chu;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt Cọc Giữ Chỗ K01 (Hoàn Cọc 100%) | New You English – Teacher Academy</title>
+    <link rel="icon" type="image/png" href="../assets/logo-new-you.png">
+    <!-- Google Fonts: Plus Jakarta Sans & Lexend -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&family=Lexend:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.469.0"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', '"Lexend"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            font-family: 'Plus Jakarta Sans', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            word-break: normal;
+            overflow-wrap: break-word;
+            line-height: 1.7;
+            letter-spacing: -0.01em;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plus Jakarta Sans', 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            word-break: normal;
+            text-wrap: balance;
+            letter-spacing: -0.015em;
+            line-height: 1.38;
+        }
+        p, li, span, blockquote {
+            word-break: normal;
+            text-wrap: pretty;
+        }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(251, 191, 36, 0.2);
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: #070b14;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.3);
+        }
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.45);
+        }
+        @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(245, 158, 11, 0.2); }
+            50% { box-shadow: 0 0 40px rgba(245, 158, 11, 0.6); }
+        }
+        .highlight-qr {
+            animation: pulseGlow 1.5s ease-in-out infinite;
+            border-color: #f59e0b !important;
+        }
+    </style>
+</head>
+<body class="bg-[#070b14] text-slate-100 min-h-screen pb-12 relative overflow-x-hidden">
+
+    <!-- HOLD WARNING BANNER (CHUẨN MONA CRO) -->
+    <div class="bg-rose-500/15 border-b border-rose-500/30 text-rose-300 py-2.5 px-4 text-center text-xs md:text-sm font-semibold sticky top-0 z-50 backdrop-blur-md flex items-center justify-center space-x-2">
+        <span class="w-2 h-2 rounded-full bg-rose-400 animate-ping shrink-0"></span>
+        <span>ℹ️ <strong>Chính sách cọc cam kết = 1 tháng học phí:</strong> Khoản cọc 9.000.000đ tương đương đúng 1 tháng học phí Gói Pro 108.000.000đ (hoặc trả góp 9tr/tháng). Cam kết đầu ra nhận lớp lương 15tr/tháng. Hoàn cọc 100% nếu sau phỏng vấn không phù hợp.</span>
+    </div>
+
+    <!-- Canvas Bubbles -->
+    <canvas id="bubblesCanvasVip" class="fixed inset-0 pointer-events-none z-0" aria-hidden="true"></canvas>
+
+    <div class="max-w-2xl mx-auto pt-8 px-4 sm:px-6 relative z-10">
+        <!-- Logo & Header -->
+        <div class="text-center mb-8">
+            <a href="../" class="inline-block w-16 h-16 rounded-2xl bg-white p-1.5 shadow-xl shadow-amber-500/20 border-2 border-amber-400/50 mb-4 hover:scale-105 transition transform">
+                <img src="../assets/logo-new-you.png" alt="Logo New You English Teacher Academy" class="w-full h-full object-contain">
+            </a>
+            <div>
+                <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-amber-500/30 text-xs font-semibold text-amber-300 mb-4">
+                    <span>💳 CỌC CAM KẾT GIỮ CHỖ (1 THÁNG HỌC PHÍ) – NEW YOU TEACHER ACADEMY</span>
+                </div>
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-extrabold text-white">
+                Đặt Cọc Giữ Chỗ K01 (Hoàn Cọc 100%)
+            </h1>
+            <div id="boQuaGoi" hidden class="mt-4"><a href="../?da_dang_ky=1" class="inline-flex items-center justify-center min-h-[44px] px-5 rounded-xl bg-slate-800 border border-slate-600 text-slate-100 text-sm font-bold hover:bg-slate-700 transition">Bỏ qua – Tiếp tục đăng ký tư vấn lộ trình 1-1 miễn phí ➔</a></div>
+            <script>if (new URLSearchParams(location.search).get('sau_dang_ky') === '1') document.getElementById('boQuaGoi').hidden = false;</script>
+            <p class="text-sm text-slate-400 mt-2">
+                Chào <strong id="studentName" class="text-amber-400">bạn</strong>, vui lòng chuyển khoản cọc cam kết 9.000.000đ (đúng bằng 1 tháng học phí Gói Pro 108.000.000đ) để giữ suất học và cam kết đầu ra nhận lớp lương 15 triệu/tháng cùng Cô Sophie Diễm My.
+            </p>
+        </div>
+
+        <!-- KHỐI GATEKEEPER: NÚT ZALO VIP MẶC ĐỊNH LUÔN BỊ KHÓA -->
+        <div class="glass-card rounded-2xl p-5 mb-8 border border-slate-700 relative overflow-hidden">
+            <div class="flex items-center justify-between mb-3">
+                <span class="text-sm font-bold text-slate-300 block mb-2">Hỗ trợ kết nối trực tiếp:</span>
+                <span id="zaloBadge" class="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700 flex items-center space-x-1">
+                    <i data-lucide="lock" class="w-3 h-3"></i>
+                    <span>Khóa · Chờ xác nhận</span>
+                </span>
+            </div>
+
+            <button id="zaloVipBtn" onclick="handleZaloVipClick()" class="w-full py-4 px-4 rounded-xl font-bold text-sm flex items-center justify-center space-x-2 bg-slate-800/80 hover:bg-slate-800 text-slate-400 border border-slate-700 transition cursor-pointer">
+                <i id="zaloLockIcon" data-lucide="lock" class="w-4 h-4"></i>
+                <span id="zaloBtnText">NHẮN ZALO CÔ DIỄM MY (DEMO)</span>
+            </button>
+            <p class="text-[11px] text-slate-500 text-center mt-2.5">
+                * Nhắn tin Zalo với Cô Sophie Diễm My để được cấp quyền truy cập sớm 52 video phát âm IPA ngay sau khi giữ chỗ.
+            </p>
+        </div>
+
+        <!-- THẺ VIETQR CHUẨN MONA CRO -->
+        <div id="qrCard" class="glass-card rounded-3xl p-6 sm:p-8 border-2 border-amber-500/30 mb-8 transition-all duration-300">
+            <div class="text-center mb-6">
+                <span class="text-xs font-bold text-amber-400 uppercase tracking-widest block mb-1">Quét Mã Bằng App Ngân Hàng</span>
+                <h2 class="text-xl font-extrabold text-white">
+                    Cọc cam kết giữ chỗ (1 tháng học phí): <span class="text-amber-400 font-black">9.000.000đ</span>
+                </h2>
+                <p class="text-sm text-slate-400 mt-1">Học phí Gói Pro 108.000.000đ/năm (chia 12 tháng chỉ 9.000.000đ/tháng) · Cam kết đầu ra nhận lớp lương 15tr/tháng · <strong>Cam kết hoàn cọc 100%</strong> nếu sau buổi phỏng vấn 1-1 Cô Sophie Diễm My đánh giá bạn không phù hợp!</p>
+            </div>
+
+            <!-- QR Code Image -->
+            <div class="bg-white p-4 rounded-2xl max-w-[260px] mx-auto shadow-xl mb-4 relative">
+                <img id="vietqrImg" src="https://img.vietqr.io/image/DEMO-0000-compact2.png?amount=9000000&addInfo=NEW%20YOU%20K01&accountName=CAN%20ANH%20BO%20SUNG" alt="Mã VietQR 9.000.000đ" class="w-full h-auto block rounded-lg">
+            </div>
+
+            <div class="text-center mb-6">
+                <a id="downloadQrBtn" href="#" onclick="downloadQrBlob(event)" class="inline-flex items-center space-x-1.5 text-xs text-amber-400 hover:text-amber-300 font-semibold underline cursor-pointer">
+                    <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                    <span>Tải ảnh mã QR về điện thoại để quét</span>
+                </a>
+            </div>
+
+            <!-- Copyable Information Table -->
+            <div class="space-y-2.5 text-xs sm:text-sm bg-slate-900/90 rounded-2xl p-4 sm:p-5 border border-slate-800">
+                <div class="flex items-center justify-between py-1.5 border-b border-slate-800/80">
+                    <span class="text-slate-400">Ngân hàng:</span>
+                    <span class="font-bold text-white">[cần anh bổ sung]</span>
+                </div>
+                <div class="flex items-center justify-between py-1.5 border-b border-slate-800/80">
+                    <span class="text-slate-400">Số tài khoản:</span>
+                    <div class="flex items-center space-x-2">
+                        <span class="font-mono font-bold text-amber-400 text-base">DEMO</span>
+                        <button onclick="copyText('DEMO', 'Số tài khoản')" class="text-slate-400 hover:text-white p-1 rounded bg-slate-800"><i data-lucide="copy" class="w-3.5 h-3.5"></i></button>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between py-1.5 border-b border-slate-800/80">
+                    <span class="text-slate-400">Chủ tài khoản:</span>
+                    <span class="font-bold text-white uppercase">HUYNH TRUONG THANH TAM</span>
+                </div>
+                <div class="flex items-center justify-between py-1.5 border-b border-slate-800/80">
+                    <span class="text-slate-400">Số tiền:</span>
+                    <div class="flex items-center space-x-2">
+                        <span class="font-bold text-emerald-400 text-base">9.000.000 VNĐ</span>
+                        <button onclick="copyText('9000000', 'Số tiền')" class="text-slate-400 hover:text-white p-1 rounded bg-slate-800"><i data-lucide="copy" class="w-3.5 h-3.5"></i></button>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between py-1.5">
+                    <span class="text-slate-400">Nội dung CK:</span>
+                    <div class="flex items-center space-x-2">
+                        <span id="transferDesc" class="font-mono font-bold text-amber-300">NEW YOU K01</span>
+                        <button onclick="copyTransferDesc()" class="text-slate-400 hover:text-white p-1 rounded bg-slate-800"><i data-lucide="copy" class="w-3.5 h-3.5"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NÚT BẤM HOÀN TẤT CHUYỂN KHOẢN -->
+        <div class="space-y-4">
+            <button onclick="handleConfirmPayment(event)" class="btn-gold w-full py-4 rounded-xl text-base font-bold flex items-center justify-center space-x-2 shadow-2xl">
+                <span>TÔI ĐÃ CHUYỂN KHOẢN CỌC ➔ GỬI BIÊN LAI XÁC NHẬN</span>
+                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </button>
+
+            <div class="text-center">
+                <a href="../" class="text-xs text-slate-500 hover:text-slate-400 underline">Quay lại trang chủ</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 bg-slate-900 border border-amber-500 text-white text-xs sm:text-sm px-4 py-3 rounded-xl shadow-2xl hidden flex items-center space-x-2">
+        <i data-lucide="info" class="w-4 h-4 text-amber-400"></i>
+        <span id="toastMsg"></span>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // 1. MONA CELEBRATION ENGINE: Confetti & Fireworks Canvas (initHoaGiay)
+        (function initHoaGiay() {
+            const canvas = document.createElement('canvas');
+            canvas.style.position = 'fixed';
+            canvas.style.top = '0';
+            canvas.style.left = '0';
+            canvas.style.width = '100vw';
+            canvas.style.height = '100vh';
+            canvas.style.pointerEvents = 'none';
+            canvas.style.zIndex = '999';
+            document.body.appendChild(canvas);
+
+            const ctx = canvas.getContext('2d');
+            let w = canvas.width = window.innerWidth;
+            let h = canvas.height = window.innerHeight;
+
+            const colors = ['#f59e0b', '#fbbf24', '#10b981', '#3b82f6', '#ec4899', '#ffffff'];
+            const pieces = [];
+            for (let i = 0; i < 90; i++) {
+                pieces.push({
+                    x: w / 2 + (Math.random() - 0.5) * 160,
+                    y: h * 0.35 + (Math.random() - 0.5) * 80,
+                    vx: (Math.random() - 0.5) * 16,
+                    vy: -Math.random() * 14 - 4,
+                    size: 6 + Math.random() * 6,
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    rot: Math.random() * 360,
+                    vrot: (Math.random() - 0.5) * 10,
+                    gravity: 0.35,
+                    friction: 0.98,
+                    alpha: 1
+                });
+            }
+
+            let start = Date.now();
+            function draw() {
+                const elapsed = Date.now() - start;
+                if (elapsed > 7000) {
+                    canvas.remove();
+                    return;
+                }
+                ctx.clearRect(0, 0, w, h);
+                for (let p of pieces) {
+                    p.x += p.vx;
+                    p.y += p.vy;
+                    p.vy += p.gravity;
+                    p.vx *= p.friction;
+                    p.vy *= p.friction;
+                    p.rot += p.vrot;
+                    if (elapsed > 4500) p.alpha -= 0.007;
+
+                    ctx.save();
+                    ctx.translate(p.x, p.y);
+                    ctx.rotate((p.rot * Math.PI) / 180);
+                    ctx.fillStyle = p.color;
+                    ctx.globalAlpha = Math.max(0, p.alpha);
+                    ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+                    ctx.restore();
+                }
+                requestAnimationFrame(draw);
+            }
+            requestAnimationFrame(draw);
+        })();
+
+        // 2. MONA 10-MINUTE SESSION COUNTDOWN TIMER WITH RENEWAL
+        let sessionTimerInterval;
+        let timeLeft = 600;
+
+        function startTimer() {
+            const timerEl = document.getElementById('sessionTimer');
+            clearInterval(sessionTimerInterval);
+            sessionTimerInterval = setInterval(() => {
+                timeLeft--;
+                if (timeLeft <= 0) {
+                    clearInterval(sessionTimerInterval);
+                    if (timerEl) {
+                        timerEl.innerHTML = '<span class="text-rose-400">00:00 (Hết hạn)</span> · <button onclick="renewTimer()" class="underline text-amber-400 font-bold hover:text-amber-300">Gia hạn 10:00</button>';
+                    }
+                    return;
+                }
+                const m = Math.floor(timeLeft / 60);
+                const s = timeLeft % 60;
+                if (timerEl) timerEl.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+            }, 1000);
+        }
+
+        function renewTimer() {
+            timeLeft = 600;
+            startTimer();
+            showToast("Đã gia hạn thêm 10 phút giữ suất!");
+        }
+
+        startTimer();
+
+        // 3. Canvas Bubbles on VIP page
+        (function initBubblesVip() {
+            const canvas = document.getElementById('bubblesCanvasVip');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            let w = canvas.width = window.innerWidth;
+            let h = canvas.height = window.innerHeight;
+            const particles = [];
+            for (let i = 0; i < 24; i++) {
+                particles.push({
+                    x: Math.random() * w,
+                    y: Math.random() * h,
+                    r: 1 + Math.random() * 2.5,
+                    v: 0.2 + Math.random() * 0.5,
+                    w: Math.random() * 6.28,
+                    a: 0.1 + Math.random() * 0.25
+                });
+            }
+            function tick() {
+                ctx.clearRect(0, 0, w, h);
+                for (let p of particles) {
+                    p.y -= p.v;
+                    p.w += 0.02;
+                    p.x += Math.sin(p.w) * 0.3;
+                    if (p.y < -10) { p.y = h + 10; p.x = Math.random() * w; }
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.strokeStyle = `rgba(251, 191, 36, ${p.a * 0.6})`;
+                    ctx.stroke();
+                }
+                requestAnimationFrame(tick);
+            }
+            tick();
+        })();
+
+        // 4. GATEKEEPER: Always clear old session paid status on fresh load
+        localStorage.removeItem('t2n_vip_paid');
+        sessionStorage.removeItem('t2n_vip_paid');
+        let isZaloUnlocked = false;
+
+        // 5. Read attendee info from localStorage
+        const studentName = localStorage.getItem('t2n_attendee_name') || 'Bạn';
+        const studentPhone = localStorage.getItem('t2n_attendee_phone') || '';
+        document.getElementById('studentName').innerText = studentName;
+
+        // 6. Create personalized VietQR transfer content
+        const cleanName = studentName.replace(/[^a-zA-Z0-9]/g, '').toUpperCase().slice(0, 10);
+        const descText = `NEW YOU K01 ${cleanName} ${studentPhone.slice(-4)}`;
+        document.getElementById('transferDesc').innerText = descText;
+
+        // Update VietQR image URL
+        const qrUrl = `https://img.vietqr.io/image/DEMO-0000-compact2.png?amount=9000000&addInfo=${encodeURIComponent(descText)}&accountName=CAN%20ANH%20BO%20SUNG`;
+        document.getElementById('vietqrImg').src = qrUrl;
+
+        // 7. True Blob QR Download (Chuẩn Mona Blob URL)
+        async function downloadQrBlob(e) {
+            e.preventDefault();
+            const btn = document.getElementById('downloadQrBtn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i data-lucide="loader-2" class="w-3.5 h-3.5 animate-spin"></i><span>Đang chuẩn bị ảnh...</span>';
+            lucide.createIcons();
+            try {
+                const res = await fetch(qrUrl, { mode: 'cors' });
+                const blob = await res.blob();
+                const blobUrl = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = blobUrl;
+                a.download = `vietqr-99k-${cleanName || 'vip'}.png`;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                URL.revokeObjectURL(blobUrl);
+                btn.innerHTML = '<i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i><span class="text-emerald-400 font-bold">Đã tải mã QR về máy</span>';
+                lucide.createIcons();
+                setTimeout(() => { btn.innerHTML = originalText; lucide.createIcons(); }, 3500);
+            } catch (err) {
+                window.open(qrUrl, '_blank');
+                btn.innerHTML = originalText;
+                lucide.createIcons();
+            }
+        }
+
+        // Copy Helper with In-App Browser Fallback
+        function copyText(text, label) {
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast(`Đã sao chép ${label}!`);
+                }).catch(() => fallbackCopy(text, label));
+            } else {
+                fallbackCopy(text, label);
+            }
+        }
+
+        function fallbackCopy(text, label) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.position = "fixed";
+            textArea.style.left = "-999999px";
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                showToast(`Đã sao chép ${label}!`);
+            } catch (err) {
+                showToast(`Không thể tự động sao chép, vui lòng chép thủ công!`);
+            }
+            textArea.remove();
+        }
+
+        function copyTransferDesc() {
+            const desc = document.getElementById('transferDesc').innerText;
+            copyText(desc, 'Nội dung chuyển khoản');
+        }
+
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            document.getElementById('toastMsg').innerText = msg;
+            t.classList.remove('hidden');
+            t.classList.add('flex');
+            setTimeout(() => {
+                t.classList.add('hidden');
+                t.classList.remove('flex');
+            }, 3000);
+        }
+
+        // Gatekeeper Action: When clicked while locked
+        function handleZaloVipClick() {
+            if (!isZaloUnlocked) {
+                alert("🔒 Nhóm Zalo VIP 1:1: tư vấn viên gửi link nhóm sau khi đối soát chuyển khoản.\n\nAnh/chị vui lòng quét mã VietQR 9.000.000đ rồi bấm nút 'TÔI ĐÃ CHUYỂN KHOẢN' bên dưới.");
+                const card = document.getElementById('qrCard');
+                card.scrollIntoView({ behavior: 'smooth' });
+                card.classList.add('highlight-qr');
+                setTimeout(() => card.classList.remove('highlight-qr'), 3000);
+            } else {
+                showToast('Tư vấn viên sẽ gửi link nhóm Zalo VIP sau khi đối soát.');   // WEB L3: link VIP không để trên web
+            }
+        }
+
+        // Confirm Payment Action (Mona Unlock Flow + Backend Sync)
+        // WEB L3: chỉ báo "đã chuyển khoản" về app Tuyển sinh – CHỜ ĐỐI SOÁT, không tự mở khóa, không tự xác nhận đã trả
+        function handleConfirmPayment(ev) {
+            const nut = ev && ev.currentTarget;
+            if (nut) { if (nut.disabled) return; nut.disabled = true; nut.classList.add('opacity-60'); }   // chặn bấm nhiều lần (soát agy)
+            const goi = { loai: 'lead_web', maCD: "DEMO", hoTen: studentName, sdt: studentPhone, ghiChu: 'Báo đã chuyển khoản VIP',
+                nguon: new URLSearchParams(location.search).get('utm_source') || 'web', bay: '' };
+            fetch("https://script.google.com/macros/s/AKfycbz_NEW_YOU_DEMO_DEPLOYMENT/exec", { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(goi) }).catch(() => {
+                try { localStorage.setItem('ts_cho_gui', JSON.stringify(goi)); } catch (err) {}
+            });
+            const btnText = document.getElementById('zaloBtnText');
+            if (btnText) btnText.innerText = '⏳ Đã ghi nhận – chờ đối soát';
+            showToast('Đã ghi nhận – chờ đối soát, tư vấn viên sẽ gọi lại.');
+        }
+    </script>
+</body>
+</html>

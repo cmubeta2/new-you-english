@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/vip"
+  to = "/vip/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/xac-nhan"
+  to = "/xac-nhan/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/vao"
+  to = "/vao/index.html"
+  status = 200
