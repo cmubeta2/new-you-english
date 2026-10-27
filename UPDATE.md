@@ -1,24 +1,20 @@
-# KẾ HOẠCH NÂNG CẤP PHIÊN BẢN (UPDATE.MD) — WEB NEW YOU ENGLISH
+# KẾ HOẠCH NÂNG CẤP & PHIÊN BẢN TIẾP THEO (UPDATE.md)
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.5.0 (Đã hoàn thành)
-- Hoàn thiện bản đánh giá đa chiều (7 góc nhìn) & triệt tiêu rủi ro pháp lý/truyền thông cho ban tổ chức.
-- Chắt lọc và triển khai 7 góp ý của Mr Trí: Bỏ "lương 15tr" chuyển sang ký HĐ GV chính thức; bỏ TKT/TESOL chuẩn hóa Chứng chỉ NVSP ĐH công lập; bỏ CLB Quận 7; bỏ chia tháng cố định sang 4 giai đoạn; lộ trình A0-B2 trong 8 tháng; thêm phương án đóng trước 30 triệu + trả góp.
-- Bảng Hóa đơn giá trị đảo ngược 207 triệu (165tr core + 42tr quà tặng 8 món theo giá thị trường).
-- Thông tin DEMO của Anh Huỳnh Trường Thanh Tâm: MB Bank `132193`.
-- Đã đồng bộ và deploy lên Production GitHub Pages: `https://cmubeta2.github.io/new-you-english/`.
+## 1. PHIÊN BẢN HIỆN TẠI: v1.5.1 (Hoàn thành)
+- Thay thế toàn bộ Hóa đơn đảo ngược bằng Showcase Bộ 8 Quà Tặng Độc Quyền (Trị giá 42.000.000đ — Tặng 0đ) dạng Grid Card hiện đại.
+- Tích hợp bài toán so sánh thị trường 207 triệu vs 108 triệu (tiết kiệm 99 triệu).
+- Làm nổi bật giải pháp tài chính: Đóng trước 30 triệu (Đợt 1) + Trả góp hàng tháng (hoặc Trả góp thẻ tín dụng 0% từ 9tr/tháng).
+- Giữ vững các cải tiến quản trị rủi ro: Ký HĐ Giáo viên chính thức tại New You English, Chứng chỉ Nghiệp vụ Sư phạm ĐH Công lập, Lộ trình A0-B2 trong 8 tháng.
 
 ---
 
-## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO
-
-### Phiên Bản v1.6.0: Kết Nối Cổng Tuyển Sinh Thực Tế (Google Sheets & Zalo OA)
-- [ ] Thay thế đường dẫn Webhook Apps Script `DEMO` bằng link chính thức của New You English.
-- [ ] Kết nối Zalo OA hoặc Hotline chính thức khi Sếp và Cô My bàn giao.
-- [ ] Gắn link phòng Google Meet thật cho buổi phỏng vấn 1-1.
-
-### Phiên Bản v1.7.0: Hoàn Thiện Media & Bằng Chứng Chuyên Môn
-- [ ] Chụp và cập nhật ảnh chân dung thực tế chất lượng cao của Cô Sophie Diễm My và Thầy Huỳnh Trường Thanh Tâm.
-- [ ] Nhúng 2–3 video ngắn review từ các học viên cũ của New You English.
-- [ ] Cấu hình SEO On-page nâng cao và gắn mã tracking Facebook Pixel / Google Tag Manager.
+## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.6.0
+- **Thay thế thông tin chính thức:**
+  * Thay thế link Google Apps Script DEMO bằng Webhook Google Sheets chính thức của Trung tâm.
+  * Thay thế STK và thông tin cọc VietQR của Ban Tổ Chức khi có thông tin chính thức từ Mr Trí & Cô My.
+  * Cập nhật video clip phỏng vấn học viên thật và ảnh hoạt động lớp học online thực tế.
+- **Tối ưu hóa chuyển đổi (Conversion Rate Optimization):**
+  * Tích hợp popup giữ chân học viên (Exit-intent Modal) tặng Ebook và tài liệu IPA miễn phí.
+  * Thêm bộ đếm thời gian ngược (Countdown Timer) cho hạn chót đăng ký đợt xét tuyển K01.

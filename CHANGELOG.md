@@ -2,6 +2,22 @@
 
 ---
 
+## [1.5.1] - 2026-10-27
+### Thay Thế Hóa Đơn Đảo Ngược Bằng Showcase 8 Box Quà Tặng Độc Bản & Hoàn Thiện UX
+- **Thay thế triệt để Hóa đơn đảo ngược:**
+  * Thay thế bảng table hóa đơn khô khan ở tầng 75m bằng **Showcase Bộ 8 Quà Tặng Độc Quyền (Fast-Action Bonuses)** trị giá **42.000.000đ — TẶNG 0Đ** cực kỳ hoành tráng, thiết kế lưới Card hiện đại.
+  * Hiển thị rõ giá thị trường từng món quà (52 Video IPA: 3.5tr, Sách Cô My: 500k, 100+ Prompt AI: 5tr, Chatbot Trợ giảng riêng: 8tr, 30 Kịch bản video triệu view: 6tr, Kịch bản chat & Demo Zoom: 7tr, Bản quyền SOP 60+ lớp: 10tr, Thẻ CLB LOÉ: 2tr).
+- **Làm nổi bật Giải Pháp Tài Chính (Financial Relief):**
+  * Tích hợp khối **"Đặc quyền tài chính: Đóng trước 30 triệu (Đợt 1) + Trả góp hàng tháng"** để xóa bỏ hoàn toàn rào cản tài chính cho học viên và phụ huynh.
+  * Bổ sung phương án trả góp 0% thẻ tín dụng chỉ từ **9.000.000đ/tháng** (~300k/ngày).
+  * Khối so sánh giá trị trực quan: Tổng giá trị thị trường chuyển giao 207 triệu vs Học phí đầu tư Gói Pro 108 triệu (tiết kiệm ngay 99 triệu).
+- **Tối ưu Bảng Chốt Học Phí (Invoice Card):**
+  * Đổi tiêu đề sang **"Bảng Lựa Chọn 3 Gói Học Phí 12 Tháng & Quyền Lợi Đi Kèm"**.
+  * 3 Gói rõ ràng: Gói Tiêu Chuẩn 68tr (thêm Mô-đun 6 Video), Gói Chuyên Nghiệp 108tr (Ký HĐ GV Chính Thức New You), Gói VIP 139tr (Kèm 1-1 mở trung tâm riêng).
+  * Cam kết bảo lưu học lại 0đ và chính sách cọc giữ chỗ 1 tháng hoàn 100% trong 24h nếu không phù hợp.
+
+---
+
 ## [1.5.0] - 2026-10-27
 ### Nâng Cấp Đa Chiều, Quản Trị Rủi Ro & Chắt Lọc 7 Góp Ý Của Mr Trí
 - **Triệt tiêu rủi ro pháp lý & quảng cáo:**
