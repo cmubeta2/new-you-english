@@ -1,65 +1,42 @@
-# NHẬT KÝ THAY ĐỔI (CHANGELOG) — WEB THỬ NEW YOU ENGLISH
+# NHẬT KÝ THAY ĐỔI (CHANGELOG) — WEB NEW YOU ENGLISH
 
-Toàn bộ các mốc thay đổi và nâng cấp của dự án Website Phễu Lặn Biển New You English.
+---
+
+## [1.4.0] - 2026-10-27
+### Tái Cấu Trúc Toàn Diện Theo Tài Liệu 12 Tháng & Sửa Bảng Hóa Đơn Giá Trị Đảo Ngược
+- **Cập nhật Ban Giảng Huấn (Kiềng 2 Chân):**
+  * Bổ sung **Thầy Huỳnh Trường Thanh Tâm (Thầy Tâm)** phụ trách chuyên môn Công nghệ AI, Video ngắn triệu view, Phễu & Kịch bản Sale, song hành cùng **Cô Sophie Diễm My** (Chuyên môn Tiếng Anh, Sư phạm).
+- **Kiến trúc đào tạo 7 Mô-đun & Kiềng 4 Chân:**
+  * Bổ sung **Chứng chỉ Nghiệp vụ Sư phạm Dạy Trung tâm Ngoại ngữ do Trường ĐH Vinh cấp chính quy**.
+  * Bổ sung **Lộ trình Bằng cấp Dài hạn 2 năm:** Bằng Cử nhân Văn bằng 2 Ngôn ngữ Anh (ĐH Hùng Vương / Gia Định) hoặc IELTS 6.5–7.5+.
+  * Triển khai mô hình **3 Chu kỳ mở lớp cuốn chiếu trong 12 tháng** (Học 2 tháng → Mở lớp 2 tháng), giúp học viên thu về 30–60 triệu ngay trong năm học.
+- **Sửa lại Bảng Hóa Đơn Giá Trị Đảo Ngược (Reverse Value Invoice) Chuẩn Thị Trường:**
+  * Tính toán chính xác theo giá thị trường: 8 Học phần cốt lõi (165.000.000đ) + Bộ 8 Quà tặng độc quyền tính theo giá thị trường (42.000.000đ).
+  * **Tổng giá trị thị trường thực tế: 207.000.000đ**.
+  * Mức đầu tư Gói Pro Flagship: **108.000.000đ** (Tiết kiệm trực tiếp 99.000.000đ, tương đương -48%).
+  * Bổ sung Mô-đun 6 Video triệu view vào Gói Tiêu Chuẩn 68.000.000đ.
+- **Cập nhật thông tin DEMO của Anh (Sếp Huỳnh Trường Thanh Tâm):**
+  * Cổng thanh toán VietQR: MB Bank (Quân Đội), STK: `132193`, Chủ tài khoản: `HUYNH TRUONG THANH TAM`.
+  * Cọc cam kết = 1 tháng học phí (9.000.000đ).
+  * Hotline & Zalo Cố vấn: `0939.88.99.77`.
 
 ---
 
 ## [1.3.1] - 2026-10-27
 ### Triển Khai Lên Web Thực (Live Production Deployment)
-- **Đẩy mã nguồn lên GitHub:** Khởi tạo repository công khai `cmubeta2/new-you-english` tại `https://github.com/cmubeta2/new-you-english`.
-- **Kích hoạt GitHub Pages:** Bật cấu hình CDN toàn cầu với SSL tự động (HTTPS).
-- **Kiểm thử liên kết trực tuyến:** Tất cả 5 đường dẫn đều phản hồi HTTP 200 OK:
-  * Trang chủ: `https://cmubeta2.github.io/new-you-english/`
-  * Trang cọc VietQR: `https://cmubeta2.github.io/new-you-english/vip/`
-  * Trang xác nhận: `https://cmubeta2.github.io/new-you-english/xac-nhan/`
-  * Trang phòng chờ: `https://cmubeta2.github.io/new-you-english/vao/`
-  * Tài nguyên logo: `https://cmubeta2.github.io/new-you-english/assets/logo-new-you.png`
+- Đẩy mã nguồn lên GitHub `cmubeta2/new-you-english`.
+- Kích hoạt GitHub Pages phục vụ toàn cầu qua HTTPS.
 
 ---
 
 ## [1.3.0] - 2026-10-27
-### Thay Đổi Lớn (Major Updates)
-- **Chuẩn hóa khung học phí mới theo yêu cầu Sếp:**
-  * Gói Tiêu Chuẩn: **68.000.000đ** (đã bổ sung đầy đủ Module 6 Luyện thi chứng chỉ).
-  * Gói Chuyên Nghiệp (Flagship): **108.000.000đ**.
-  * Gói VIP Master: **139.000.000đ**.
-- **Cập nhật chính sách Cọc Cam Kết = 1 Tháng Học Phí:**
-  * Cọc Gói Chuyên Nghiệp: **9.000.000đ** (được hiển thị động trên mã VietQR của trang `/vip/`).
-  * Cọc Gói Tiêu Chuẩn: **5.670.000đ**.
-  * Cọc Gói VIP: **11.580.000đ**.
-  * Cam kết hoàn cọc 100% trong 24h nếu học viên không vượt qua vòng phỏng vấn đánh giá 1-1.
-- **Biên dịch và kiểm tra:**
-  * Biên dịch thành công 4 tệp HTML Tailwind tốc độ cao.
-  * Chụp ảnh UX kiểm thử độ hiển thị trên Desktop (1280px) và Mobile (375px).
-
----
-
-## [1.2.0] - 2026-10-27
-### Thay Đổi Kiến Trúc Đào Tạo
-- **Thời gian đào tạo:** Xác định thời lượng chính thức là **1 Năm (12 Tháng / 52 Tuần)**.
-- **Tái cấu trúc 6 Module chuyên môn:**
-  1. *Module 1:* Dạy truyền thông và sale.
-  2. *Module 2:* Tư duy sử dụng AI trong dạy học.
-  3. *Module 3:* Nghiệp vụ sư phạm.
-  4. *Module 4:* Kiến thức tiếng Anh.
-  5. *Module 5:* Sáng tạo nội dung truyền thông.
-  6. *Module 6:* Luyện thi chứng chỉ liên quan (TESOL, CELTA, bằng cấp sư phạm).
-- **Cam kết đầu ra:** Bảo lãnh mức thu nhập **15.000.000đ / tháng** bằng hợp đồng giảng dạy thật, tạo bài toán hoàn vốn ROI sau 7.2 tháng.
-
----
-
-## [1.1.0] - 2026-10-27
-### Nâng Cấp Định Vị High-Ticket
-- **Chiến lược định vị x10 giá:** Chuyển đổi từ mô hình "bán khóa học" sang "chuyển giao nghề nghiệp toàn diện trọn đời".
-- **Giải pháp tâm lý giá Micro-framing:**
-  * Chia nhỏ học phí theo tháng (9 triệu/tháng) và ngày (~300k/ngày - ngang 2 ly trà sữa/cà phê chất lượng cao).
-  * Thiết lập bảng Reverse Invoice chứng minh tổng giá trị thực tế nhận được lên tới **435.000.000đ**.
+### Chuẩn Hóa Học Phí & Cơ Chế Cọc Cam Kết 1 Tháng
+- Học phí 3 gói: 68tr - 108tr - 139tr.
+- Cọc cam kết = 1 tháng học phí, hoàn tiền 100% nếu không phù hợp.
 
 ---
 
 ## [1.0.0] - 2026-10-27
 ### Khởi Tạo Ban Đầu
-- Bóc tách nội dung từ tài liệu Google Docs gốc của Trung Tâm New You bằng thư viện `markitdown`.
-- Khởi tạo cấu trúc 11 tầng độ sâu tâm lý theo mẫu `pheu-lan-bien`.
-- Thiết kế logo thương hiệu `logo-new-you.png` theo phong cách tối giản sang trọng.
-- Thiết lập bộ màu `navy-gold`.
+- Bóc tách nội dung ban đầu từ tài liệu Word bằng `markitdown`.
+- Dựng giao diện phễu lặn biển Navy-Gold.
