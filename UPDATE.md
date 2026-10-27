@@ -2,7 +2,10 @@
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.5.1 (Hoàn thành)
+## 1. PHIÊN BẢN HIỆN TẠI: v1.5.2 (Hoàn thành)
+- Cập nhật Hotline Cố vấn: 0945309115 và link Nhóm Zalo T2N: https://zalo.me/g/iqsizbdchqz1p1br3rkx.
+- Khắc phục triệt để lỗi khó đọc ở tầng 75m: Thiết kế 8 Box Quà Tặng thành Thẻ Trắng Viền Gold cao cấp, tương phản chuẩn WCAG AAA.
+- Nâng cỡ chữ và độ tương phản các tầng 20m, 35m, 50m, 85m.
 - Thay thế toàn bộ Hóa đơn đảo ngược bằng Showcase Bộ 8 Quà Tặng Độc Quyền (Trị giá 42.000.000đ — Tặng 0đ) dạng Grid Card hiện đại.
 - Tích hợp bài toán so sánh thị trường 207 triệu vs 108 triệu (tiết kiệm 99 triệu).
 - Làm nổi bật giải pháp tài chính: Đóng trước 30 triệu (Đợt 1) + Trả góp hàng tháng (hoặc Trả góp thẻ tín dụng 0% từ 9tr/tháng).

@@ -2,6 +2,20 @@
 
 ---
 
+## [1.5.2] - 2026-10-27
+### Cập Nhật Zalo / Hotline Nhóm T2N & Đại Tu Toàn Diện Giao Diện Dễ Đọc (High-Contrast AAA)
+- **Cập nhật kênh kết nối chính thức:**
+  * Cập nhật Hotline Cố vấn / Zalo: **`0945309115`** (`0945.309.115`).
+  * Cập nhật đường link Zalo dẫn thẳng về Nhóm T2N: **`https://zalo.me/g/iqsizbdchqz1p1br3rkx`** trên toàn bộ hệ thống (Landing Page, Thanh Dock nổi, Modal Thoát trang, Cổng vào phòng họp trực tuyến, Cổng đặt cọc VIP).
+- **Đại tu giao diện tầng 75m giải quyết triệt để lỗi khó đọc:**
+  * Chuyển toàn bộ 8 Box Quà Tặng Độc Quyền sang dạng **Thẻ Trắng Nền Sáng (White Card) viền Gold sang trọng** `border-2 border-amber-300`, tương phản chuẩn WCAG AAA.
+  * Tiêu đề quà tặng in đậm màu đen xanh `#0f1a3c`, chữ mô tả xám đậm `text-slate-600` sắc nét, không còn bị CSS `.on-light` ép đen trên nền đen.
+  * Khối **Bài Toán Tài Chính & Tổng Giá Trị 207Tr** chuyển sang Thẻ Trắng viền Gold cao cấp, phân tầng nội dung rõ rệt, làm bật giải pháp **Đóng trước 30 triệu (Đợt 1) + Trả góp hàng tháng** và **Trả góp 0% chỉ từ 9tr/tháng**.
+- **Tối ưu cỡ chữ và độ tương phản các tầng khác:**
+  * Tầng 20m (Kiềng 4 chân), 35m (Mentor), 50m (Lộ trình 8 tháng), 85m (Tâm thư): Nâng cỡ chữ mô tả lên `text-sm`, tăng màu chữ lên `text-slate-100` và `text-slate-200` sáng rõ trên nền tối đại dương.
+
+---
+
 ## [1.5.1] - 2026-10-27
 ### Thay Thế Hóa Đơn Đảo Ngược Bằng Showcase 8 Box Quà Tặng Độc Bản & Hoàn Thiện UX
 - **Thay thế triệt để Hóa đơn đảo ngược:**

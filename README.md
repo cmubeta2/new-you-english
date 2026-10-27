@@ -4,7 +4,7 @@ Hệ thống Landing Page phễu lặn biển chuyên sâu (0m ➔ -105m) dành 
 
 ---
 
-## 1. THÔNG TIN CHƯƠNG TRÌNH & THANG HỌC PHÍ (v1.5.1)
+## 1. THÔNG TIN CHƯƠNG TRÌNH & THANG HỌC PHÍ (v1.5.2)
 
 - **Đơn vị tổ chức:** Hệ thống New You English & New You Teacher Academy.
 - **Ban Giảng Huấn:** Cô Sophie Diễm My (Founder, 8+ năm kinh nghiệm, 60+ lớp học) & Thầy Huỳnh Trường Thanh Tâm (Chuyên gia AI Growth & Chiến lược Giáo dục).
@@ -34,7 +34,7 @@ Hệ thống Landing Page phễu lặn biển chuyên sâu (0m ➔ -105m) dành 
 - **Cổng vào phòng họp trực tuyến (Vào):** `https://cmubeta2.github.io/new-you-english/vao/`
 - **Cổng đặt cọc giữ chỗ VietQR (VIP):** `https://cmubeta2.github.io/new-you-english/vip/`
 - **Phiếu khảo sát & Xác nhận (Xác nhận):** `https://cmubeta2.github.io/new-you-english/xac-nhan/`
-- **Thông tin thanh toán DEMO:** MB Bank `132193` – Chủ TK: `HUYNH TRUONG THANH TAM` (Hotline/Zalo: `0939.88.99.77`).
+- **Thông tin thanh toán DEMO:** MB Bank `132193` – Chủ TK: `HUYNH TRUONG THANH TAM` (Hotline/Zalo: `0945.309.115`).
 
 ---
 
