@@ -2,6 +2,34 @@
 
 ---
 
+## [1.6.0] - 2026-10-31
+### Tích Hợp Toàn Diện Bộ Khung Chương Trình Chuẩn Hóa Học Thuật Của Mr Trí Nguyễn
+- **Định vị Ban Giảng Huấn Kiềng 3 Chân Chiến Lược:**
+  * Bổ sung **Bạn Trí Nguyễn (Project Manager & QA)** phụ trách kiểm soát chuẩn đầu ra SMART, kết nối học thuật và giám sát cam kết đào tạo 2 chiều.
+  * Chuẩn hóa hồ sơ Cô Sophie Diễm My: Bổ sung Chứng chỉ Nghiệp vụ Sư phạm Quốc tế TKT Cambridge kết hợp 8+ năm kinh nghiệm và hệ thống 60+ lớp học.
+  * Minh bạch hóa hệ sinh thái văn bằng & đối tác chính quy: Trường ĐH Sư phạm / ĐH Vinh (Cấp Chứng chỉ NVSP chính quy), ĐH Hùng Vương / ĐH Đối tác (Bằng Cử nhân VB2 Ngôn ngữ Anh) và Hội đồng Khảo thí Quốc tế (IELTS 6.5–7.5+).
+- **Cơ Chế Phân Luồng Tuyển Sinh Đột Phá (Dual-Track Protocol):**
+  * **Track A (Fast-Track Teacher-Preneur - B1+ trở lên):** Vào thẳng chương trình chính thức 12 tháng, mở lớp cuốn chiếu Vòng 1 ngay từ Tháng 4.
+  * **Track B (Incubator & Pre-Teaching - Mất gốc A0-A2 / Chuyển ngành):** Học 2-3 tháng tiền đề bổ trợ; Tháng 1-4 làm Trợ giảng (TA) có thù lao tại New You English; Tháng 6-7 mới mở lớp dạy kèm 1-1. Xóa bỏ hoàn toàn định kiến "dạy học tay ngang" và rủi ro hứa quá tải.
+- **Chính Sách Lưới Bảo Trợ Học Sinh Độc Quyền (NYE Student Backup Policy):**
+  * Cam kết hỗ trợ phân bổ học sinh từ phễu 60+ lớp học của trung tâm sang cho học viên đứng lớp có thu nhập nếu làm đúng quy trình mà chưa tự tuyển đủ ở Vòng 1 & Vòng 2.
+  * Đảm bảo học viên thu về từ **40.000.000đ – 60.000.000đ** ngay trong 12 tháng học (tự hoàn vốn 45%–70% học phí đầu tư).
+- **Cấu Trúc Thang Học Phí & Học Bổng Founding Batch 1:**
+  * **Gói 1: PRO TEACHER:** Niêm yết 68.000.000đ ➔ Ưu đãi Batch 1: **60.000.000 VNĐ** (Tiết kiệm 8tr). Trả góp 3 đợt: 24tr (Đ1) - 18tr (Đ2) - 18tr (Đ3) hoặc Thẻ 0% ~5tr/tháng.
+  * **Gói 2: DUAL-DEGREE MASTER ⭐ (Flagship):** Niêm yết 108.000.000đ ➔ Ưu đãi Batch 1: **88.000.000 VNĐ** (Tiết kiệm 20tr). Đã bao gồm trọn gói học phí & thi Chứng chỉ NVSP ĐH Sư phạm/ĐH Vinh + Ký HĐ nhận làm GV chính thức NYE (thu nhập ≥ 15tr/tháng) + Bảo trợ hoàn vốn 40-60tr. Trả góp 3 đợt: 35.2tr (Đ1) - 26.4tr (Đ2) - 26.4tr (Đ3) hoặc Thẻ 0% ~7.33tr/tháng.
+  * **Gói 3: VIP MENTORSHIP 1-1:** Niêm yết 139.000.000đ ➔ Ưu đãi Batch 1: **119.000.000 VNĐ** (Tiết kiệm 20tr, giới hạn 3 suất). Trả góp 3 đợt: 47.6tr (Đ1) - 35.7tr (Đ2) - 35.7tr (Đ3) hoặc Thẻ 0% ~9.91tr/tháng.
+  * Cọc giữ chỗ thẩm định: **9.000.000đ** (Hoàn tiền 100% trong 24h nếu không đạt phỏng vấn).
+- **Quy Chuẩn Học Thuật, Sư Phạm & Cam Kết Pháp Lý 2 Chiều:**
+  * Nguyên tắc sư phạm: Tháng 2 học tập trung Video & AI; Tháng 3 học tập trung Sales & Phễu; Tháng 4-12 thực hành cố vấn trực tiếp trên sản phẩm thật.
+  * Mô hình Micro-teaching 15-20p (Dạy - Học - Phản biện) + Feedback Loop 24-48h (Time-stamped Video Feedback) + Rubric 100 điểm (TTT ≤ 30%, STT ≥ 70%, 100% Immersion, đạt ≥ 80 điểm mới đứng lớp thu phí).
+  * Ban hành Bản Cam Kết Đào Tạo 2 Chiều có giá trị pháp lý gắn liền với hợp đồng đào tạo.
+- **Làm Sạch Mã Nguồn & Tối Ưu Kỹ Thuật:**
+  * Loại bỏ triệt để các ký tự/chữ sót từ template cũ (Gia Định / T2N / DEMO).
+  * Cập nhật link phòng Google Meet sang phòng họp chuẩn `nye-orientation-k01`.
+  * Chuẩn hóa vùng chạm di động ≥ 44px trên toàn bộ giao diện 360px.
+
+---
+
 ## [1.5.2] - 2026-10-27
 ### Cập Nhật Zalo / Hotline Nhóm T2N & Đại Tu Toàn Diện Giao Diện Dễ Đọc (High-Contrast AAA)
 - **Cập nhật kênh kết nối chính thức:**

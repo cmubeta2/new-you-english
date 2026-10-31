@@ -2,22 +2,23 @@
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.5.2 (Hoàn thành)
-- Cập nhật Hotline Cố vấn: 0945309115 và link Nhóm Zalo T2N: https://zalo.me/g/iqsizbdchqz1p1br3rkx.
-- Khắc phục triệt để lỗi khó đọc ở tầng 75m: Thiết kế 8 Box Quà Tặng thành Thẻ Trắng Viền Gold cao cấp, tương phản chuẩn WCAG AAA.
-- Nâng cỡ chữ và độ tương phản các tầng 20m, 35m, 50m, 85m.
-- Thay thế toàn bộ Hóa đơn đảo ngược bằng Showcase Bộ 8 Quà Tặng Độc Quyền (Trị giá 42.000.000đ — Tặng 0đ) dạng Grid Card hiện đại.
-- Tích hợp bài toán so sánh thị trường 207 triệu vs 108 triệu (tiết kiệm 99 triệu).
-- Làm nổi bật giải pháp tài chính: Đóng trước 30 triệu (Đợt 1) + Trả góp hàng tháng (hoặc Trả góp thẻ tín dụng 0% từ 9tr/tháng).
-- Giữ vững các cải tiến quản trị rủi ro: Ký HĐ Giáo viên chính thức tại New You English, Chứng chỉ Nghiệp vụ Sư phạm ĐH Công lập, Lộ trình A0-B2 trong 8 tháng.
+## 1. PHIÊN BẢN HIỆN TẠI: v1.6.0 (Hoàn thành - 31/10/2026)
+- **Tích hợp toàn diện Bộ Khung Chương Trình Chuẩn Hóa Học Thuật của Mr Trí Nguyễn:**
+  * Bổ sung Bạn Trí (Project Manager & QA) vào Ban Giảng Huấn Kiềng 3 Chân (Cô Sophie Diễm My - Thầy Huỳnh Trường Thanh Tâm - Bạn Trí Nguyễn).
+  * Công bố đối tác đào tạo văn bằng chính quy: Trường ĐH Sư phạm / ĐH Vinh (Chứng chỉ NVSP), ĐH Hùng Vương / ĐH Đối tác (Cử nhân VB2 Ngôn ngữ Anh), Hội đồng Khảo thí Quốc tế (IELTS 6.5–7.5+).
+  * Kích hoạt Cơ chế Phân Luồng Tuyển Sinh Đột Phá: **Dual-Track Protocol** (Track A: B1+ trở lên vào thẳng 12 tháng, mở lớp T4; Track B: A0-A2 học bổ trợ + làm Trợ giảng TA có lương tại NYE, mở lớp T6-T7).
+  * Tích hợp **Chính sách Lưới Bảo Trợ Học Sinh (NYE Student Backup Policy)**: NYE cam kết phân bổ học sinh từ phễu 60+ lớp học sang cho học viên đứng lớp có thu nhập nếu chưa tự tuyển đủ, hoàn vốn thực tế 40–60 triệu.
+  * Cập nhật Thang học phí niêm yết và Học bổng Khóa Khai Mở Batch 1: Pro Teacher (60tr), Dual-Degree Master (88tr), VIP Mentorship 1-1 (119tr) cùng 3 phương án tài chính linh hoạt (Trả góp 3 đợt 40%-30%-30% / Thẻ 0% / Cọc 9tr hoàn 100% trong 24h).
+  * Quy chuẩn hóa quy trình đào tạo: Micro-teaching 15-20p, Rubric 100 điểm, Feedback loop 24-48h, tư duy AI Input-Process-Output.
+  * Ban hành Bản Cam Kết Đào Tạo 2 Chiều có giá trị pháp lý.
+  * Làm sạch 100% các ký tự/chữ sót từ template cũ (Gia Định, T2N, DEMO).
 
 ---
 
-## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.6.0
-- **Thay thế thông tin chính thức:**
-  * Thay thế link Google Apps Script DEMO bằng Webhook Google Sheets chính thức của Trung tâm.
-  * Thay thế STK và thông tin cọc VietQR của Ban Tổ Chức khi có thông tin chính thức từ Mr Trí & Cô My.
-  * Cập nhật video clip phỏng vấn học viên thật và ảnh hoạt động lớp học online thực tế.
+## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.7.0
+- **Tích hợp Cổng Dữ Liệu Thực Chiến & Automation:**
+  * Kết nối webhook Google Sheets thật để lưu trữ dữ liệu ứng viên đăng ký Track A / Track B và phân loại tự động về hệ thống CRM.
+  * Tích hợp Webhook SePay VietQR động tự động xác thực khoản cọc 9.000.000đ và bắn thông báo nổ đơn về Bot Telegram của Ban Giảng Huấn.
 - **Tối ưu hóa chuyển đổi (Conversion Rate Optimization):**
   * Tích hợp popup giữ chân học viên (Exit-intent Modal) tặng Ebook và tài liệu IPA miễn phí.
-  * Thêm bộ đếm thời gian ngược (Countdown Timer) cho hạn chót đăng ký đợt xét tuyển K01.
+  * Bổ sung Video demo giảng dạy thực tế của Cô Diễm My và clip hậu trường làm video ngắn của Thầy Tâm.
