@@ -2,6 +2,22 @@
 
 ---
 
+## [1.7.1] - 2026-11-01
+### Ban Hành Trọn Bộ Cẩm Nang & Kho Tài Nguyên Bộ 8 Quà Tặng Độc Bản (Trị Giá 42.000.000đ Tặng 0đ)
+- **Đóng gói toàn diện Kho Tài nguyên Quà tặng Thực chiến (`BO_QUA_TANG_TRUYEN_NGHE_NEW_YOU.md`):**
+  * **Quà #01 (3.5tr):** Khung chương trình 52 Video Master IPA Anh - Mỹ (Cô My) phân rã 12 nguyên âm đơn, 8 nguyên âm đôi, 24 phụ âm, 8 bài ngữ điệu & phương pháp Mouth-Engine 3 bước.
+  * **Quà #02 (500k):** Sách in bìa cứng & Ebook bản quyền "New You English" (5 chương giải phóng tâm lý, nạp từ vựng, phản xạ ngữ pháp quy nạp).
+  * **Quà #03 (5tr):** Thư viện 100+ Mega Prompts AI phân 5 nhóm (Lesson Plan PPP/TTT, Reading/Listening CEFR, bài tập trắc nghiệm, CCQs/ICQs, Slide Gamma).
+  * **Quà #04 (8tr):** Gói cài đặt 01 Chatbot AI Trợ giảng riêng 24/7 (Custom GPTs) mang tên học viên để sửa bài và hỗ trợ học sinh cả ngày lẫn đêm.
+  * **Quà #05 (6tr):** Kho 30 Kịch bản Video ngắn triệu view bắt trend đã kiểm chứng (Bóc phốt phát âm, Lỗi ngữ pháp người đi làm, Tình huống đời sống, Mẹo nhớ 60s, Câu chuyện học trò).
+  * **Quà #06 (7tr):** Bộ Kịch bản tư vấn thấu cảm Zalo 5 bước cho 3 tệp khách & Slide trình chiếu 15 trang cho buổi Zoom Demo Class 45 phút chốt combo.
+  * **Quà #07 (10tr):** Bản quyền toàn diện Bộ SOP vận hành 60+ lớp học online (Master Google Sheets quản lý lớp, kịch bản nhắc BTVN thấu cảm, mẫu báo cáo phụ huynh).
+  * **Quà #08 (2tr):** Thẻ Hội viên trọn đời CLB Tiếng Anh LOÉ & Săn Tây thực chiến kết nối người bản xứ và mạng lưu chuyển học viên.
+  * **Quà tặng gia tăng #09 (Lead Magnet Studio Kit):** Tặng sẵn Ebook PDF 100 cụm từ công sở được đổi tên tác giả, 500 Flashcards Anki và form khảo sát tự động để học viên đi chiêu sinh 0 đồng ngay từ Tháng thứ 4.
+  * Quy trình kích hoạt và bàn giao tài nguyên qua Google Drive VIP, New You Portal và hotline/Zalo ban học thuật 0945.309.115.
+
+---
+
 ## [1.7.0] - 2026-11-01
 ### Ban Hành Trọn Bộ Giáo Trình Huấn Luyện Thực Chiến: AI, Video Ngắn & Phễu Tuyển Sinh (Thầy Tâm Phụ Trách)
 - **Hoàn thành Bộ Giáo trình Huấn luyện Thực chiến Chuyên sâu (`GIAO_TRINH_AI_VIDEO_SALES_THAY_TAM.md`):**
