@@ -25,7 +25,7 @@
   * Ban hành Bản Cam Kết Đào Tạo 2 Chiều có giá trị pháp lý gắn liền với hợp đồng đào tạo.
 - **Làm Sạch Mã Nguồn & Tối Ưu Kỹ Thuật:**
   * Loại bỏ triệt để các ký tự/chữ sót từ template cũ (Gia Định / T2N / DEMO).
-  * Cập nhật link phòng Google Meet sang phòng họp chuẩn `nye-orientation-k01`.
+  * Cập nhật link phòng Google Meet chính thức: `https://meet.google.com/ktd-wymq-aok` (mã phòng: `ktd-wymq-aok`).
   * Chuẩn hóa vùng chạm di động ≥ 44px trên toàn bộ giao diện 360px.
 
 ---
