@@ -2,23 +2,23 @@
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.6.0 (Hoàn thành - 31/10/2026)
-- **Tích hợp toàn diện Bộ Khung Chương Trình Chuẩn Hóa Học Thuật của Mr Trí Nguyễn:**
-  * Bổ sung Bạn Trí (Project Manager & QA) vào Ban Giảng Huấn Kiềng 3 Chân (Cô Sophie Diễm My - Thầy Huỳnh Trường Thanh Tâm - Bạn Trí Nguyễn).
-  * Công bố đối tác đào tạo văn bằng chính quy: Trường ĐH Sư phạm / ĐH Vinh (Chứng chỉ NVSP), ĐH Hùng Vương / ĐH Đối tác (Cử nhân VB2 Ngôn ngữ Anh), Hội đồng Khảo thí Quốc tế (IELTS 6.5–7.5+).
-  * Kích hoạt Cơ chế Phân Luồng Tuyển Sinh Đột Phá: **Dual-Track Protocol** (Track A: B1+ trở lên vào thẳng 12 tháng, mở lớp T4; Track B: A0-A2 học bổ trợ + làm Trợ giảng TA có lương tại NYE, mở lớp T6-T7).
-  * Tích hợp **Chính sách Lưới Bảo Trợ Học Sinh (NYE Student Backup Policy)**: NYE cam kết phân bổ học sinh từ phễu 60+ lớp học sang cho học viên đứng lớp có thu nhập nếu chưa tự tuyển đủ, hoàn vốn thực tế 40–60 triệu.
-  * Cập nhật Thang học phí niêm yết và Học bổng Khóa Khai Mở Batch 1: Pro Teacher (60tr), Dual-Degree Master (88tr), VIP Mentorship 1-1 (119tr) cùng 3 phương án tài chính linh hoạt (Trả góp 3 đợt 40%-30%-30% / Thẻ 0% / Cọc 9tr hoàn 100% trong 24h).
-  * Quy chuẩn hóa quy trình đào tạo: Micro-teaching 15-20p, Rubric 100 điểm, Feedback loop 24-48h, tư duy AI Input-Process-Output.
-  * Ban hành Bản Cam Kết Đào Tạo 2 Chiều có giá trị pháp lý.
-  * Làm sạch 100% các ký tự/chữ sót từ template cũ (Gia Định, T2N, DEMO).
+## 1. PHIÊN BẢN HIỆN TẠI: v1.7.0 (Hoàn thành - 01/11/2026)
+- **Ban Hành Trọn Bộ Giáo Trình Huấn Luyện Thực Chiến (Thầy Tâm Phụ Trách):**
+  * Tác giả: Thầy Huỳnh Trường Thanh Tâm.
+  * Tài liệu chuẩn: `GIAO_TRINH_AI_VIDEO_SALES_THAY_TAM.md`.
+  * Bao gồm 12 bài học chi tiết thực chiến chia làm 3 phần:
+    1. Tư duy & Kỹ năng Ứng dụng AI trong Dạy học (Input-Process-Output, Mega Prompts C-R-E-A-T-E, Slide Gamma/Canva, Custom GPTs).
+    2. Cỗ máy Video ngắn Triệu view & Định vị Nhân hiệu (Hook 3s, 5 kịch bản vàng, Studio smartphone tại gia, dựng CapCut siêu tốc, SEO đa kênh).
+    3. Phễu Tuyển sinh, Bán hàng Thấu cảm & Tự động hóa Vận hành (Lead Magnet, Kịch bản Zalo 5 bước, Zoom Demo Class 45p chốt combo, VietQR SePay & Bot Telegram).
+  * Kèm Rubric đánh giá đầu ra 100 điểm và phụ lục bẻ gãy từ chối giá.
+- **Hoàn thành phiên bản v1.6.0 trước đó:** Tích hợp bộ khung học thuật Mr Trí Nguyễn, Ban giảng huấn kiềng 3 chân, Dual-Track Protocol, Lưới bảo trợ học sinh hoàn vốn 40-60tr, Thang học phí Batch 1, Link phòng Google Meet: `https://meet.google.com/ktd-wymq-aok`.
 
 ---
 
-## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.7.0
-- **Tích hợp Cổng Dữ Liệu Thực Chiến & Automation:**
-  * Kết nối webhook Google Sheets thật để lưu trữ dữ liệu ứng viên đăng ký Track A / Track B và phân loại tự động về hệ thống CRM.
-  * Tích hợp Webhook SePay VietQR động tự động xác thực khoản cọc 9.000.000đ và bắn thông báo nổ đơn về Bot Telegram của Ban Giảng Huấn.
-- **Tối ưu hóa chuyển đổi (Conversion Rate Optimization):**
-  * Tích hợp popup giữ chân học viên (Exit-intent Modal) tặng Ebook và tài liệu IPA miễn phí.
-  * Bổ sung Video demo giảng dạy thực tế của Cô Diễm My và clip hậu trường làm video ngắn của Thầy Tâm.
+## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.8.0
+- **Số hóa & Triển khai Hệ thống Tự Động Hóa Thực Tế:**
+  * Triển khai endpoint Webhook SePay Node.js lên server Cloud/Vercel Serverless Function.
+  * Kết nối trực tiếp Bot Telegram nhận thông báo nổ đơn theo mã đơn hàng `NYE_HV...`.
+  * Thiết lập mẫu Google Sheets CRM tự động phân luồng ứng viên Track A / Track B từ Form khảo sát.
+- **Biên tập Giáo trình Thực hành của Cô Sophie Diễm My (Phần Sư phạm & Ngữ âm):**
+  * Đồng bộ giáo trình 52 video IPA Master và 100 câu NYE Classroom English.

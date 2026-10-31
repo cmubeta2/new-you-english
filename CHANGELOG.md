@@ -2,6 +2,30 @@
 
 ---
 
+## [1.7.0] - 2026-11-01
+### Ban Hành Trọn Bộ Giáo Trình Huấn Luyện Thực Chiến: AI, Video Ngắn & Phễu Tuyển Sinh (Thầy Tâm Phụ Trách)
+- **Hoàn thành Bộ Giáo trình Huấn luyện Thực chiến Chuyên sâu (`GIAO_TRINH_AI_VIDEO_SALES_THAY_TAM.md`):**
+  * **Phần I: Tư duy & Kỹ năng Ứng dụng AI trong Dạy học (AI-Powered Educator):**
+    - Thiết lập chuẩn xác quy trình 3 bước: INPUT (Critical Inquiry & Problem Framing) $\rightarrow$ PROCESS (Hợp xướng Công cụ & Chain-of-Thought) $\rightarrow$ OUTPUT (Bộ lọc Sư phạm & Đóng gói sản phẩm).
+    - Cung cấp toàn văn **Bộ Mega Prompts C-R-E-A-T-E độc quyền**: Soạn Lesson Plan PPP 60 phút trong 3 phút, tạo đoạn đọc/nghe chuẩn CEFR A2/B1/B2 và bẻ khớp âm IPA Mouth-Engine.
+    - Hướng dẫn kết hợp ChatGPT + Gamma.app/Canva tạo bộ Slide tương tác 15-20 trang trong 5 phút; thư viện bẫy tư duy CCQs/ICQs.
+    - Hướng dẫn cấu hình chi tiết System Instructions đóng gói Chatbot AI 24/7 (Custom GPTs Sư phạm cá nhân mang thương hiệu học viên).
+  * **Phần II: Cỗ Máy Video Ngắn Bắt Trend Triệu View & Định Vị Nhân Hiệu (Viral Video Mastery):**
+    - Giải mã thuật toán phân phối TikTok/Reels/Shorts dựa trên Retention 3s, Completion Rate, Saves/Shares.
+    - Ban hành **Ma trận "Hook 3 Giây Giữ Chân" (Hook Retention Matrix)**: 4 công thức mở đầu kích hoạt tò mò ngay lập tức.
+    - Xây dựng **5 Cấu trúc Kịch bản Video Giáo dục chuyển đổi cao** kèm kịch bản mẫu chi tiết từng giây (Bóc phốt phát âm sai từ Schedule, Tình huống đời sống, Câu chuyện học trò tiến bộ, Mẹo nhớ 60s, Q&A comment reply).
+    - Setup Studio tại gia chi phí dưới 2 triệu đồng bằng Smartphone (Ánh sáng 3 điểm, mic cài áo lọc ồn, kỹ thuật dùng app nhắc chữ Teleprompter không đảo mắt, khẩu hình mở rộng).
+    - Quy trình dựng phim CapCut 15 phút: Jump-cut, Auto Captions, hiệu ứng phiên âm IPA động, Sound effects và SEO từ khóa đa kênh.
+  * **Phần III: Phễu Tuyển Sinh, Kỹ Năng Bán Hàng Thấu Cảm & Tự Động Hóa Vận Hành:**
+    - Kiến trúc Phễu Giáo dục 3 tầng TOFU - MOFU - BOFU và 3 ý tưởng Lead Magnet hút học viên 0 đồng.
+    - Toàn văn **Kịch bản Tư vấn Thấu cảm 5 Bước qua Zalo**: Chẩn đoán nỗi đau, bẻ gãy rào cản giá bằng Bảng giá trị đảo ngược, nghệ thuật follow-up văn minh, bảo hiểm rủi ro 100%.
+    - Cấu trúc 45 Phút Demo Class trên Zoom "Chốt nóng Combo" tỷ lệ chuyển đổi > 30% (Timeline chi tiết, tạo Aha Moment, chốt combo bằng đồng hồ đếm ngược).
+    - Hướng dẫn kỹ thuật và mã nguồn hoàn chỉnh: Tích hợp VietQR SePay vào Landing page và Node.js Webhook bắn tin nhắn thông báo nổ đơn Telegram bot tự động 24/7.
+  * **Hệ thống Đánh giá Rubric 100 Điểm:** Quy định chuẩn đầu ra bắt buộc (>= 80 điểm) để học viên được cấp chứng nhận vượt qua mô-đun.
+  * **Phụ lục Thực chiến:** 10 câu nói bẻ gãy lời từ chối "Học phí đắt quá" và Prompting kiểm tra âm đuôi (Ending sounds).
+
+---
+
 ## [1.6.0] - 2026-10-31
 ### Tích Hợp Toàn Diện Bộ Khung Chương Trình Chuẩn Hóa Học Thuật Của Mr Trí Nguyễn
 - **Định vị Ban Giảng Huấn Kiềng 3 Chân Chiến Lược:**
