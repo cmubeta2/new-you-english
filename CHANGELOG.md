@@ -2,6 +2,28 @@
 
 ---
 
+## [1.7.5] - 2026-11-01
+### Hoàn Thiện Chi Tiết Toàn Văn Kho 30 Kịch Bản Video, 15 Slide Demo Zoom & 6 Bộ SOP Vận Hành
+- **Đại Tu & Hoàn Thiện Chi Tiết Kho 30 Kịch Bản Video Ngắn Triệu View (`QUA_05`):**
+  * Soạn toàn văn 30 kịch bản chia theo 5 trụ cột:
+    - Trụ cột 1: Bóc phốt phát âm sai kinh điển (KB 01 - 08: Schedule, Comfortable, Wednesday, Pizza, Island, Đuôi -ed, Âm cuối -s, Cặp răng lưỡi /θ/-/ð/).
+    - Trụ cột 2: Lỗi sai ngữ pháp người đi làm hay mắc (KB 09 - 14: I very like it, Discuss about, Marry with, See-Look-Watch, Hear-Listen, Viết email chào sếp Tây).
+    - Trụ cột 3: Tình huống thực tế đời sống đóng 2 vai (KB 15 - 20: Starbucks, Từ chối đi nhậu, Sân bay lạc đường, Trả giá mua sắm, Thang máy small talk, Đi khám bệnh).
+    - Trụ cột 4: Mẹo nhớ nhanh 60 giây / Fast Hacks (KB 21 - 25: 5 ngón tay In-On-At, Thơ OSASCOMP, Vỗ tay động từ bất quy tắc, Borrow vs Lend, Đi xe cộ In vs On).
+    - Trụ cột 5: Câu chuyện học trò & Động lực (KB 26 - 30: Kỹ sư 32 tuổi bứt phá, Tại sao học 12 năm câm nín, Lời thú tội của GV, Nỗi lo phụ huynh, 15p mỗi ngày).
+  * 100% kịch bản tuân thủ chuẩn 5 phần: Hook 3s $\rightarrow$ Agitate Pain $\rightarrow$ Aha Solution $\rightarrow$ Application $\rightarrow$ CTA; đóng khung `[SLOT CHUYÊN MÔN - CÔ MY DUYỆT]` để không chồng chéo phạm vi.
+- **Hoàn Thiện Chi Tiết Toàn Văn 15 Slide Demo Class Zoom 45 Phút (`QUA_06`):**
+  * Kịch bản điều phối chi tiết từng slide từ Slide 1 đến Slide 15 kèm lời thoại MC/Giáo viên: Phá băng $\rightarrow$ Bắt bệnh $\rightarrow$ Dạy thử Aha Moment $\rightarrow$ Lộ trình 3 tháng $\rightarrow$ Bảng giá đảo ngược $\rightarrow$ Chốt đơn đồng hồ đếm ngược VietQR.
+- **Hoàn Thiện Chi Tiết Toàn Bộ 6 Biểu Mẫu SOP Vận Hành 60+ Lớp (`QUA_07`):**
+  * SOP-01: File Master Google Sheets (cột tính, công thức tự động bôi đỏ chuyên cần $<80\%$).
+  * SOP-02: Quy trình đón tiếp 3 bước & Thư chào mừng Welcome Letter mẫu.
+  * SOP-03: Kịch bản nhắc BTVN thấu cảm cho học viên vắng mặt và trễ hạn.
+  * SOP-04: Mẫu báo cáo định kỳ hàng tháng gửi phụ huynh.
+  * SOP-05: Kịch bản Lễ tốt nghiệp Mini-Graduation 45 phút trên Zoom.
+  * SOP-06: Kịch bản xin feedback và referral tự nhiên.
+
+---
+
 ## [1.7.4] - 2026-11-01
 ### Chuẩn Hóa Ranh Giới Chuyên Môn & Kế Hoạch Hành Động Tập Trung Mảng Của Thầy Tâm
 - **Tách Bạch Triệt Để Ranh Giới Trách Nhiệm Sư Phạm (Không Chồng Chéo Phạm Vi):**
