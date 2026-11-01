@@ -39,7 +39,7 @@
 ```
 
 ### 2. Thiết kế Mồi Thu Hút (Lead Magnet 0đ):
-Học viên được chuyển giao các tài nguyên mồi thu hút (Ebook PDF, Flashcards, Form khảo sát) để tự động thu thập số điện thoại và danh sách phụ huynh/người học quan tâm.
+Học viên được chuyển giao các tài nguyên mồi thu hút (Ebook PDF, Flashcards, Form khảo sát) từ **Quà Tặng #09** để tự động thu thập số điện thoại và danh sách phụ huynh/người học quan tâm.
 
 ---
 
@@ -80,26 +80,155 @@ Học viên trải qua buổi đóng vai giả lập 1-1 trực tiếp với Th�
 ## BÀI 12: TỰ ĐỘNG HÓA VẬN HÀNH: CỔNG THU HỌC PHÍ VIETQR SEPAY & BOT TELEGRAM
 *(TÍCH HỢP QUÀ TẶNG #07: BẢN QUYỀN BỘ SOP VẬN HÀNH 60+ LỚP HỌC ONLINE)*
 
-### 1. Kiến trúc Hệ thống Thu học phí Tự động (Hands-free Cashflow):
+### 1. Kiến Trúc Luồng Dữ Liệu Tự Động Hóa Thực Chiến (100% Không Cần Thuê Server):
 
 ```mermaid
 sequenceDiagram
     autonumber
     actor Learner as Học Viên (Phụ Huynh)
-    participant Landing as Trang Đích (Landing Page)
-    participant SePay as Cổng SePay (VietQR API)
-    participant Bank as Ngân Hàng (Vietcombank/MB)
-    participant Bot as Telegram Bot (Thông Báo Thầy Cô)
-    participant System as Hệ Thống Phê Duyệt / Email
+    participant Web as Trang Đích (Landing Page)
+    participant SePay as SePay Gateway (VietQR)
+    participant Bank as Ngân Hàng (Mobile Banking)
+    participant GAS as Google Apps Script (Miễn Phí)
+    participant Sheets as Google Sheets CRM
+    participant Telegram as Telegram Bot Thầy Cô
 
-    Learner->>Landing: Điền Form đăng ký & Chọn gói học phí
-    Landing->>SePay: Tạo mã VietQR động (Số tiền + Mã đơn hàng duy nhất)
-    Landing->>Learner: Hiển thị mã QR ngân hàng trên màn hình
-    Learner->>Bank: Quét mã QR chuyển khoản qua Mobile Banking
-    Bank->>SePay: Ghi nhận biến động số dư (Giao dịch thành công)
-    SePay->>System: Bắn Webhook HTTP POST (Payload đơn hàng)
-    System->>Bot: Gửi tin nhắn Telegram nổ đơn: "TING TING! +Học phí"
-    System->>Learner: Tự động mở khóa phòng học Zoom & Gửi tài liệu qua Email/Zalo
+    Learner->>Web: Điền form & Nhận mã VietQR động
+    Web->>Learner: Hiển thị mã QR ngân hàng có mã đơn hàng NYE_...
+    Learner->>Bank: Quét QR thanh toán học phí
+    Bank->>SePay: Ghi nhận giao dịch thành công
+    SePay->>GAS: Bắn Webhook HTTP POST (JSON Payload)
+    GAS->>Sheets: Tự động ghi hàng mới vào Google Sheets CRM
+    GAS->>Telegram: Bắn tin nhắn nổ đơn TING TING về máy Thầy Cô
+    Web->>SePay: Polling API mỗi 3 giây kiểm tra trạng thái
+    SePay-->>Web: Trả về trạng thái "Đã thanh toán"
+    Web->>Learner: Tự động hiện màn hình "Chúc Mừng" & Mở link Zoom!
+```
+
+---
+
+### 2. Mã Nguồn Frontend JavaScript Polling Kiểm Tra Thanh Toán Tự Động (Real-Time):
+
+Đoạn code này được nhúng trực tiếp vào Trang Đích của giáo viên để tự động phát hiện học sinh đã chuyển khoản mà không cần học sinh phải chụp màn hình gửi hóa đơn:
+
+```html
+<!-- KHUNG HIỂN THỊ VIETQR VÀ TỰ ĐỘNG KIỂM TRA TRẠNG THÁI -->
+<div id="payment-box" class="p-6 bg-white rounded-2xl shadow-lg text-center max-w-sm mx-auto">
+  <h4 class="text-lg font-black text-slate-800 mb-2">QUÉT MÃ VIETQR ĐỂ XÁC NHẬN</h4>
+  
+  <img id="qr-image" 
+       src="https://qr.sepay.vn/img?acc=0945309115&bank=MBBank&amount=500000&des=NYE_HV99" 
+       class="w-64 h-64 mx-auto rounded-xl border border-slate-200 mb-3" />
+
+  <p class="text-xs text-slate-500 mb-3">
+    Nội dung chuyển khoản: <strong class="text-emerald-700" id="order-code">NYE_HV99</strong>
+  </p>
+
+  <div id="payment-status" class="flex items-center justify-center gap-2 text-xs font-semibold text-amber-600">
+    <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+    Đang chờ hệ thống ngân hàng xác nhận...
+  </div>
+</div>
+
+<script>
+  // Kỹ thuật Polling API SePay kiểm tra giao dịch mỗi 3 giây
+  const ORDER_CODE = "NYE_HV99"; // Mã đơn hàng duy nhất của học viên
+  const EXPECTED_AMOUNT = 500000; // Số tiền cọc 500k
+  const SEPAY_API_TOKEN = "YOUR_SEPAY_API_TOKEN"; // Lấy tại my.sepay.vn
+
+  const checkInterval = setInterval(async () => {
+    try {
+      const response = await fetch(`https://my.sepay.vn/userapi/transactions/list?limit=10`, {
+        headers: { "Authorization": `Bearer ${SEPAY_API_TOKEN}` }
+      });
+      const data = await response.json();
+      
+      if (data && data.transactions) {
+        // Tìm kiếm giao dịch có nội dung chứa mã đơn hàng
+        const matched = data.transactions.find(tx => 
+          tx.transaction_content.includes(ORDER_CODE) && 
+          parseFloat(tx.amount_in) >= EXPECTED_AMOUNT
+        );
+
+        if (matched) {
+          clearInterval(checkInterval);
+          // Cập nhật giao diện thành công ngay lập tức!
+          document.getElementById("payment-status").innerHTML = `
+            <span class="text-emerald-600 font-bold text-sm">✅ ĐÃ NHẬN THANH TOÁN THÀNH CÔNG!</span>
+          `;
+          alert("Ting ting! Hệ thống đã xác nhận thanh toán thành công. Đang chuyển hướng vào phòng học...");
+          window.location.href = "https://zalo.me/g/iqsizbdchqz1p1br3rkx"; // Tự động nhảy vào nhóm lớp
+        }
+      }
+    } catch (e) {
+      console.log("Polling error:", e);
+    }
+  }, 3000); // 3 giây kiểm tra 1 lần
+</script>
+```
+
+---
+
+### 3. Mã Nguồn Google Apps Script Nhận Webhook SePay & Bắn Telegram Miễn Phí (Serverless):
+
+Tạo một dự án Google Apps Script (gắn liền với Google Sheets CRM của giáo viên) và dán toàn bộ mã nguồn sau, sau đó ấn **Deploy as Web App**:
+
+```javascript
+// Google Apps Script: Webhook SePay -> Ghi Sheets -> Bắn Telegram Bot
+const TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
+const TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID";
+
+function doPost(e) {
+  try {
+    const postData = JSON.parse(e.postData.contents);
+    
+    // Lấy thông tin giao dịch từ SePay
+    const amount = postData.transferAmount || postData.amount_in || 0;
+    const content = postData.content || postData.transaction_content || "";
+    const gateway = postData.gateway || postData.bank_brand_name || "Ngân hàng";
+    const refCode = postData.referenceCode || postData.id || "N/A";
+    const dateStr = postData.transactionDate || new Date().toLocaleString("vi-VN");
+
+    // 1. Ghi dữ liệu vào Google Sheets CRM
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("LICH_SU_THANH_TOAN");
+    if (sheet) {
+      sheet.appendRow([new Date(), refCode, gateway, amount, content, "Thành công"]);
+    }
+
+    // 2. Soạn tin nhắn Telegram siêu đẹp
+    const formattedAmount = Number(amount).toLocaleString('vi-VN') + " đ";
+    const message = `
+🎉 <b>TING TING! NỔ ĐƠN HỌC VIÊN MỚI!</b> 🎉
+────────────────────────
+💰 <b>Số tiền:</b> <code>${formattedAmount}</code>
+🏦 <b>Ngân hàng:</b> ${gateway}
+📝 <b>Nội dung CK:</b> <code>${content}</code>
+⏰ <b>Thời gian:</b> ${dateStr}
+🔖 <b>Mã GD:</b> <code>${refCode}</code>
+────────────────────────
+🚀 <i>Hệ thống New You English đã tự động ghi nhận học viên vào Sheets CRM!</i>
+    `;
+
+    // 3. Bắn tin nhắn qua Telegram Bot API
+    const telegramUrl = "https://api.telegram.org/bot" + TELEGRAM_BOT_TOKEN + "/sendMessage";
+    UrlFetchApp.fetch(telegramUrl, {
+      method: "post",
+      contentType: "application/json",
+      payload: JSON.stringify({
+        chat_id: TELEGRAM_CHAT_ID,
+        text: message,
+        parse_mode: "HTML"
+      })
+    });
+
+    return ContentService.createTextOutput(JSON.stringify({ status: "success" }))
+                         .setMimeType(ContentService.MimeType.JSON);
+
+  } catch (error) {
+    return ContentService.createTextOutput(JSON.stringify({ status: "error", message: error.toString() }))
+                         .setMimeType(ContentService.MimeType.JSON);
+  }
+}
 ```
 
 ---

@@ -2,6 +2,21 @@
 
 ---
 
+## [1.7.6] - 2026-11-01
+### Hoàn Thiện Toàn Văn Quà #09 Lead Magnet Kit & Code Webhook SePay + Telegram
+- **Hoàn Thiện Chi Tiết Toàn Văn Quà #09 (Lead Magnet Studio Kit):**
+  * Soạn trọn vẹn Ebook White-Label "100 Cụm Từ Tiếng Anh Giao Tiếp Nơi Công Sở Dành Cho Người Đi Làm Bận Rộn" (học viên chỉ cần điền tên tác giả và số điện thoại là có thể dùng làm mồi câu).
+  * Biên soạn danh mục 500 Flashcards Anki theo phương pháp Lặp lại ngắt quãng (Spaced Repetition).
+  * Soạn toàn văn mẫu Form Google Khảo sát phân luồng học viên thông minh (Track A: B1+; Track B: A0-A2).
+  * Soạn trọn bộ kịch bản đăng bài Facebook & Zalo thu hút lead (Giai đoạn Tò mò, Kêu gọi tải mồi, FOMO đếm ngược).
+- **Hoàn Thiện Mã Nguồn Tự Động Hóa Thu Học Phí & Nổ Đơn Realtime (`HOC_PHAN_3`):**
+  * Cung cấp trọn bộ code JavaScript Client-side Polling kiểm tra trạng thái thanh toán SePay API trực tiếp không cần server.
+  * Cung cấp toàn văn mã nguồn Google Apps Script Serverless Webhook nhận dữ liệu từ SePay, tự động ghi thông tin vào Google Sheets CRM và bắn thông báo nổ đơn kèm âm thanh chuông về Bot Telegram nhóm vận hành.
+- **Thiết Lập Lịch Tự Động Hóa Background Daemon 5 Tiếng/Lần:**
+  * Kích hoạt daemon task chạy ngầm kiểm toán định kỳ, rà soát chất lượng học liệu và tối ưu hóa hạ tầng kinh doanh.
+
+---
+
 ## [1.7.5] - 2026-11-01
 ### Hoàn Thiện Chi Tiết Toàn Văn Kho 30 Kịch Bản Video, 15 Slide Demo Zoom & 6 Bộ SOP Vận Hành
 - **Đại Tu & Hoàn Thiện Chi Tiết Kho 30 Kịch Bản Video Ngắn Triệu View (`QUA_05`):**
