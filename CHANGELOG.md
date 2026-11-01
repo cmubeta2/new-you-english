@@ -2,6 +2,26 @@
 
 ---
 
+## [1.7.2] - 2026-11-01
+### Hoàn Thiện Chi Tiết Giáo Trình Thầy Tâm & Lồng Ghép Lịch Trình Mở Khóa Bộ Quà Tặng 42 Triệu
+- **Nâng cấp Toàn Diện Giáo Trình Thực Chiến Thầy Tâm (`GIAO_TRINH_AI_VIDEO_SALES_THAY_TAM.md`):**
+  * Lồng ghép chuyên môn sư phạm thực tế: Giáo trình *English File (Oxford)*, phương pháp Inductive Grammar (ngữ pháp quy nạp), nguyên tắc TTT $\le 30\%$ và STT $\ge 70\%$, bẻ khớp âm Mouth-Engine.
+  * Tích hợp trực tiếp **Bộ 8 Quà Tặng Độc Bản** vào từng bài học cụ thể:
+    - Bài 2 lồng ghép Quà #03 (Thư viện 100+ Mega Prompts AI C-R-E-A-T-E).
+    - Bài 3 lồng ghép Quà #01 (52 Video Master IPA Cô My làm học liệu số).
+    - Bài 4 lồng ghép Quà #04 (01 Chatbot AI Trợ giảng riêng 24/7 Custom GPTs).
+    - Bài 6 lồng ghép Quà #05 (Kho 30 kịch bản video ngắn triệu view đã kiểm chứng).
+    - Bài 9 lồng ghép Quà #09 (Lead Magnet Studio Kit) & Quà #02 (Ebook NYE đổi tên tác giả để chiêu sinh 0đ).
+    - Bài 10 lồng ghép Quà #06 (Sales Scripts Zalo 5 bước thấu cảm).
+    - Bài 11 lồng ghép Quà #06 (Slide Demo Zoom 15 trang) & Quà #08 (Thẻ LOÉ Club làm quà tặng chốt nóng).
+    - Bài 12 lồng ghép Quà #07 (Bản quyền Bộ SOP vận hành 60+ lớp học online & Google Sheets tự động).
+  * Xây dựng **Lịch trình Mở khóa Quà tặng 12 Tháng (Milestone-based Gamification Roadmap)**: Phân bổ mở khóa theo 4 Quý kèm điều kiện Quality Gate khắt khe do Thầy Tâm, Cô My và Bạn Trí QA kiểm soát.
+- **Hoàn Thiện Kho Tài Nguyên Bộ Quà Tặng (`BO_QUA_TANG_TRUYEN_NGHE_NEW_YOU.md`):**
+  * Lập bảng tiến độ sản xuất, hoàn thiện và kiểm chuẩn QA chi tiết từng món quà trước khai giảng Batch 1.
+  * Lộ trình bàn giao 4 cột mốc đồng bộ hoàn hảo hai chiều cùng giáo trình.
+
+---
+
 ## [1.7.1] - 2026-11-01
 ### Ban Hành Trọn Bộ Cẩm Nang & Kho Tài Nguyên Bộ 8 Quà Tặng Độc Bản (Trị Giá 42.000.000đ Tặng 0đ)
 - **Đóng gói toàn diện Kho Tài nguyên Quà tặng Thực chiến (`BO_QUA_TANG_TRUYEN_NGHE_NEW_YOU.md`):**
