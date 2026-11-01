@@ -2,16 +2,16 @@
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.7.2 (Hoàn thành - 01/11/2026)
-- **Hoàn Thiện Chi Tiết Giáo Trình Thầy Tâm & Lồng Ghép Lịch Trình Bộ Quà Tặng:**
-  * Lồng ghép sâu sắc chuyên môn tiếng Anh (English File, CEFR, Inductive Grammar, Mouth-Engine Cô My, TTT <= 30%, STT >= 70%).
-  * Lồng ghép trực tiếp Bộ 8 Quà tặng (42tr) vào từng bài học cụ thể (Bài 2 -> Quà 3, Bài 3 -> Quà 1, Bài 4 -> Quà 4, Bài 6 -> Quà 5, Bài 9 -> Quà 9 & 2, Bài 10 -> Quà 6, Bài 11 -> Quà 8, Bài 12 -> Quà 7).
-  * Thiết lập bảng **Milestone Roadmap 4 Quý**: Lịch trình mở khóa quà tặng theo tiến độ thực tế và điều kiện nghiệm thu Quality Gate do Bạn Trí QA và Ban Giảng Huấn giám sát.
-  * Lập bảng tiến độ sản xuất và nghiệm thu chi tiết từng món quà tặng trong tài liệu `BO_QUA_TANG_TRUYEN_NGHE_NEW_YOU.md`.
+## 1. PHIÊN BẢN HIỆN TẠI: v1.7.3 (Hoàn thành - 01/11/2026)
+- **Kiến Trúc Hóa & Phân Rã Module Độc Lập:**
+  * Phân rã Giáo trình Thầy Tâm thành thư mục `GiaoTrinh_ThayTam/` gồm 5 file `.md` độc lập, có file chỉ mục `00_CHI_MUC_TONG_QUAN.md`.
+  * Phân rã Bộ Quà Tặng thành thư mục `BoQuaTang_NewYou/` gồm 11 file `.md` độc lập, có file chỉ mục `00_CHI_MUC_BO_QUA_TANG.md`.
+  * Giải quyết triệt để vấn đề dồn quá nhiều nội dung vào 1 file, giúp học viên tra cứu nhanh, dễ bảo trì và phân quyền truy cập.
 - **Hoàn thành các phiên bản trước:**
+  * v1.7.2: Hoàn thiện chi tiết giáo trình Thầy Tâm, lồng ghép nội dung sư phạm và lịch trình mở khóa bộ quà tặng.
   * v1.7.1: Ban hành toàn văn Kho tài nguyên Bộ 8 Quà tặng độc bản 42 triệu.
-  * v1.7.0: Khởi tạo Giáo trình Huấn luyện Thực chiến Thầy Tâm (`GIAO_TRINH_AI_VIDEO_SALES_THAY_TAM.md`).
-  * v1.6.0: Tích hợp Bộ khung học thuật Mr Trí Nguyễn, Kiềng 3 chân, Dual-Track Protocol, Lưới bảo trợ hoàn vốn 40-60tr, Bảng giá Batch 1, Link Google Meet `https://meet.google.com/ktd-wymq-aok`.
+  * v1.7.0: Khởi tạo Giáo trình Huấn luyện Thực chiến Thầy Tâm.
+  * v1.6.0: Tích hợp Bộ khung học thuật Mr Trí Nguyễn, Kiềng 3 chân, Dual-Track Protocol, Lưới bảo trợ hoàn vốn 40-60tr.
 
 ---
 

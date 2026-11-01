@@ -2,6 +2,31 @@
 
 ---
 
+## [1.7.3] - 2026-11-01
+### Kiến Trúc Hóa & Phân Rã Module Độc Lập: Giáo Trình Thầy Tâm & Bộ Quà Tặng 42 Triệu
+- **Tách Giáo Trình Thầy Tâm Thành Thư Mục Module Độc Lập (`GiaoTrinh_ThayTam/`):**
+  * `00_CHI_MUC_TONG_QUAN.md`: Chỉ mục tổng thể, 3 nguyên tắc bất di bất dịch, ma trận kiềng 3 chân và bảng Milestone Roadmap 12 tháng.
+  * `01_HOC_PHAN_1_CONG_NGHE_AI.md`: Toàn văn Học phần I (Bài 1 - 4: Problem Framing, Prompting C-R-E-A-T-E, Slide Gamma/Canva, Custom GPTs 24/7).
+  * `02_HOC_PHAN_2_VIDEO_NGAN_TRIEU_VIEW.md`: Toàn văn Học phần II (Bài 5 - 8: Thuật toán TikTok/Reels, Hook 3s, 5 kịch bản từng giây, Studio smartphone <2tr, Dựng CapCut Jump-cut, xuất bản 20 video).
+  * `03_HOC_PHAN_3_PHEU_TUYEN_SINH_VA_TU_DONG_HOA.md`: Toàn văn Học phần III (Bài 9 - 12: Phễu TOFU-MOFU-BOFU, Kịch bản Zalo 5 bước, Demo Zoom 45p chốt combo, VietQR SePay & Bot Telegram).
+  * `04_RUBRIC_DANH_GIA_VA_PHU_LUC.md`: Hệ thống đánh giá Rubric 100 điểm, 10 câu bẻ gãy từ chối học phí đắt, Prompting kiểm tra ending sounds.
+- **Tách Bộ Quà Tặng Thành Thư Mục Module Độc Lập (`BoQuaTang_NewYou/`):**
+  * `00_CHI_MUC_BO_QUA_TANG.md`: Chỉ mục tổng quan, bảng tổng hợp giá trị 42tr (tặng 0đ) và quy trình tiếp nhận 15 phút.
+  * `QUA_01_52_VIDEO_MASTER_IPA.md` (3.5tr): Chi tiết 52 video phân 4 học phần & phương pháp Mouth-Engine 3 bước.
+  * `QUA_02_SACH_VA_EBOOK_NEW_YOU.md` (500k): Sách in mạ vàng có chữ ký Cô My & Ebook PDF tương tác 5 chương.
+  * `QUA_03_THU_VIEN_100_MEGA_PROMPTS_AI.md` (5tr): Thư viện 100+ Prompts phân 5 nhóm kèm mã lệnh mẫu.
+  * `QUA_04_CHATBOT_AI_TRO_GIANG_CUSTOM_GPTS.md` (8tr): File System Instructions & quy trình nạp Knowledge Base.
+  * `QUA_05_KHO_30_KICH_BAN_VIDEO_TRIEU_VIEW.md` (6tr): Danh mục 30 kịch bản theo 5 trụ cột nội dung.
+  * `QUA_06_BO_SALES_SCRIPTS_ZALO_VA_ZOOM_DEMO.md` (7tr): Kịch bản Zalo 5 bước cho 3 tệp khách & Slide Zoom 15 trang.
+  * `QUA_07_BAN_QUYEN_SOP_VAN_HANH_60_LOP.md` (10tr): Hệ thống 6 biểu mẫu SOP Google Sheets tự động.
+  * `QUA_08_THE_HOI_VIEN_TRON_DOI_LOE_CLUB.md` (2tr): Thẻ số hóa Digital Card & 3 đặc quyền độc nhất.
+  * `QUA_09_LEAD_MAGNET_STUDIO_KIT.md` (Bonus 0đ): Ebook đổi tên tác giả, Flashcards Anki, Form Google chiêu sinh.
+  * `LICH_TRINH_SAN_XUAT_VA_MO_KHOA.md`: Tiến độ sản xuất nội bộ trước khai giảng Batch 1 & Lộ trình mở khóa 4 cột mốc.
+- **Đồng bộ hóa 2 chiều:** Đồng bộ toàn diện vào `He sinh thai Shin`, `03_XuongWeb/noi_dung/` và kho deploy `C:	emp
+ew-you-deploy`.
+
+---
+
 ## [1.7.2] - 2026-11-01
 ### Hoàn Thiện Chi Tiết Giáo Trình Thầy Tâm & Lồng Ghép Lịch Trình Mở Khóa Bộ Quà Tặng 42 Triệu
 - **Nâng cấp Toàn Diện Giáo Trình Thực Chiến Thầy Tâm (`GIAO_TRINH_AI_VIDEO_SALES_THAY_TAM.md`):**
