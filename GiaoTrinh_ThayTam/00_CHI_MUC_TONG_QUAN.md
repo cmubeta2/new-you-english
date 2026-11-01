@@ -54,6 +54,10 @@ Sự trỗi dậy của Trí tuệ Nhân tạo (Generative AI) không tiêu di�
    *Bài 9: Kiến trúc Phễu TOFU-MOFU-BOFU & Lead Magnet 0đ | Bài 10: Kịch bản tư vấn thấu cảm Zalo 5 bước | Bài 11: Cấu trúc 45 phút Demo Zoom chốt combo > 30% | Bài 12: Tự động hóa VietQR SePay & Bot Telegram nổ đơn.*
 4. 📊 [Hệ Thống Đánh Giá Đầu Ra Rubric 100 Điểm & Phụ Lục Bẻ Gãy Từ Chối](./04_RUBRIC_DANH_GIA_VA_PHU_LUC.md)  
    *4 Cột điểm năng lực công nghệ & kinh doanh (Độc lập với phần thẩm định chuyên môn của Cô My) | 10 Câu bẻ gãy từ chối học phí đắt.*
+5. 🤝 [Hướng Dẫn Bàn Giao & Phối Hợp Học Thuật Dành Cho Cô Sophie Diễm My](./00_HUONG_DAN_BAN_GIAO_HOC_THUAT_CO_MY.md)  
+   *Bảng chỉ mục tổng hợp các vị trí [SLOT CHUYÊN MÔN - CÔ MY DUYỆT] trên toàn bộ hệ thống kịch bản video, slide demo và học liệu.*
+6. ⚙️ [Tài Nguyên Kỹ Thuật: Mã Nguồn Google Apps Script & Hướng Dẫn Cài Đặt Google Sheets CRM](./tai_nguyen_ky_thuat/HUONG_DAN_CAI_DAT_GOOGLE_SHEETS_CRM.md)  
+   *Mã nguồn .gs hoàn chỉnh (SePay Webhook + Telegram Bot) và hướng dẫn 3 bước thiết lập bảng tính Google Sheets CRM tự động hóa 0đ.*
 
 ---
 

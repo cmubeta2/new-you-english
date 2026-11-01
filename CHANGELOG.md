@@ -2,6 +2,20 @@
 
 ---
 
+## [1.7.7] - 2026-11-02
+### Ban Hành Hướng Dẫn Bàn Giao Học Thuật Cô My & Bộ Mã Nguồn Standalone Google Apps Script CRM
+- **Ban Hành Bảng Hướng Dẫn Bàn Giao & Phối Hợp Học Thuật Cho Cô Sophie Diễm My (`00_HUONG_DAN_BAN_GIAO_HOC_THUAT_CO_MY.md`):**
+  * Chuẩn hóa ranh giới trách nhiệm tuyệt đối: Thầy Tâm giữ vai trò Kiến trúc sư Hệ thống, Công nghệ AI, Video ngắn, Phễu Sales & Vận hành số; Cô Diễm My nắm độc quyền chuyên môn tiếng Anh, 44 âm IPA, Oxford English File và chấm thi khẩu hình.
+  * Lập ma trận chỉ mục chi tiết toàn bộ các vị trí `[SLOT CHUYÊN MÔN - CÔ MY DUYỆT]` trong 30 kịch bản video (`QUA_05`), 15 Slide Demo Zoom (`QUA_06`), Ebook công sở (`QUA_09`) và 52 video IPA (`QUA_01`).
+  * Thiết lập quy trình 3 bước phối hợp tinh gọn để Cô My trực tiếp nạp bài tập và ví dụ ngữ âm chuẩn xác mà không chạm vào cấu trúc kỹ thuật.
+- **Hoàn Thiện Bộ Tài Nguyên Kỹ Thuật Standalone Google Sheets CRM 0đ (`tai_nguyen_ky_thuat`):**
+  * `Code_Google_Apps_Script_Webhook_SePay_Telegram.gs`: File mã nguồn chuẩn, xử lý mượt mà cả Webhook SePay VietQR lẫn Form Web Leads, phân luồng thông minh Track A / Track B và bắn thông báo Telegram Bot realtime.
+  * `HUONG_DAN_CAI_DAT_GOOGLE_SHEETS_CRM.md`: Cẩm nang thiết lập bảng tính CRM 4 sheet với công thức tính tự động và cảnh báo chuyên cần dưới 80% bằng màu đỏ.
+- **Cập Nhật Chỉ Mục Tổng Quan Giáo Trình:**
+  * Bổ sung mục 5 & 6 trong `00_CHI_MUC_TONG_QUAN.md` kết nối trực tiếp đến các tài nguyên mới.
+
+---
+
 ## [1.7.6] - 2026-11-01
 ### Hoàn Thiện Toàn Văn Quà #09 Lead Magnet Kit & Code Webhook SePay + Telegram
 - **Hoàn Thiện Chi Tiết Toàn Văn Quà #09 (Lead Magnet Studio Kit):**
