@@ -2,6 +2,22 @@
 
 ---
 
+## [1.7.4] - 2026-11-01
+### Chuẩn Hóa Ranh Giới Chuyên Môn & Kế Hoạch Hành Động Tập Trung Mảng Của Thầy Tâm
+- **Tách Bạch Triệt Để Ranh Giới Trách Nhiệm Sư Phạm (Không Chồng Chéo Phạm Vi):**
+  * **Mảng Chuyên Môn Tiếng Anh & Ngữ Âm:** Do **Cô Sophie Diễm My** chủ trì độc lập (phát âm 44 âm IPA, giáo trình Oxford English File, phương pháp Inductive Grammar, chấm thi khẩu hình). Trong giáo trình của Thầy Tâm, toàn bộ nội dung tiếng Anh chỉ dừng ở mức **Gợi ý / Tham số đầu vào (Placeholders)**, tuyệt đối không can thiệp hay viết sâu chuyên môn tiếng Anh.
+  * **Mảng Độc Quyền Của Thầy Tâm:** Tập trung 100% chiều sâu vào **3 Trụ Cột Đòn Bẩy**:
+    1. Công nghệ AI & Học liệu số (Problem Framing, Mega Prompting C-R-E-A-T-E, Slide Gamma, Custom GPTs 24/7).
+    2. Cỗ máy Video ngắn Triệu View & Định vị Nhân hiệu (Thuật toán TikTok/Reels, Hook 3s, Kịch bản chuyển đổi, Studio smartphone <2tr, Dựng CapCut Jump-cut, SEO đa kênh, xuất bản 20 video).
+    3. Phễu Tuyển sinh, Bán hàng Thấu cảm & Tự động hóa Vận hành (Phễu TOFU-MOFU-BOFU, Kịch bản tư vấn Zalo 5 bước, Demo Zoom 45p, VietQR SePay & Bot Telegram).
+- **Lập Kế Hoạch Hành Động Chuyên Sâu Mảng Thầy Tâm (`BoQuaTang_NewYou/LICH_TRINH_SAN_XUAT_VA_MO_KHOA.md`):**
+  * Tuần 1 (01-07/11): Số hóa 100+ Mega Prompts lên Notion DB & Kịch bản Sales Zalo 3 tệp khách (Đã hoàn thành).
+  * Tuần 2 (08-14/11): Hoàn thiện khung 30 kịch bản video triệu view & Slide Demo Zoom 15 trang.
+  * Tuần 3 (15-21/11): Số hóa Bản quyền SOP Master Google Sheets quản lý lớp & Cài đặt Custom GPTs 24/7.
+  * Tuần 4 (22-28/11): Tích hợp cổng thanh toán VietQR SePay & Webhook Telegram Bot nổ đơn tự động.
+
+---
+
 ## [1.7.3] - 2026-11-01
 ### Kiến Trúc Hóa & Phân Rã Module Độc Lập: Giáo Trình Thầy Tâm & Bộ Quà Tặng 42 Triệu
 - **Tách Giáo Trình Thầy Tâm Thành Thư Mục Module Độc Lập (`GiaoTrinh_ThayTam/`):**
