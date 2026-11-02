@@ -2,6 +2,19 @@
 
 ---
 
+## [1.8.1] - 2026-11-03
+### Kích Hoạt Task 2 Giờ/Lần & Hoàn Tất Gói WP-01 Toàn Văn 52 Video Master IPA
+- **Kích Hoạt Cơ Chế Tự Động Hóa Định Kỳ 2 Tiếng/Lần (`task-953`):**
+  * Khởi tạo daemon background task chạy ngầm mỗi 2 giờ (`0 */2 * * *`) để rà soát và tuần tự hoàn thiện 100% nội dung toàn văn theo đúng 5 Gói Công Việc (WP-01 đến WP-05).
+- **Hoàn Tất Gói Công Việc WP-01: Toàn Văn Danh Mục 52 Video Master IPA (`QUA_01`):**
+  * Nâng cấp toàn diện `QUA_01_52_VIDEO_MASTER_IPA.md` từ 22 dòng sơ lược lên 175 dòng chi tiết 100%.
+  * Xuất bản toàn bộ danh mục 52 video: 12 Nguyên âm đơn (Monophthongs), 8 Nguyên âm đôi (Diphthongs), 24 Phụ âm đối ứng (Consonants) và 8 Chuyên đề Biến âm & Ngữ điệu cao cấp (Linking, Elision, Assimilation, Stress, Intonation, Flap T).
+  * Từng video có đủ mã số, thời lượng (5-9p), mẹo bẻ khớp khẩu hình Mouth-Engine của Cô Diễm My, ví dụ tương phản và slot lưu trữ Drive VIP.
+- **Ban Hành Bản Kiểm Toán & Kế Hoạch Hành Động Chi Tiết:**
+  * Xuất bản `KE_HOACH_KIEM_TOAN_VA_BO_SUNG_NOI_DUNG.md` làm kim chỉ nam kiểm định chất lượng toàn dự án.
+
+---
+
 ## [1.8.0] - 2026-11-02
 ### Cột Mốc Lớn v1.8.0: Chuẩn Hóa Toàn Diện Hệ Sinh Thái Tự Động Hóa, SEO Onpage & Phiếu Duyệt Học Thuật
 - **Cột Mốc Phiên Bản Lớn (Major Milestone v1.8.0):**
