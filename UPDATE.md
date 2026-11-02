@@ -2,8 +2,9 @@
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.7.9 (Hoàn thành - 02/11/2026)
-- **Đồng Bộ Chuẩn Phản Hồi Web L3 & Trưng Bày Quà #09 Trên Landing Page:**
+## 1. PHIÊN BẢN HIỆN TẠI: v1.8.0 (CỘT MỐC LỚN HOÀN THÀNH - 02/11/2026)
+- **Hoàn Thiện 100% Hệ Thống Điều Hành & Đào Tạo Tự Động Hóa New You Teacher Academy:**
+  * v1.8.0: Cột mốc lớn: SEO Onpage, Schema.org Course & Ban hành `00_PHIEU_DUYET_HOC_THUAT_MAU_CO_MY.md`.
   * v1.7.9: Khớp nối hợp đồng JSON `{ok: true, ma: ...}` giữa Apps Script và Web Frontend; nhúng thẻ Quà #09 Lead Magnet Kit vào trang chủ.
   * v1.7.8: Nâng cấp `Code_Google_Apps_Script_Webhook_SePay_Telegram.gs` và `HUONG_DAN_CAI_DAT_GOOGLE_SHEETS_CRM.md` lên kiến trúc 3 luồng (Thanh toán SePay, Khảo sát phỏng vấn, Đăng ký Lead) và 5 Sheet CRM.
   * v1.7.7: Ban hành `00_HUONG_DAN_BAN_GIAO_HOC_THUAT_CO_MY.md`, xuất bản `Code_Google_Apps_Script_Webhook_SePay_Telegram.gs` và `HUONG_DAN_CAI_DAT_GOOGLE_SHEETS_CRM.md`.
@@ -17,7 +18,8 @@
 
 ---
 
-## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.8.0
-- **Số hóa & Triển khai Hệ thống Tự Động Hóa Thực Tế:**
-  * Hỗ trợ Cô Sophie Diễm My nạp dữ liệu vào các `[SLOT CHUYÊN MÔN]` trong Kho 30 kịch bản video.
-  * Tối ưu hóa SEO Onpage và tốc độ phản hồi trên hạ tầng GitHub Pages.
+## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.8.x & v1.9.0
+- **Vận Hành Thực Tế Khóa Founding Batch K01:**
+  * Tổ chức phỏng vấn 1-1 các ứng viên đăng ký qua Google Meet kết hợp dữ liệu từ Sheet `KHAO_SAT_PHONG_VAN`.
+  * Hỗ trợ Cô Sophie Diễm My nạp tiếp các bài tập ngữ âm vào toàn bộ 30 kịch bản video.
+  * Giám sát hệ thống Webhook SePay và Telegram Bot trong ngày mở cổng đăng ký chính thức.

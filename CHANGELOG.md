@@ -2,6 +2,20 @@
 
 ---
 
+## [1.8.0] - 2026-11-02
+### Cột Mốc Lớn v1.8.0: Chuẩn Hóa Toàn Diện Hệ Sinh Thái Tự Động Hóa, SEO Onpage & Phiếu Duyệt Học Thuật
+- **Cột Mốc Phiên Bản Lớn (Major Milestone v1.8.0):**
+  * Hoàn thiện 100% Hệ sinh thái Đào tạo Nghề Giáo viên Tiếng Anh 12 Tháng (*New You Teacher Academy*), kết nối hoàn chỉnh kiềng 3 chân: Sư phạm Tiếng Anh Cô My, Công nghệ AI/Video Thầy Tâm, và Tự động hóa Tuyển sinh 0đ.
+- **Tối Ưu Hóa SEO Onpage & Schema.org Chuẩn Quốc Tế:**
+  * Bổ sung Canonical links, Open Graph, Twitter Cards trên toàn bộ landing page (`index.html`, `vip/index.html`, `xac-nhan/index.html`).
+  * Nhúng Schema.org JSON-LD chuẩn `Course` và `EducationalOrganization` với dữ liệu chính thức của Nhà sáng lập (Cô Sophie Diễm My & Thầy Huỳnh Trường Thanh Tâm) cùng chứng chỉ sư phạm đại học chính quy.
+- **Ban Hành Phiếu Duyệt Học Thuật Mẫu Cho Cô Sophie Diễm My (`00_PHIEU_DUYET_HOC_THUAT_MAU_CO_MY.md`):**
+  * Thiết lập biểu mẫu duyệt điểm chuẩn đầu ra sư phạm (DoD) cho 3 kịch bản video và 15 Slide Demo Zoom Class, phân định rõ ràng ranh giới không chồng chéo trách nhiệm.
+- **Đồng Bộ Hoàn Chỉnh Toàn Bộ Kho Mã Nguồn & Live Deploy:**
+  * Đồng bộ và đẩy mã nguồn lên nhánh `main` của GitHub Pages [cmubeta2/new-you-english](https://cmubeta2.github.io/new-you-english/) và kho `He sinh thai Shin`.
+
+---
+
 ## [1.7.9] - 2026-11-02
 ### Đồng Bộ Chuẩn Phản Hồi Web L3 & Trưng Bày Quà #09 Lead Magnet Kit Trên Landing Page
 - **Đồng Bộ Hóa Hợp Đồng Dữ Liệu Web Frontend L3 & Apps Script Backend:**
