@@ -2,8 +2,9 @@
 
 ---
 
-## 1. PHIÊN BẢN HIỆN TẠI: v1.7.8 (Hoàn thành - 02/11/2026)
-- **Nâng Cấp Router 3 Luồng Dữ Liệu Apps Script CRM & Khảo Sát Phỏng Vấn 1-1:**
+## 1. PHIÊN BẢN HIỆN TẠI: v1.7.9 (Hoàn thành - 02/11/2026)
+- **Đồng Bộ Chuẩn Phản Hồi Web L3 & Trưng Bày Quà #09 Trên Landing Page:**
+  * v1.7.9: Khớp nối hợp đồng JSON `{ok: true, ma: ...}` giữa Apps Script và Web Frontend; nhúng thẻ Quà #09 Lead Magnet Kit vào trang chủ.
   * v1.7.8: Nâng cấp `Code_Google_Apps_Script_Webhook_SePay_Telegram.gs` và `HUONG_DAN_CAI_DAT_GOOGLE_SHEETS_CRM.md` lên kiến trúc 3 luồng (Thanh toán SePay, Khảo sát phỏng vấn, Đăng ký Lead) và 5 Sheet CRM.
   * v1.7.7: Ban hành `00_HUONG_DAN_BAN_GIAO_HOC_THUAT_CO_MY.md`, xuất bản `Code_Google_Apps_Script_Webhook_SePay_Telegram.gs` và `HUONG_DAN_CAI_DAT_GOOGLE_SHEETS_CRM.md`.
   * v1.7.6: Toàn văn Quà #09 (Lead Magnet Kit) + Mã nguồn JavaScript Polling SePay & Google Apps Script Telegram Webhook.
@@ -18,6 +19,5 @@
 
 ## 2. KẾ HOẠCH PHIÊN BẢN TIẾP THEO: v1.8.0
 - **Số hóa & Triển khai Hệ thống Tự Động Hóa Thực Tế:**
-  * Thử nghiệm liên kết thực tế mã Webhook trên trang quản trị SePay cá nhân.
   * Hỗ trợ Cô Sophie Diễm My nạp dữ liệu vào các `[SLOT CHUYÊN MÔN]` trong Kho 30 kịch bản video.
-  * Tối ưu hóa tốc độ tải trang và trải nghiệm người dùng trên GitHub Pages.
+  * Tối ưu hóa SEO Onpage và tốc độ phản hồi trên hạ tầng GitHub Pages.

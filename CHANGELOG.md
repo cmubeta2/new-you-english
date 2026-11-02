@@ -2,6 +2,20 @@
 
 ---
 
+## [1.7.9] - 2026-11-02
+### Đồng Bộ Chuẩn Phản Hồi Web L3 & Trưng Bày Quà #09 Lead Magnet Kit Trên Landing Page
+- **Đồng Bộ Hóa Hợp Đồng Dữ Liệu Web Frontend L3 & Apps Script Backend:**
+  * Chuẩn hóa toàn bộ hàm phản hồi trong `Code_Google_Apps_Script_Webhook_SePay_Telegram.gs`: trả về `{ ok: true, status: "success", ma: ... }` khi thành công và `{ ok: false, loi: "loi" }` khi có sự cố.
+  * Giúp frontend `index.html`, `vip/index.html` và `xac-nhan/index.html` nhận diện trạng thái thành công lập tức, giải phóng hàng đợi lưu tạm `ts_cho_gui`, tránh gửi lặp đơn.
+  * Cho phép nạp động URL Web App qua `localStorage.getItem('t2n_apps_script_url')` linh hoạt cho cả môi trường test lẫn production.
+- **Tích Hợp Khối Quà Tặng #09 (Lead Magnet Studio Kit) Vào Landing Page:**
+  * Bổ sung khối giao diện nổi bật "QUÀ TẶNG #09 (EXTRA FAST-ACTION BONUS) — Trị giá 5.000.000đ TẶNG 0Đ" ngay sau 8 hộp quà trên trang chủ.
+  * Làm nổi bật 4 vũ khí kéo học viên tự động: Ebook White-label đổi tên tác giả, Bộ 500 Flashcards Anki, Mẫu Form phân luồng Track A/B và Kịch bản Facebook kéo lead thần tốc.
+- **Đồng Bộ Toàn Bộ Kho Mã Nguồn & Live Deploy:**
+  * Đẩy bản cập nhật lên GitHub Pages [cmubeta2/new-you-english](https://cmubeta2.github.io/new-you-english/) và kho `He sinh thai Shin`.
+
+---
+
 ## [1.7.8] - 2026-11-02
 ### Nâng Cấp Toàn Diện Router 3 Luồng Dữ Liệu Apps Script CRM & Đồng Bộ Khảo Sát Phỏng Vấn 1-1
 - **Nâng Cấp Bộ Mã Nguồn Standalone Google Apps Script CRM (`v1.7.8`):**

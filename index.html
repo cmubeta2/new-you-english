@@ -1188,6 +1188,34 @@
         </div>
     </div>
 
+    <!-- Special Fast-Action Bonus: Quà #09 Lead Magnet Studio Kit -->
+    <div class="p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-amber-500/15 via-amber-400/10 to-white border-2 border-dashed border-amber-400 mb-10 text-left shadow-lg">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+            <div class="flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-black bg-rose-600 text-white uppercase tracking-wider font-mono shadow-sm">ĐẶC QUYỀN HÀNH ĐỘNG NHANH</span>
+                <span class="font-mono text-xs font-black text-amber-900">QUÀ TẶNG #09 (FAST-ACTION BONUS)</span>
+            </div>
+            <span class="px-3 py-1 rounded text-xs font-black bg-emerald-600 text-white font-mono shadow-sm">TẶNG KÈM 0Đ</span>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+            <div class="lg:col-span-8 space-y-2">
+                <h4 class="text-lg sm:text-xl font-black text-[#0f1a3c]">Lead Magnet Studio Kit — "Mồi Câu" Thu Hút Học Viên Tự Động</h4>
+                <p class="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                    Trọn bộ vũ khí kéo học sinh tiềm năng do <strong>Thầy Huỳnh Trường Thanh Tâm</strong> trực tiếp đóng gói: 
+                    <strong>Ebook White-Label 100 Cụm từ công sở</strong> (cho phép bạn đổi tên tác giả thành tên mình để gửi phụ huynh), 
+                    <strong>Bộ 500 Flashcards Anki</strong> học từ vựng ngắt quãng, 
+                    <strong>Mẫu Google Form khảo sát phân luồng thông minh</strong> (Track A / Track B) và 
+                    <strong>3 Kịch bản đăng bài Facebook kéo lead thần tốc</strong>.
+                </p>
+            </div>
+            <div class="lg:col-span-4 flex flex-col sm:items-end justify-center text-xs">
+                <span class="text-slate-400 line-through font-mono font-bold text-sm">5.000.000đ</span>
+                <span class="text-emerald-700 font-black font-mono text-lg">MIỄN PHÍ (0Đ)</span>
+                <span class="text-[11px] text-amber-800 font-semibold mt-1">Mở khóa độc quyền từ Tháng thứ 3</span>
+            </div>
+        </div>
+    </div>
+
     <!-- Tổng kết & Bài toán tài chính (Thẻ Trắng Nền Sáng Sang Trọng) -->
     <div class="p-6 sm:p-8 rounded-3xl bg-white border-2 border-amber-400/90 shadow-xl text-left mb-10">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
@@ -1971,7 +1999,7 @@
                 if (m) { document.getElementById('modalStudentName').innerText = ten; m.classList.remove('hidden'); m.classList.add('flex'); }
             }
         })();
-        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz_NEW_YOU_ENGLISH_ACADEMY_GATEWAY/exec";
+        const SCRIPT_URL = localStorage.getItem('t2n_apps_script_url') || "https://script.google.com/macros/s/AKfycbz_NEW_YOU_ENGLISH_ACADEMY_GATEWAY/exec";
 
         function handleUnifiedCheckout(e) {
             e.preventDefault();

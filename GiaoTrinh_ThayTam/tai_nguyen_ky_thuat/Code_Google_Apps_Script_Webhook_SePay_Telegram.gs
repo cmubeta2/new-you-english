@@ -78,11 +78,11 @@ function doPost(e) {
     }
 
     // Mặc định phản hồi thành công nếu định dạng khác
-    return createJsonResponse({ status: "success", message: "Data received successfully", data: postData });
+    return createJsonResponse({ ok: true, status: "success", ma: "NYE_" + Utilities.formatDate(new Date(), "GMT+7", "yyyyMMddHHmmss"), message: "Data received successfully", data: postData });
 
   } catch (error) {
     Logger.log("Lỗi xử lý doPost: " + error.toString());
-    return createJsonResponse({ status: "error", message: error.toString() });
+    return createJsonResponse({ ok: false, loi: "loi", status: "error", message: error.toString() });
   } finally {
     lock.releaseLock();
   }
@@ -124,7 +124,7 @@ function handleSepayWebhook(data) {
 
   sendTelegramMessage(msgTelegram);
 
-  return createJsonResponse({ status: "success", message: "Sepay webhook processed successfully" });
+  return createJsonResponse({ ok: true, status: "success", ma: refCode, message: "Sepay webhook processed successfully" });
 }
 
 // -----------------------------------------------------------------------------
@@ -174,7 +174,7 @@ function handleSurveySubmission(data) {
 
   sendTelegramMessage(msgTelegram);
 
-  return createJsonResponse({ status: "success", message: "Survey profile recorded successfully" });
+  return createJsonResponse({ ok: true, status: "success", ma: "SURVEY_" + Utilities.formatDate(new Date(), "GMT+7", "yyyyMMddHHmmss"), message: "Survey profile recorded successfully" });
 }
 
 // -----------------------------------------------------------------------------
@@ -213,7 +213,7 @@ function handleLeadSubmission(data) {
 
   sendTelegramMessage(msgTelegram);
 
-  return createJsonResponse({ status: "success", message: "Lead captured successfully" });
+  return createJsonResponse({ ok: true, status: "success", ma: "LEAD_" + Utilities.formatDate(new Date(), "GMT+7", "yyyyMMddHHmmss"), message: "Lead captured successfully" });
 }
 
 // -----------------------------------------------------------------------------
