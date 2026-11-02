@@ -1,6 +1,6 @@
 # HƯỚNG DẪN THIẾT LẬP GOOGLE SHEETS CRM VẬN HÀNH TỰ ĐỘNG
 ## HỆ THỐNG ĐIỀU HÀNH 0Đ DÀNH CHO GIÁO VIÊN & SOLOPRENEUR
-### THẦY HUỲNH TRƯỜNG THANH TÂM (HYRTA) — NEW YOU TEACHER ACADEMY
+### THẦY HUỲNH TRƯỜNG THANH TÂM (HYRTA) — NEW YOU TEACHER ACADEMY (PHIÊN BẢN v1.7.8)
 
 ---
 
@@ -9,21 +9,21 @@
 
 ---
 
-## 1. CẤU TRÚC 4 SHEET CHUẨN TRONG FILE MASTER CRM
+## 1. CẤU TRÚC 5 SHEET CHUẨN TRONG FILE MASTER CRM
 
-Tạo một bảng tính mới trên Google Drive đặt tên: `NEW_YOU_CRM_MASTER_2026` và tạo đúng 4 tab trang tính sau:
+Tạo một bảng tính mới trên Google Drive đặt tên: `NEW_YOU_CRM_MASTER_2026` và tạo đúng 5 tab trang tính sau:
 
 ### Sheet 1: `DANG_KY_WEB` (Tiếp nhận Leads từ Website/Landing Page)
-* **Mục đích:** Lưu trữ tất cả ứng viên điền Form khảo sát phân luồng hoặc để lại SĐT trên Web.
+* **Mục đích:** Lưu trữ tất cả ứng viên để lại SĐT trên Web hoặc ấn nút "Tôi đã chuyển khoản" tại trang VIP.
 * **Tiêu đề cột (Hàng 1 - Nền màu xanh nhạt `#e0e7ff`):**
   - **Cột A:** `Thời Gian` (Timestamp)
-  - **Cột B:** `Họ Và Tên`
-  - **Cột C:** `Số Điện Thoại` (Định dạng Văn bản thuần để không mất số 0 đầu)
-  - **Cột D:** `Email`
-  - **Cột E:** `Phân Luồng Dự Kiến` (Track A: B1+ / Track B: A0-A2)
+  - **Cột B:** `Mã Chiến Dịch` (Ví dụ: `NEWYOU_K01`)
+  - **Cột C:** `Họ Và Tên`
+  - **Cột D:** `Số Điện Thoại` (Định dạng Văn bản thuần để không mất số 0 đầu)
+  - **Cột E:** `Email`
   - **Cột F:** `Nguồn` (Facebook Ads, TikTok, Giới thiệu, Website)
   - **Cột G:** `Ghi Chú`
-  - **Cột H:** `Trạng Thái` (Mới tiếp nhận / Đang tư vấn / Đã hẹn Zoom Demo / Đã chốt)
+  - **Cột H:** `Trạng Thái` (Mới tiếp nhận / Đang tư vấn / Chờ đối soát / Đã chốt)
 
 ### Sheet 2: `LICH_SU_THANH_TOAN` (Ghi nhận Giao dịch SePay Realtime)
 * **Mục đích:** Tự động ghi lại từng lần biến động số dư tài khoản ngân hàng khi học viên quét mã VietQR.
@@ -35,7 +35,21 @@ Tạo một bảng tính mới trên Google Drive đặt tên: `NEW_YOU_CRM_MAST
   - **Cột E:** `Nội Dung Chuyển Khoản` (Ví dụ: `COC NEWYOU 0912345678`)
   - **Cột F:** `Trạng Thái` (Thành công / Cần đối soát)
 
-### Sheet 3: `DANH_SACH_LOP_TRACK_A` (Lớp Đào Tạo Nghề Giáo Viên Tiếng Anh 12 Tháng)
+### Sheet 3: `KHAO_SAT_PHONG_VAN` (Hồ Sơ Ứng Viên Phỏng Vấn 1-1 Từ Trang Xác Nhận)
+* **Mục đích:** Lưu trữ toàn bộ câu trả lời khảo sát từ `xac-nhan/index.html` để Thầy Tâm và Cô My xem trước khi phỏng vấn qua Google Meet.
+* **Tiêu đề cột (Hàng 1 - Nền màu cam đào `#fed7aa`):**
+  - **Cột A:** `Thời Gian`
+  - **Cột B:** `Họ Tên`
+  - **Cột C:** `SĐT / Zalo`
+  - **Cột D:** `Email`
+  - **Cột E:** `Loại Vé`
+  - **Cột F:** `Bằng Cấp / Học Lực`
+  - **Cột G:** `Mục Tiêu Khóa Học`
+  - **Cột H:** `Rào Cản Lớn Nhất`
+  - **Cột I:** `Câu Hỏi Cho BG Huấn`
+  - **Cột J:** `Phân Luồng Đề Xuất` (Track A: Nghề B1+ / Track B: Nền tảng A0-A2)
+
+### Sheet 4: `DANH_SACH_LOP_TRACK_A` (Lớp Đào Tạo Nghề Giáo Viên Tiếng Anh 12 Tháng)
 * **Tiêu đề cột (Hàng 1 - Nền màu xanh ngọc `#ccfbf1`):**
   - **Cột A:** `Mã Học Viên` (Ví dụ: `NYE-TA-01`)
   - **Cột B:** `Họ Và Tên`
@@ -49,7 +63,7 @@ Tạo một bảng tính mới trên Google Drive đặt tên: `NEW_YOU_CRM_MAST
   - **Cột J:** `Điểm Khẩu Hình & Sư Phạm` (Thang 100 - Cô My chấm)
   - **Cột K:** `Đánh Giá Tốt Nghiệp`
 
-### Sheet 4: `DANH_SACH_LOP_TRACK_B` (Lớp Chuẩn Hóa Phát Âm Nền Tảng 3 Tháng)
+### Sheet 5: `DANH_SACH_LOP_TRACK_B` (Lớp Chuẩn Hóa Phát Âm Nền Tảng 3 Tháng)
 * **Tiêu đề cột (Hàng 1 - Nền màu tím nhạt `#f3e8ff`):**
   - **Cột A:** `Mã Học Viên` (Ví dụ: `NYE-TB-01`)
   - **Cột B:** `Họ Và Tên`
@@ -73,10 +87,10 @@ Tạo một bảng tính mới trên Google Drive đặt tên: `NEW_YOU_CRM_MAST
 =COUNTIF(F2:F, "*Thành công*")
 ```
 
-### C. Tự động trích xuất Học viên Track A từ bảng Đăng ký:
+### C. Tự động trích xuất Học viên Track A từ bảng Khảo Sát:
 Đặt tại ô `A2` trong Sheet `DANH_SACH_LOP_TRACK_A`:
 ```excel
-=QUERY(DANG_KY_WEB!A2:H, "SELECT B, C, D, E WHERE E CONTAINS 'Track A' ORDER BY A DESC", 0)
+=QUERY(KHAO_SAT_PHONG_VAN!A2:J, "SELECT B, C, D, F, J WHERE J CONTAINS 'Track A' ORDER BY A DESC", 0)
 ```
 
 ### D. Định dạng có điều kiện Cảnh báo Chuyên cần (Conditional Formatting):
@@ -105,9 +119,9 @@ Tạo một bảng tính mới trên Google Drive đặt tên: `NEW_YOU_CRM_MAST
    - Nhấn nút xanh **Triển khai (Deploy)** ở góc trên bên phải $\rightarrow$ Chọn **Tùy chọn triển khai mới (New deployment)**.
    - Loại triển khai: Chọn biểu tượng bánh răng $\rightarrow$ **Ứng dụng web (Web app)**.
    - Cấu hình:
-     * *Mô tả:* `New You Webhook Gateway v1.7.7`
+     * *Mô tả:* `New You Webhook Gateway v1.7.8`
      * *Thực thi dưới quyền (Execute as):* **Tôi (Me)**
-     * *Ai có quyền truy cập (Who has access):* **Bất kỳ ai (Anyone)** *(Quan trọng: Phải chọn Anyone để SePay và Landing page có thể gửi dữ liệu vào mà không bị chặn quyền).*
+     * *Ai có quyền truy cập (Who has access):* **Bất kỳ ai (Anyone)**
    - Nhấn **Triển khai (Deploy)** $\rightarrow$ Cấp quyền truy cập Google Account khi được hỏi.
    - Sao chép **URL Ứng dụng web (Web App URL)** kết thúc bằng `/exec`.
 

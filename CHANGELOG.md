@@ -2,6 +2,21 @@
 
 ---
 
+## [1.7.8] - 2026-11-02
+### Nâng Cấp Toàn Diện Router 3 Luồng Dữ Liệu Apps Script CRM & Đồng Bộ Khảo Sát Phỏng Vấn 1-1
+- **Nâng Cấp Bộ Mã Nguồn Standalone Google Apps Script CRM (`v1.7.8`):**
+  * Tích hợp Router xử lý 3 luồng dữ liệu độc lập:
+    1. *Luồng 1 (Thanh toán):* Tiếp nhận biến động số dư VietQR từ SePay Webhook -> Ghi nhận vào sheet `LICH_SU_THANH_TOAN` -> Bắn thông báo Ting Ting nổ đơn học phí về Telegram Bot.
+    2. *Luồng 2 (Hồ sơ phỏng vấn):* Tiếp nhận phiếu khảo sát chuyên sâu từ `xac-nhan/index.html` (Bằng cấp, Mục tiêu, Rào cản, Câu hỏi cho BG Huấn) -> Ghi nhận vào sheet `KHAO_SAT_PHONG_VAN` -> Tự động gợi ý phân luồng Track A (B1+) / Track B (A0-A2) -> Bắn thông báo hồ sơ ứng viên về Telegram để Thầy Tâm & Cô My chuẩn bị phỏng vấn qua Google Meet.
+    3. *Luồng 3 (Đặt cọc / Báo CK):* Tiếp nhận dữ liệu từ `vip/index.html` -> Ghi nhận vào sheet `DANG_KY_WEB` -> Bắn thông báo kiểm tra đối soát.
+- **Chuẩn Hóa Cấu Trúc 5 Sheet Trong Cẩm Nang Vận Hành Google Sheets CRM:**
+  * Nâng cấp cẩm nang `HUONG_DAN_CAI_DAT_GOOGLE_SHEETS_CRM.md` bổ sung chi tiết cấu trúc Sheet 3 `KHAO_SAT_PHONG_VAN` phục vụ hội đồng phỏng vấn chuyên môn.
+- **Đồng Bộ & Kiểm Định Mã Nguồn:**
+  * Đồng bộ toàn diện sang kho Web Deploy (`C:	emp
+ew-you-deploy`) và kho Hệ sinh thái (`He sinh thai Shin`).
+
+---
+
 ## [1.7.7] - 2026-11-02
 ### Ban Hành Hướng Dẫn Bàn Giao Học Thuật Cô My & Bộ Mã Nguồn Standalone Google Apps Script CRM
 - **Ban Hành Bảng Hướng Dẫn Bàn Giao & Phối Hợp Học Thuật Cho Cô Sophie Diễm My (`00_HUONG_DAN_BAN_GIAO_HOC_THUAT_CO_MY.md`):**
