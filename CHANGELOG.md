@@ -2,6 +2,25 @@
 
 ---
 
+## [1.9.0] - 2026-11-03
+### Cột Mốc Hoàn Tất 100% Nội Dung Toàn Văn Toàn Dự Án (WP-01 -> WP-05) & Đề Án Thương Mại Hóa Gửi Cô My
+- **Ban Hành Đề Án Hợp Tác Chiến Lược & Kế Hoạch Thương Mại Hóa (`KE_HOACH_TONG_THE_NEW_YOU_ENGLISH_ACADEMY.md`):**
+  * Thiết kế chuyên biệt để Sếp Huỳnh Trường Thanh Tâm trình bày và đàm phán hợp tác với Cô Sophie Diễm My.
+  * Làm rõ bài toán tài chính 3 gói học phí (60tr – 88tr – 119tr), dự toán dòng tiền Batch 1 thu 800tr – 1.2 tỷ VNĐ (thu ngay 320tr – 480tr tiền mặt Đợt 1), 5 tài sản công nghệ Thầy Tâm đã dựng sẵn, lộ trình 30 ngày chạy ra tiền thật, kịch bản phỏng vấn 1-1 chốt cọc 9 triệu và khung phân chia doanh thu Win-Win 4 quỹ.
+- **Hoàn Tất Gói WP-02 (`QUA_02_SACH_VA_EBOOK_NEW_YOU.md`):**
+  * Nâng cấp toàn văn quy cách sách bìa cứng mạ vàng & Ebook tương tác QR Audio, Lời tựa của Cô My & Thầy Tâm, Đề cương chi tiết 5 Chương / 20 Bài học kèm `[SLOT CHUYÊN MÔN - CÔ MY BỔ SUNG]` và 3 Chiến lược dùng sách làm đạo cụ hút học viên.
+- **Hoàn Tất Gói WP-03 (`QUA_03_THU_VIEN_100_MEGA_PROMPTS_AI.md`):**
+  * Biên soạn đủ **100 câu lệnh AI thực chiến (`P01` -> `P100`)** theo chuẩn C.R.E.F.O chia làm 5 nhóm: 20 Prompts Lesson Plans (PPP/TTT/TBL/ESA), 25 Prompts Ngữ liệu CEFR A1-C1, 20 Prompts Ngân hàng bài tập & khảo thí, 20 Prompts CCQs/ICQs/Role-play, và 15 Prompts Tự động hóa Slide Gamma, Quizizz, Anki & Quản lý lớp.
+- **Hoàn Tất Gói WP-04 (`QUA_04_CHATBOT_AI...` & `QUA_08_THE_HOI_VIEN_LOE_CLUB.md`):**
+  * `QUA_04`: Bổ sung System Instructions 4 chế độ, 4 nút Conversation Starters, Bộ Knowledge Base 15 câu FAQ mẫu, Hướng dẫn cài đặt miễn phí 100% trên Poe.com / Google AI Studio và 5 kịch bản Stress-Test Bot.
+  * `QUA_08`: Bổ sung Quy cách Thẻ Hội Viên Số Hóa trọn đời, Top 10 địa điểm Săn Tây văn minh tại Việt Nam, 5 kịch bản phá băng triệu view, Khung chủ đề sinh hoạt 52 tuần và Quy chế Mạng lưới Chia sẻ Học viên (Teacher Referral Network SOP).
+- **Hoàn Tất Gói WP-05 (`QUA_09_LEAD_MAGNET_STUDIO_KIT.md`):**
+  * Biên soạn đủ **100 Cụm từ tiếng Anh công sở (`#001` -> `#100`)** chia 5 chủ đề (Họp hành, Viết Email, Đàm phán, Small Talk, Báo cáo & Xử lý sự cố) kèm cột `[SLOT CÔ MY DUYỆT IPA]`, Kiến trúc 10 Bộ Thẻ (500 Flashcards Anki A1–B2), Ma trận chấm điểm Lead tự động và Chuỗi tin nhắn Zalo chuyển đổi.
+- **Hoàn Thiện 100% Phụ Lục Giáo Trình Thầy Tâm (`01_HOC_PHAN_1`, `02_HOC_PHAN_2`, `04_RUBRIC`):**
+  * Bổ sung Phụ lục 10 lỗi dùng AI thực tế & cách khắc phục, Ngân hàng 50 câu Hook 3 giây giật tít chia 4 nhóm, đủ 10 câu xử lý từ chối học phí đắt và 5 phác đồ xử lý khi học viên xin bảo lưu/hoàn tiền.
+
+---
+
 ## [1.8.1] - 2026-11-03
 ### Kích Hoạt Task 2 Giờ/Lần & Hoàn Tất Gói WP-01 Toàn Văn 52 Video Master IPA
 - **Kích Hoạt Cơ Chế Tự Động Hóa Định Kỳ 2 Tiếng/Lần (`task-953`):**
